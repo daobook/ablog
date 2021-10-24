@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posts tagged deploy</title>
+  <updated>2021-10-24T12:30:11.857252+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/tag/deploy/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/deploy-to-github-pages.html</id>
+    <title>Deploy to GitHub Pages</title>
+    <updated>2015-04-07T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Deploy to GitHub Pages #deploy</content>
+    <link href="https://ablog.readthedocs.org/manual/deploy-to-github-pages.html" rel="alternate"/>
+    <summary>If you are looking for a place to publish your blog, GitHub Pages might be the place for you.</summary>
+    <category term="deploy" label="deploy"/>
+    <published>2015-04-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html</id>
+    <title>Automate GitHub Pages Deploys</title>
+    <updated>2015-06-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Automate GitHub Pages Deploys #deploy #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html" rel="alternate"/>
+    <summary>If being away from your personal computer is holding you back from blogging, keep reading.
+This post will show you how to automate builds and deploys using Travis CI.
+Once you set this up, all you need to do post an article will be pushing to GitHub or creating a new file on GitHub.com from any computer!</summary>
+    <category term="deploy" label="deploy"/>
+    <category term="tips" label="tips"/>
+    <published>2015-06-15T00:00:00+00:00</published>
+  </entry>
+</feed>

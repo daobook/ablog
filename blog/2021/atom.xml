@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posted in 2021</title>
+  <updated>2021-10-24T12:29:55.816358+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/2021/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-13-released</id>
+    <title>ABlog v0.10.13 released</title>
+    <updated>2021-01-19T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.13 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-13-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-01-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-14-released</id>
+    <title>ABlog v0.10.14 released</title>
+    <updated>2021-03-21T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.14 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-14-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-03-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-15-released</id>
+    <title>ABlog v0.10.15 released</title>
+    <updated>2021-03-22T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.15 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-15-released" rel="alternate"/>
+    <summary>Fixed Index Out of Range with Atom Feeds.</summary>
+    <published>2021-03-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-16-released</id>
+    <title>ABlog v0.10.16 released</title>
+    <updated>2021-03-23T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.16 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-16-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-03-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-17-released</id>
+    <title>ABlog v0.10.17 released</title>
+    <updated>2021-03-24T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.17 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-17-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-03-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-18-released</id>
+    <title>ABlog v0.10.18 released</title>
+    <updated>2021-04-26T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.18 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-18-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-04-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-19-released</id>
+    <title>ABlog v0.10.19 released</title>
+    <updated>2021-05-26T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.19 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-19-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-05-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-20-released</id>
+    <title>ABlog v0.10.20 released</title>
+    <updated>2021-10-13T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.20 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-20-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2021-10-13T00:00:00+00:00</published>
+  </entry>
+</feed>

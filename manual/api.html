@@ -1,0 +1,645 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ABlog API &#8212; ABlog</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="../_static/ablog.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Automate GitHub Pages Deploys" href="auto-github-pages-deploys.html" />
+    <link rel="prev" title="ABlog Quick Start" href="ablog-quick-start.html" /> 
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+ 
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../blog/atom.xml"
+  title="ABlog"
+/>
+ 
+<link
+  rel="stylesheet"
+  href="../_static/css/font-awesome.css"
+  type="text/css"
+/>
+
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+             <section id="ablog-api">
+<h1>ABlog API<a class="headerlink" href="#ablog-api" title="Permalink to this headline">¶</a></h1>
+<section id="module-ablog">
+<span id="ablog-package"></span><h2>ablog Package<a class="headerlink" href="#module-ablog" title="Permalink to this headline">¶</a></h2>
+<section id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.setup.html#ablog.setup" title="ablog.setup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup</span></code></a>(app)</p></td>
+<td><p>Setup ABlog extension.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="module-ablog.blog">
+<span id="ablog-blog-module"></span><h2>ablog.blog Module<a class="headerlink" href="#module-ablog.blog" title="Permalink to this headline">¶</a></h2>
+<section id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.blog.Blog.html#ablog.blog.Blog" title="ablog.blog.Blog"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Blog</span></code></a>(app)</p></td>
+<td><p>Handle blog operations.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.blog.Post.html#ablog.blog.Post" title="ablog.blog.Post"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Post</span></code></a>(blog, docname, info)</p></td>
+<td><p>Handle post metadata.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.blog.Collection.html#ablog.blog.Collection" title="ablog.blog.Collection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Collection</span></code></a>(catalog, label[, name, href, ...])</p></td>
+<td><p>Posts sharing a label, i.e. tag, category, author, or location.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="class-inheritance-diagram">
+<h3>Class Inheritance Diagram<a class="headerlink" href="#class-inheritance-diagram" title="Permalink to this headline">¶</a></h3>
+digraph inheritance3a56af9790 {
+bgcolor=transparent;
+rankdir=LR;
+size=&quot;8.0, 12.0&quot;;
+  &quot;Blog&quot; [URL=&quot;../api/ablog.blog.Blog.html#ablog.blog.Blog&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle blog operations.&quot;];
+  &quot;Container&quot; -&gt; &quot;Blog&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;BlogPageMixin&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;Collection&quot; [URL=&quot;../api/ablog.blog.Collection.html#ablog.blog.Collection&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Posts sharing a label, i.e. tag, category, author, or location.&quot;];
+  &quot;BlogPageMixin&quot; -&gt; &quot;Collection&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Container&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;Post&quot; [URL=&quot;../api/ablog.blog.Post.html#ablog.blog.Post&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle post metadata.&quot;];
+  &quot;BlogPageMixin&quot; -&gt; &quot;Post&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+}
+</section>
+</section>
+<section id="module-ablog.commands">
+<span id="ablog-commands-module"></span><h2>ablog.commands Module<a class="headerlink" href="#module-ablog.commands" title="Permalink to this headline">¶</a></h2>
+<section id="id1">
+<h3>Functions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.commands.ablog_build.html#ablog.commands.ablog_build" title="ablog.commands.ablog_build"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ablog_build</span></code></a>([builder, sourcedir, website, ...])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.commands.ablog_clean.html#ablog.commands.ablog_clean" title="ablog.commands.ablog_clean"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ablog_clean</span></code></a>([website, doctrees, deep])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.commands.ablog_serve.html#ablog.commands.ablog_serve" title="ablog.commands.ablog_serve"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ablog_serve</span></code></a>([website, port, view, rebuild, ...])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.commands.ablog_deploy.html#ablog.commands.ablog_deploy" title="ablog.commands.ablog_deploy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ablog_deploy</span></code></a>(website[, message, ...])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.commands.ablog_main.html#ablog.commands.ablog_main" title="ablog.commands.ablog_main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ablog_main</span></code></a>()</p></td>
+<td><p>Ablog Main.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="module-ablog.post">
+<span id="ablog-post-module"></span><h2>ablog.post Module<a class="headerlink" href="#module-ablog.post" title="Permalink to this headline">¶</a></h2>
+<section id="id2">
+<h3>Functions<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.purge_posts.html#ablog.post.purge_posts" title="ablog.post.purge_posts"><code class="xref py py-obj docutils literal notranslate"><span class="pre">purge_posts</span></code></a>(app, env, docname)</p></td>
+<td><p>Remove post and reference to it from the standard domain when its document is removed or changed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.post.process_posts.html#ablog.post.process_posts" title="ablog.post.process_posts"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_posts</span></code></a>(app, doctree)</p></td>
+<td><p>Process posts and map posted document names to post details in the environment.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.process_postlist.html#ablog.post.process_postlist" title="ablog.post.process_postlist"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_postlist</span></code></a>(app, doctree, docname)</p></td>
+<td><p>Replace <cite>PostList</cite> nodes with lists of posts.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.post.generate_archive_pages.html#ablog.post.generate_archive_pages" title="ablog.post.generate_archive_pages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_archive_pages</span></code></a>(app)</p></td>
+<td><p>Generate archive pages for all posts, categories, tags, authors, and drafts.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.generate_atom_feeds.html#ablog.post.generate_atom_feeds" title="ablog.post.generate_atom_feeds"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_atom_feeds</span></code></a>(app)</p></td>
+<td><p>Generate archive pages for all posts, categories, tags, authors, and drafts.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.post.register_posts.html#ablog.post.register_posts" title="ablog.post.register_posts"><code class="xref py py-obj docutils literal notranslate"><span class="pre">register_posts</span></code></a>(app)</p></td>
+<td><p>Register posts found in the Sphinx build environment.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h3>Classes<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.PostNode.html#ablog.post.PostNode" title="ablog.post.PostNode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PostNode</span></code></a>([rawsource])</p></td>
+<td><p>Represent <code class="docutils literal notranslate"><span class="pre">post</span></code> directive content and options in document tree.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.post.PostList.html#ablog.post.PostList" title="ablog.post.PostList"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PostList</span></code></a>([rawsource])</p></td>
+<td><p>Represent <code class="docutils literal notranslate"><span class="pre">postlist</span></code> directive converted to a list of links.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.UpdateNode.html#ablog.post.UpdateNode" title="ablog.post.UpdateNode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNode</span></code></a>([rawsource])</p></td>
+<td><p>Represent <code class="docutils literal notranslate"><span class="pre">update</span></code> directive.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.post.PostDirective.html#ablog.post.PostDirective" title="ablog.post.PostDirective"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PostDirective</span></code></a>(name, arguments, options, ...)</p></td>
+<td><p>Handle <code class="docutils literal notranslate"><span class="pre">post</span></code> directives.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.UpdateDirective.html#ablog.post.UpdateDirective" title="ablog.post.UpdateDirective"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDirective</span></code></a>(name, arguments, options, ...)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.post.PostListDirective.html#ablog.post.PostListDirective" title="ablog.post.PostListDirective"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PostListDirective</span></code></a>(name, arguments, options, ...)</p></td>
+<td><p>Handle <code class="docutils literal notranslate"><span class="pre">postlist</span></code> directives.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.post.CheckFrontMatter.html#ablog.post.CheckFrontMatter" title="ablog.post.CheckFrontMatter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CheckFrontMatter</span></code></a>(document[, startnode])</p></td>
+<td><p>Check the doctree for frontmatter meant for a blog post.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h3>Class Inheritance Diagram<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+digraph inheritancee1b074d687 {
+bgcolor=transparent;
+rankdir=LR;
+size=&quot;8.0, 12.0&quot;;
+  &quot;Admonition&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;Body&quot; -&gt; &quot;Admonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;BaseAdmonition&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;Directive&quot; -&gt; &quot;BaseAdmonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Body&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;CheckFrontMatter&quot; [URL=&quot;../api/ablog.post.CheckFrontMatter.html#ablog.post.CheckFrontMatter&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Check the doctree for frontmatter meant for a blog post.&quot;];
+  &quot;SphinxTransform&quot; -&gt; &quot;CheckFrontMatter&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Directive&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;Base class for reStructuredText directives.&quot;];
+  &quot;Element&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;`Element` is the superclass to all specific elements.&quot;];
+  &quot;Node&quot; -&gt; &quot;Element&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;General&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;Body&quot; -&gt; &quot;General&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Node&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;Abstract base class of nodes in a document tree.&quot;];
+  &quot;PostDirective&quot; [URL=&quot;../api/ablog.post.PostDirective.html#ablog.post.PostDirective&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle ``post`` directives.&quot;];
+  &quot;Directive&quot; -&gt; &quot;PostDirective&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;PostList&quot; [URL=&quot;../api/ablog.post.PostList.html#ablog.post.PostList&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Represent ``postlist`` directive converted to a list of links.&quot;];
+  &quot;General&quot; -&gt; &quot;PostList&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Element&quot; -&gt; &quot;PostList&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;PostListDirective&quot; [URL=&quot;../api/ablog.post.PostListDirective.html#ablog.post.PostListDirective&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle ``postlist`` directives.&quot;];
+  &quot;Directive&quot; -&gt; &quot;PostListDirective&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;PostNode&quot; [URL=&quot;../api/ablog.post.PostNode.html#ablog.post.PostNode&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Represent ``post`` directive content and options in document tree.&quot;];
+  &quot;Element&quot; -&gt; &quot;PostNode&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;SphinxTransform&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;A base class of Transforms.&quot;];
+  &quot;Transform&quot; -&gt; &quot;SphinxTransform&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Transform&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;Docutils transform component abstract base class.&quot;];
+  &quot;UpdateDirective&quot; [URL=&quot;../api/ablog.post.UpdateDirective.html#ablog.post.UpdateDirective&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;];
+  &quot;BaseAdmonition&quot; -&gt; &quot;UpdateDirective&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;UpdateNode&quot; [URL=&quot;../api/ablog.post.UpdateNode.html#ablog.post.UpdateNode&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Represent ``update`` directive.&quot;];
+  &quot;admonition&quot; -&gt; &quot;UpdateNode&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;admonition&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
+  &quot;Admonition&quot; -&gt; &quot;admonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+  &quot;Element&quot; -&gt; &quot;admonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
+}
+</section>
+</section>
+<section id="module-ablog.start">
+<span id="ablog-start-module"></span><h2>ablog.start Module<a class="headerlink" href="#module-ablog.start" title="Permalink to this headline">¶</a></h2>
+<section id="id5">
+<h3>Functions<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.start.generate.html#ablog.start.generate" title="ablog.start.generate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate</span></code></a>(d[, overwrite, silent])</p></td>
+<td><p>Borrowed from Sphinx 1.3b3.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../api/ablog.start.ask_user.html#ablog.start.ask_user" title="ablog.start.ask_user"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ask_user</span></code></a>(d)</p></td>
+<td><p>Borrowed from Sphinx 1.3b3.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../api/ablog.start.ablog_start.html#ablog.start.ablog_start" title="ablog.start.ablog_start"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ablog_start</span></code></a>(**kwargs)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
+<div class="section">
+     
+<div class="section">
+  <span style="float: left">
+     
+    <a href="../release/ablog-v0.8-released.html#ablog-v0-8-3-released">
+      <i class="fa fa-arrow-circle-left"></i> ABlog v0.8.3 released
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+     
+    <a href="../release/ablog-v0.9-released.html">
+      ABlog v0.9 released <i
+        class="fa fa-arrow-circle-right"
+      ></i
+      >
+    </a>
+    
+  </span>
+</div>
+  
+  <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = "ablogforsphinx";
+      var disqus_identifier = "/manual/api/";
+      var disqus_title = "ABlog API";
+      var disqus_url = "https://ablog.readthedocs.org/manual/api";
+
+      (function () {
+        var dsq = document.createElement("script");
+        dsq.type = "text/javascript";
+        dsq.async = true;
+        dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+        (
+          document.getElementsByTagName("head")[0] ||
+          document.getElementsByTagName("body")[0]
+        ).appendChild(dsq);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+    <a href="https://disqus.com" class="dsq-brlink"
+      >comments powered by <span class="logo-disqus">Disqus</span></a
+    >
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/ablog.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">ABlog for blogging with Sphinx</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=sunpy&repo=ablog&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+  
+<h2>
+   <i class="fa fa-calendar"></i>
+  17 February 2018 
+</h2>
+
+<ul>
+   
+<li id="author">
+  <span
+    ><i class="fa-fw fa fa-user"></i></span
+  >
+   
+  <a href="../blog/author/nabil.html">Nabil</a>  
+</li>
+ 
+<li id="location">
+  <span
+    ><i class="fa-fw fa fa-location-arrow"></i></span
+  >
+   
+  <a href="../blog/location/world.html">World</a>  
+</li>
+ 
+<li id="language">
+  <span
+    ><i class="fa-fw fa fa-language"></i></span
+  >
+   
+  <a href="../blog/language/english.html">English</a>  
+</li>
+ 
+<li id="category">
+  <span
+    ><i class="fa-fw fa fa-folder-open"></i></span
+  >
+   
+  <a href="../blog/category/manual.html">Manual</a>  
+</li>
+ 
+<li id="tags">
+  <span
+    ><i
+      class="fa-fw fa fa-tag"
+    ></i
+    ></span
+  >
+   
+  <a href="../blog/tag/api.html">api</a>  
+</li>
+ 
+<li id="comments">
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = "ablogforsphinx"; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+      var s = document.createElement("script");
+      s.async = true;
+      s.type = "text/javascript";
+      s.src = "//" + disqus_shortname + ".disqus.com/count.js";
+      (
+        document.getElementsByTagName("HEAD")[0] ||
+        document.getElementsByTagName("BODY")[0]
+      ).appendChild(s);
+    })();
+  </script>
+  <i class="fa-fw fa fa-comments"></i>
+  <a
+    href="#disqus_thread"
+    data-disqus-identifier="/manual/api/"
+  >
+    </a
+  >
+</li>
+
+</ul>
+
+<h3>
+  <a href="../blog.html">Recent Posts</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../release/ablog-v0.10-released.html#ablog-v0-10-20-released"
+      >13 October - ABlog v0.10.20 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="../release/ablog-v0.10-released.html#ablog-v0-10-19-released"
+      >26 May - ABlog v0.10.19 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="../release/ablog-v0.10-released.html#ablog-v0-10-18-released"
+      >26 April - ABlog v0.10.18 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="../release/ablog-v0.10-released.html#ablog-v0-10-17-released"
+      >24 March - ABlog v0.10.17 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="../release/ablog-v0.10-released.html#ablog-v0-10-16-released"
+      >23 March - ABlog v0.10.16 released</a
+    >
+  </li>
+  
+</ul>
+
+<h3><a href="../blog/tag.html">Tags</a></h3>
+<style type="text/css">
+  ul.ablog-cloud {
+    list-style: none;
+    overflow: auto;
+  }
+  ul.ablog-cloud li {
+    float: left;
+    height: 20pt;
+    line-height: 18pt;
+    margin-right: 5px;
+  }
+  ul.ablog-cloud a {
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  li.ablog-cloud-1 {
+    font-size: 80%;
+  }
+  li.ablog-cloud-2 {
+    font-size: 95%;
+  }
+  li.ablog-cloud-3 {
+    font-size: 110%;
+  }
+  li.ablog-cloud-4 {
+    font-size: 125%;
+  }
+  li.ablog-cloud-5 {
+    font-size: 140%;
+  }
+</style>
+<ul class="ablog-cloud">
+   
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="../blog/tag/sphinx.html">Sphinx</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="../blog/tag/api.html">api</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="../blog/tag/commands.html">commands</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="../blog/tag/config.html">config</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="../blog/tag/deploy.html">deploy</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="../blog/tag/directive.html">directive</a>
+  </li>
+      
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="../blog/tag/i18n.html">i18n</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="../blog/tag/posting.html">posting</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="../blog/tag/tips.html">tips</a>
+  </li>
+   
+</ul>
+
+<h3>
+  <a href="../blog/category.html">Categories</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../blog/category/manual.html">Manual (15)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/category/release.html">Release (58)</a>
+  </li>
+   
+</ul>
+
+<h3>
+  <a href="../blog/archive.html">Archives</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../blog/2021.html">2021 (8)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/2020.html">2020 (12)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/2019.html">2019 (4)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/2018.html">2018 (7)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/2016.html">2016 (2)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/2015.html">2015 (26)</a>
+  </li>
+    
+  <li>
+    <a href="../blog/2014.html">2014 (14)</a>
+  </li>
+   
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2014-2021, ABlog Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/manual/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

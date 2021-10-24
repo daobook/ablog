@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posted in 2020</title>
+  <updated>2021-10-24T12:29:55.887710+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/2020/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-2-released</id>
+    <title>ABlog v0.10.2 released</title>
+    <updated>2020-01-02T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-2-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-01-02T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-3-released</id>
+    <title>ABlog v0.10.3 released</title>
+    <updated>2020-02-12T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-3-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-02-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-4-released</id>
+    <title>ABlog v0.10.4 released</title>
+    <updated>2020-03-24T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.4 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-4-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-03-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-5-released</id>
+    <title>ABlog v0.10.5 released</title>
+    <updated>2020-04-18T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.5 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-5-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-04-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-6-released</id>
+    <title>ABlog v0.10.6 released</title>
+    <updated>2020-05-27T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.6 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-6-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-05-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-7-released</id>
+    <title>ABlog v0.10.7 released</title>
+    <updated>2020-09-07T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.7 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-7-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-09-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-8-released</id>
+    <title>ABlog v0.10.8 released</title>
+    <updated>2020-09-09T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.8 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-8-released" rel="alternate"/>
+    <summary>Removed the hard dependencies on alabaster and sphinx-automodapi.</summary>
+    <published>2020-09-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-9-released</id>
+    <title>ABlog v0.10.9 released</title>
+    <updated>2020-09-16T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.9 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-9-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-09-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-10-released</id>
+    <title>ABlog v0.10.10 released</title>
+    <updated>2020-10-10T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.10 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-10-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-10-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/markdown.html</id>
+    <title>Markdown Support</title>
+    <updated>2020-10-10T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil Freij</name>
+    </author>
+    <content type="html">Markdown Support</content>
+    <link href="https://ablog.readthedocs.org/manual/markdown.html" rel="alternate"/>
+    <summary>ABlog can support markdown pages using myst-parser.
+This page is a markdown file underneath.</summary>
+    <published>2020-10-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-11-released</id>
+    <title>ABlog v0.10.11 released</title>
+    <updated>2020-10-11T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.11 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-11-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-10-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-12-released</id>
+    <title>ABlog v0.10.12 released</title>
+    <updated>2020-11-03T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.10.12 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.10-released.html#ablog-v0-10-12-released" rel="alternate"/>
+    <summary>Pull Requests merged in:</summary>
+    <published>2020-11-03T00:00:00+00:00</published>
+  </entry>
+</feed>

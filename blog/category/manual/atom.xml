@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posts in Manual</title>
+  <updated>2021-10-24T12:29:54.918377+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/category/manual/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/posting-and-listing.html</id>
+    <title>Posting and Listing</title>
+    <updated>2021-05-25T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Posting and Listing #directive</content>
+    <link href="https://ablog.readthedocs.org/manual/posting-and-listing.html" rel="alternate"/>
+    <summary>This post describes post, update, and postlist directives.</summary>
+    <category term="directive" label="directive"/>
+    <published>2014-05-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-configuration-options.html</id>
+    <title>ABlog Configuration Options</title>
+    <updated>2021-03-20T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Configuration Options #config</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-configuration-options.html" rel="alternate"/>
+    <summary>This post describes ABlog configuration options that go in Sphinx build configuration file.</summary>
+    <category term="config" label="config"/>
+    <published>2014-05-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/cross-referencing-blog-pages.html</id>
+    <title>Cross-referencing Blog Pages</title>
+    <updated>2014-05-11T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Cross-referencing Blog Pages #tips #Sphinx</content>
+    <link href="https://ablog.readthedocs.org/manual/cross-referencing-blog-pages.html" rel="alternate"/>
+    <summary>ABlog creates references to all post and archive pages.
+Posts can be cross-referenced using the name of the file, or when the file is named index, the name of the folder that contains the file.</summary>
+    <category term="tips" label="tips"/>
+    <category term="Sphinx" label="Sphinx"/>
+    <published>2014-05-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/post-excerpts-and-images.html</id>
+    <title>Post Excerpts and Images</title>
+    <updated>2014-05-12T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Post Excerpts and Images #directive</content>
+    <link href="https://ablog.readthedocs.org/manual/post-excerpts-and-images.html" rel="alternate"/>
+    <summary>This post describes how to choose an excerpt and an image image for a post to be displayed in archive pages.</summary>
+    <category term="directive" label="directive"/>
+    <published>2014-05-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/posting-and-listing.html#posting-sections</id>
+    <title>Posting Sections</title>
+    <updated>2014-08-20T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Posting Sections #directive</content>
+    <link href="https://ablog.readthedocs.org/manual/posting-and-listing.html#posting-sections" rel="alternate"/>
+    <summary>post directive can be used multiple times in a single page to create multiple posts of different sections of the document.</summary>
+    <category term="directive" label="directive"/>
+    <published>2014-08-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-i18n.html</id>
+    <title>ABlog Internationalization</title>
+    <updated>2014-08-30T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Internationalization #i18n</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-i18n.html" rel="alternate"/>
+    <summary>ABlog automatically generates certain labels like blog-posts and blog-categories.
+If these labels appear in English on your blog although you specified another language, then this page is for you.</summary>
+    <category term="i18n" label="i18n"/>
+    <published>2014-08-30T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-commands.html</id>
+    <title>ABlog Commands</title>
+    <updated>2015-04-07T00:00:00+00:00</updated>
+    <author>
+      <name>Mehmet Gerçeker</name>
+    </author>
+    <content type="html">ABlog Commands #config #commands</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-commands.html" rel="alternate"/>
+    <summary>ablog commands are for streamlining blog operations, i.e. building, serving, and viewing blog pages, as well as starting a new blog:</summary>
+    <category term="config" label="config"/>
+    <category term="commands" label="commands"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
+    <title>ABlog Quick Start</title>
+    <updated>2015-03-01T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Quick Start #config #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
+    <summary>This short walk through of blogging work flow assumes that you have already installed ABlog. If not, see installation guide.</summary>
+    <category term="config" label="config"/>
+    <category term="tips" label="tips"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/deploy-to-github-pages.html</id>
+    <title>Deploy to GitHub Pages</title>
+    <updated>2015-04-07T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Deploy to GitHub Pages #deploy</content>
+    <link href="https://ablog.readthedocs.org/manual/deploy-to-github-pages.html" rel="alternate"/>
+    <summary>If you are looking for a place to publish your blog, GitHub Pages might be the place for you.</summary>
+    <category term="deploy" label="deploy"/>
+    <published>2015-04-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/watch-yourself-blogging.html</id>
+    <title>Watch Yourself Blogging</title>
+    <updated>2015-04-19T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Watch Yourself Blogging #commands #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/watch-yourself-blogging.html" rel="alternate"/>
+    <summary>Wouldn’t you like your blog being rebuilt and served to you automatically as you are blogging on a sunny Sunday afternoon?
+It’s now possible with the improved ablog serve command.</summary>
+    <category term="commands" label="commands"/>
+    <category term="tips" label="tips"/>
+    <published>2015-04-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html</id>
+    <title>Automate GitHub Pages Deploys</title>
+    <updated>2015-06-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Automate GitHub Pages Deploys #deploy #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html" rel="alternate"/>
+    <summary>If being away from your personal computer is holding you back from blogging, keep reading.
+This post will show you how to automate builds and deploys using Travis CI.
+Once you set this up, all you need to do post an article will be pushing to GitHub or creating a new file on GitHub.com from any computer!</summary>
+    <category term="deploy" label="deploy"/>
+    <category term="tips" label="tips"/>
+    <published>2015-06-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/api.html</id>
+    <title>ABlog API</title>
+    <updated>2018-02-17T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog API #api</content>
+    <link href="https://ablog.readthedocs.org/manual/api.html" rel="alternate"/>
+    <summary>setup(app)</summary>
+    <category term="api" label="api"/>
+    <published>2018-02-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/notebook_support.html</id>
+    <title>Jupyter Notebook Posting</title>
+    <updated>2018-10-27T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">Jupyter Notebook Posting #posting</content>
+    <link href="https://ablog.readthedocs.org/manual/notebook_support.html" rel="alternate"/>
+    <summary>To add support for Notebooks to your Ablog instance, you need to configure your docs/conf.py (or whereever your conf.py is located.</summary>
+    <category term="posting" label="posting"/>
+    <published>2018-10-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html</id>
+    <title>Jupyter Notebook Posting</title>
+    <updated>2018-10-27T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">Jupyter Notebook Posting #posting</content>
+    <link href="https://ablog.readthedocs.org/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html" rel="alternate"/>
+    <summary>To add support for Notebooks to your Ablog instance, you need to configure your docs/conf.py (or whereever your conf.py is located.</summary>
+    <category term="posting" label="posting"/>
+    <published>2018-10-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/markdown.html</id>
+    <title>Markdown Support</title>
+    <updated>2020-10-10T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil Freij</name>
+    </author>
+    <content type="html">Markdown Support</content>
+    <link href="https://ablog.readthedocs.org/manual/markdown.html" rel="alternate"/>
+    <summary>ABlog can support markdown pages using myst-parser.
+This page is a markdown file underneath.</summary>
+    <published>2020-10-10T00:00:00+00:00</published>
+  </entry>
+</feed>

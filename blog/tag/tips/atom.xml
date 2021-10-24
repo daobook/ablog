@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posts tagged tips</title>
+  <updated>2021-10-24T12:29:57.134889+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/tag/tips/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/cross-referencing-blog-pages.html</id>
+    <title>Cross-referencing Blog Pages</title>
+    <updated>2014-05-11T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Cross-referencing Blog Pages #tips #Sphinx</content>
+    <link href="https://ablog.readthedocs.org/manual/cross-referencing-blog-pages.html" rel="alternate"/>
+    <summary>ABlog creates references to all post and archive pages.
+Posts can be cross-referenced using the name of the file, or when the file is named index, the name of the folder that contains the file.</summary>
+    <category term="tips" label="tips"/>
+    <category term="Sphinx" label="Sphinx"/>
+    <published>2014-05-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.1-released.html</id>
+    <title>ABlog v0.1 released</title>
+    <updated>2014-05-14T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.1 released #tips</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.1-released.html" rel="alternate"/>
+    <summary>ABlog v0.1 is released.</summary>
+    <category term="tips" label="tips"/>
+    <published>2014-05-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
+    <title>ABlog Quick Start</title>
+    <updated>2015-03-01T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Quick Start #config #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
+    <summary>This short walk through of blogging work flow assumes that you have already installed ABlog. If not, see installation guide.</summary>
+    <category term="config" label="config"/>
+    <category term="tips" label="tips"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/watch-yourself-blogging.html</id>
+    <title>Watch Yourself Blogging</title>
+    <updated>2015-04-19T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Watch Yourself Blogging #commands #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/watch-yourself-blogging.html" rel="alternate"/>
+    <summary>Wouldn’t you like your blog being rebuilt and served to you automatically as you are blogging on a sunny Sunday afternoon?
+It’s now possible with the improved ablog serve command.</summary>
+    <category term="commands" label="commands"/>
+    <category term="tips" label="tips"/>
+    <published>2015-04-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html</id>
+    <title>Automate GitHub Pages Deploys</title>
+    <updated>2015-06-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Automate GitHub Pages Deploys #deploy #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html" rel="alternate"/>
+    <summary>If being away from your personal computer is holding you back from blogging, keep reading.
+This post will show you how to automate builds and deploys using Travis CI.
+Once you set this up, all you need to do post an article will be pushing to GitHub or creating a new file on GitHub.com from any computer!</summary>
+    <category term="deploy" label="deploy"/>
+    <category term="tips" label="tips"/>
+    <published>2015-06-15T00:00:00+00:00</published>
+  </entry>
+</feed>
