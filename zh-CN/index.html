@@ -99,11 +99,11 @@
 <span class="n">conda</span> <span class="n">install</span> <span class="n">ablog</span>
 </pre></div>
 </div>
-<p>这也将安装 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a>, <a class="reference external" href="https://github.com/lkiesow/python-feedgen">feedgen</a>，和 <a class="reference external" href="https://www.pyinvoke.org/">Invoke</a>，分别用于建立你的 网站，使其看起来更漂亮，生成 feeds，以及运行部署命令。</p>
+<p>这也将安装 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a>，<a class="reference external" href="https://github.com/lkiesow/python-feedgen">feedgen</a> 和 <a class="reference external" href="https://www.pyinvoke.org/">Invoke</a>，分别用于建立你的 网站，使其看起来更漂亮，生成 feeds，以及运行部署命令。</p>
 </section>
 <section id="getting-started">
 <h2>入门<a class="headerlink" href="#getting-started" title="永久链接至标题">¶</a></h2>
-<p>如果你正在开始一个新的项目，请参阅 <a class="reference internal" href="manual/ablog-quick-start.html#quick-start"><span class="std std-ref">ABlog Quick Start</span></a> 指南。如果你已经有了一个项目，请在 <cite>conf.py</cite> 中做以下修改来启用博客：</p>
+<p>如果你正在开始一个新的项目，请参阅 <a class="reference internal" href="manual/ablog-quick-start.html#quick-start"><span class="std std-ref">ABlog Quick Start</span></a> 指南。如果你已经有了一个项目，请在 <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> 中做以下修改来启用博客：</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1. Add &#39;ablog&#39; and &#39;sphinx.ext.intersphinx&#39; to the list of extensions</span>
 <span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s1">&#39;...&#39;</span><span class="p">,</span>
@@ -115,7 +115,7 @@
 </section>
 <section id="how-it-works">
 <h2>它是如何发挥作用的<a class="headerlink" href="#how-it-works" title="永久链接至标题">¶</a></h2>
-<p>如果你是 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> 和 reStructuredText 标记语言的新手，你可能会发现 <a class="reference external" href="http://www.sphinx-doc.org/en/master/">reStructuredText Primer</a> 很有用。一旦你有了内容（在 <code class="docutils literal notranslate"><span class="pre">.rst</span></code> 文件中），你可以使用 <a class="reference internal" href="manual/posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令发布 <em>任何页面</em>，如下所示：</p>
+<p>如果你是 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> 和 reStructuredText 标记语言的新手，你可能会发现 <a class="reference external" href="http://www.sphinx-doc.org/en/master/">reStructuredText 入门</a> 很有用。一旦你有了内容（在 <code class="docutils literal notranslate"><span class="pre">.rst</span></code> 文件中），你可以使用 <a class="reference internal" href="manual/posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令发布 <em>任何页面</em>，如下所示：</p>
 <div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">post</span><span class="p">::</span> Apr 15, 2014
    <span class="nc">:tags:</span> earth, love, peace
    <span class="nc">:category:</span> python
@@ -157,12 +157,12 @@
 <li><p><a class="reference internal" href="manual/watch-yourself-blogging.html">Watch Yourself Blogging</a></p></li>
 <li><p><a class="reference internal" href="manual/auto-github-pages-deploys.html">Automate GitHub Pages Deploys</a></p></li>
 <li><p><a class="reference internal" href="manual/api.html">ABlog API</a></p></li>
+<li><p><a class="reference internal" href="_build/doctrees/nbsphinx/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
+<li><p><a class="reference internal" href="_build/doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
+<li><p><a class="reference internal" href="_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
+<li><p><a class="reference internal" href="_build/html/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
 <li><p><a class="reference internal" href="_build/html/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
 <li><p><a class="reference internal" href="manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
-<li><p><a class="reference internal" href="_build/html/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
-<li><p><a class="reference internal" href="_build/doctrees/nbsphinx/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
-<li><p><a class="reference internal" href="_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
-<li><p><a class="reference internal" href="_build/doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
 <li><p><a class="reference internal" href="manual/markdown.html">Markdown Support</a></p></li>
 </ul>
 <a class="reference external image-reference" href="https://ablog.readthedocs.org/"><img alt="https://readthedocs.org/projects/ablog/badge/?version=latest" src="https://readthedocs.org/projects/ablog/badge/?version=latest" /></a>
