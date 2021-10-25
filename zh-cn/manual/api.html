@@ -117,20 +117,12 @@
 </section>
 <section id="class-inheritance-diagram">
 <h3>Class Inheritance Diagram<a class="headerlink" href="#class-inheritance-diagram" title="永久链接至标题">¶</a></h3>
-digraph inheritance3a56af9790 {
-bgcolor=transparent;
-rankdir=LR;
-size=&quot;8.0, 12.0&quot;;
-  &quot;Blog&quot; [URL=&quot;../api/ablog.blog.Blog.html#ablog.blog.Blog&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle blog operations.&quot;];
-  &quot;Container&quot; -&gt; &quot;Blog&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;BlogPageMixin&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;Collection&quot; [URL=&quot;../api/ablog.blog.Collection.html#ablog.blog.Collection&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Posts sharing a label, i.e. tag, category, author, or location.&quot;];
-  &quot;BlogPageMixin&quot; -&gt; &quot;Collection&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Container&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;Post&quot; [URL=&quot;../api/ablog.blog.Post.html#ablog.blog.Post&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle post metadata.&quot;];
-  &quot;BlogPageMixin&quot; -&gt; &quot;Post&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-}
-</section>
+<div class="graphviz"><img src="../_images/inheritance-cc8829d29903fd320de94ad7909dfb09709b9c60.png" alt="Inheritance diagram of ablog.blog.Blog, ablog.blog.Post, ablog.blog.Collection" usemap="#inheritance3a56af9790" class="inheritance graphviz" /></div>
+<map id="inheritance3a56af9790" name="inheritance3a56af9790">
+<area shape="rect" id="node1" href="../api/ablog.blog.Blog.html#ablog.blog.Blog" target="_top" title="Handle blog operations." alt="" coords="179,104,251,129"/>
+<area shape="rect" id="node4" href="../api/ablog.blog.Collection.html#ablog.blog.Collection" target="_top" title="Posts sharing a label, i.e. tag, category, author, or location." alt="" coords="172,5,259,31"/>
+<area shape="rect" id="node5" href="../api/ablog.blog.Post.html#ablog.blog.Post" target="_top" title="Handle post metadata." alt="" coords="179,55,251,80"/>
+</map></section>
 </section>
 <section id="module-ablog.commands">
 <span id="ablog-commands-module"></span><h2>ablog.commands Module<a class="headerlink" href="#module-ablog.commands" title="永久链接至标题">¶</a></h2>
@@ -226,44 +218,16 @@ size=&quot;8.0, 12.0&quot;;
 </section>
 <section id="id4">
 <h3>Class Inheritance Diagram<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
-digraph inheritancee1b074d687 {
-bgcolor=transparent;
-rankdir=LR;
-size=&quot;8.0, 12.0&quot;;
-  &quot;Admonition&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;Body&quot; -&gt; &quot;Admonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;BaseAdmonition&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;Directive&quot; -&gt; &quot;BaseAdmonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Body&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;CheckFrontMatter&quot; [URL=&quot;../api/ablog.post.CheckFrontMatter.html#ablog.post.CheckFrontMatter&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Check the doctree for frontmatter meant for a blog post.&quot;];
-  &quot;SphinxTransform&quot; -&gt; &quot;CheckFrontMatter&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Directive&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;Base class for reStructuredText directives.&quot;];
-  &quot;Element&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;`Element` is the superclass to all specific elements.&quot;];
-  &quot;Node&quot; -&gt; &quot;Element&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;General&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;Body&quot; -&gt; &quot;General&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Node&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;Abstract base class of nodes in a document tree.&quot;];
-  &quot;PostDirective&quot; [URL=&quot;../api/ablog.post.PostDirective.html#ablog.post.PostDirective&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle ``post`` directives.&quot;];
-  &quot;Directive&quot; -&gt; &quot;PostDirective&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;PostList&quot; [URL=&quot;../api/ablog.post.PostList.html#ablog.post.PostList&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Represent ``postlist`` directive converted to a list of links.&quot;];
-  &quot;General&quot; -&gt; &quot;PostList&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Element&quot; -&gt; &quot;PostList&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;PostListDirective&quot; [URL=&quot;../api/ablog.post.PostListDirective.html#ablog.post.PostListDirective&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Handle ``postlist`` directives.&quot;];
-  &quot;Directive&quot; -&gt; &quot;PostListDirective&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;PostNode&quot; [URL=&quot;../api/ablog.post.PostNode.html#ablog.post.PostNode&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Represent ``post`` directive content and options in document tree.&quot;];
-  &quot;Element&quot; -&gt; &quot;PostNode&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;SphinxTransform&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;A base class of Transforms.&quot;];
-  &quot;Transform&quot; -&gt; &quot;SphinxTransform&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Transform&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,tooltip=&quot;Docutils transform component abstract base class.&quot;];
-  &quot;UpdateDirective&quot; [URL=&quot;../api/ablog.post.UpdateDirective.html#ablog.post.UpdateDirective&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;];
-  &quot;BaseAdmonition&quot; -&gt; &quot;UpdateDirective&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;UpdateNode&quot; [URL=&quot;../api/ablog.post.UpdateNode.html#ablog.post.UpdateNode&quot;,fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;,target=&quot;_top&quot;,tooltip=&quot;Represent ``update`` directive.&quot;];
-  &quot;admonition&quot; -&gt; &quot;UpdateNode&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;admonition&quot; [fillcolor=white,fontname=&quot;Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans&quot;,fontsize=10,height=0.25,shape=box,style=&quot;setlinewidth(0.5),filled&quot;];
-  &quot;Admonition&quot; -&gt; &quot;admonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-  &quot;Element&quot; -&gt; &quot;admonition&quot; [arrowsize=0.5,style=&quot;setlinewidth(0.5)&quot;];
-}
-</section>
+<div class="graphviz"><img src="../_images/inheritance-80ff7132e57f14166468d4b4489480afcb5b6602.png" alt="Inheritance diagram of ablog.post.PostNode, ablog.post.PostList, ablog.post.UpdateNode, ablog.post.PostDirective, ablog.post.UpdateDirective, ablog.post.PostListDirective, ablog.post.CheckFrontMatter" usemap="#inheritancee1b074d687" class="inheritance graphviz" /></div>
+<map id="inheritancee1b074d687" name="inheritancee1b074d687">
+<area shape="rect" id="node15" href="../api/ablog.post.UpdateDirective.html#ablog.post.UpdateDirective" target="_top" title="UpdateDirective" alt="" coords="325,55,453,80"/>
+<area shape="rect" id="node10" href="../api/ablog.post.PostDirective.html#ablog.post.PostDirective" target="_top" title="Handle ``post`` directives." alt="" coords="151,104,261,129"/>
+<area shape="rect" id="node12" href="../api/ablog.post.PostListDirective.html#ablog.post.PostListDirective" target="_top" title="Handle ``postlist`` directives." alt="" coords="140,153,272,179"/>
+<area shape="rect" id="node5" href="../api/ablog.post.CheckFrontMatter.html#ablog.post.CheckFrontMatter" target="_top" title="Check the doctree for frontmatter meant for a blog post." alt="" coords="320,5,459,31"/>
+<area shape="rect" id="node11" href="../api/ablog.post.PostList.html#ablog.post.PostList" target="_top" title="Represent ``postlist`` directive converted to a list of links." alt="" coords="353,203,426,228"/>
+<area shape="rect" id="node13" href="../api/ablog.post.PostNode.html#ablog.post.PostNode" target="_top" title="Represent ``post`` directive content and options in document tree." alt="" coords="347,301,431,327"/>
+<area shape="rect" id="node16" href="../api/ablog.post.UpdateNode.html#ablog.post.UpdateNode" target="_top" title="Represent ``update`` directive." alt="" coords="507,252,609,277"/>
+</map></section>
 </section>
 <section id="module-ablog.start">
 <span id="ablog-start-module"></span><h2>ablog.start Module<a class="headerlink" href="#module-ablog.start" title="永久链接至标题">¶</a></h2>
