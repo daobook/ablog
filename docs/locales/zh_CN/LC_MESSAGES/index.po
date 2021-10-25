@@ -124,7 +124,8 @@ msgstr "在文件的顶端。"
 msgid ""
 "ABlog will index all files posted as above and list them in archives and "
 "feeds specified in ``:tag:``, ``:category:``, etc. options."
-msgstr "ABlog 将索引所有如上所述发布的文件，并在 ``:tag:``, ``:category:`` 等选项中指定的档案和资料中列出它们。"
+msgstr "ABlog 将索引所有如上所述发布的文件，并在 ``:tag:``， ``:category:`` "
+"等选项中指定的档案和资料中列出它们。"
 
 #: ../../index.rst:86
 msgid "You can also include a list of posts using :rst:dir:`postlist` directive:"

@@ -34,7 +34,7 @@ msgstr "下面是你能做的所有事情："
 
 #: ../../manual/ablog-commands.rst:42
 msgid "Start a New Project"
-msgstr "启动一个新项目"
+msgstr "启动新项目"
 
 #: ../../manual/ablog-commands.rst:44
 msgid ""
@@ -53,67 +53,75 @@ msgid ""
 "Running ``ablog build`` in your project folder builds your website HTML "
 "pages::"
 msgstr ""
+"在你的项目文件夹中运行 ``ablog build``，可以构建你的网站 HTML 页面："。
 
 #: ../../manual/ablog-commands.rst:85
 msgid "Serve and View Locally"
-msgstr ""
+msgstr "在本地服务和查看"
 
 #: ../../manual/ablog-commands.rst:87
 msgid ""
 "Running ``ablog serve``, after building your website, will start a Python"
 " server and open up browser tab to view your website::"
 msgstr ""
+"在建立你的网站后，运行 ``ablog serve``，"
+"将启动一个 Python 服务器，并打开浏览器标签查看你的网站 ::"
 
 #: ../../manual/ablog-commands.rst:107
 #: ../../manual/deploy-to-github-pages.rst:3
 msgid "Deploy to GitHub Pages"
-msgstr ""
+msgstr "部署到 GitHub Pages"
 
 #: ../../manual/ablog-commands.rst:109
 msgid "Running ``ablog deploy`` will push your website to GitHub::"
-msgstr ""
+msgstr "运行 ``ablog deploy`` 会将你的网站推送到 GitHub ::"
 
 #: ../../manual/ablog-commands.rst:134
-msgid "Create a Post"
+msgid "新建帖子"
 msgstr ""
 
 #: ../../manual/ablog-commands.rst:136
 msgid "Finally, ``ablog post`` will make a new post template file::"
-msgstr ""
+msgstr "最后，``ablog post`` 将制作一个新的帖子模板文件 ::"
 
 #: ../../manual/ablog-commands.rst:149
 msgid "Clean Build Files"
-msgstr ""
+msgstr "清理构建文件"
 
 #: ../../manual/ablog-commands.rst:151
 msgid ""
 "In case you needed, running ``ablog clean`` will remove build files and "
 "do a deep clean with ``-D`` option::"
 msgstr ""
+"如果有需要，则运行 ``ablog clean`` 将删除构建文件并使用 ``-D`` 选项进行深度清理 ::"
 
 #: ../../manual/ablog-commands.rst:169
 msgid "Added ``ablog clean`` and ``ablog deploy`` commands."
-msgstr ""
+msgstr "增加了 ``ablog clean`` 和 ``ablog deploy`` 命令。"
 
 #: ../../manual/ablog-configuration-options.rst:4
 msgid "ABlog Configuration Options"
-msgstr ""
+msgstr "ABlog 配置选项"
 
 #: ../../manual/ablog-configuration-options.rst:13
 msgid ""
 "This post describes ABlog configuration options that go in :ref:`Sphinx "
 "build configuration file <sphinx:build-config>`."
 msgstr ""
+"此帖子描述了 ABlog 的配置选项，"
+"这些选项在 :ref:`Sphinx 构建配置文件 <sphinx:build-config>` 中。"
 
 #: ../../manual/ablog-configuration-options.rst:16
 msgid "General options"
-msgstr ""
+msgstr "通用选项"
 
 #: ../../manual/ablog-configuration-options.rst:20
 msgid ""
 "A path relative to the configuration directory for blog archive pages. "
 "Default is ``'blog'``."
 msgstr ""
+"一个相对于博客档案页配置目录的路径。"
+"默认为 ``'blog'``。"
 
 #: ../../manual/ablog-configuration-options.rst:25
 msgid "The “title” for the blog, used in acthive pages.  Default is ``'Blog'``."
@@ -419,7 +427,7 @@ msgstr ""
 
 #: ../../manual/ablog-i18n.rst:2
 msgid "ABlog Internationalization"
-msgstr ""
+msgstr "ABlog 国际化"
 
 #: ../../manual/ablog-i18n.rst:9
 msgid ""
@@ -427,84 +435,96 @@ msgid ""
 ":ref:`blog-categories`. If these labels appear in English on your blog "
 "although you specified another language, then this page is for you."
 msgstr ""
+"ABlog 自动生成某些标签，如 :ref:`blog-posts` 和 :ref:`blog-categories`。"
+"如果尽管你指定了另一种语言，这些标签在你的博客上仍然以英语出现，那么这个页面就是为你准备的。"
 
 #: ../../manual/ablog-i18n.rst:12
 msgid ""
 "ABlog needs your help for translation of these labels. Translation "
 "process involves the following steps:"
 msgstr ""
+"ABlog 需要你帮助翻译这些标签。翻译过程包括以下步骤："
 
 #: ../../manual/ablog-i18n.rst:16
 msgid "Update translatable messages:"
-msgstr ""
+msgstr "更新可翻译的信息："
 
 #: ../../manual/ablog-i18n.rst:18
 msgid ""
 "Execute extract_messages_ each time a translatable message text is "
 "changed or added::"
 msgstr ""
+"每次改变或增加可翻译的信息文本时，执行 extract_messages_ ::"
 
 #: ../../manual/ablog-i18n.rst:23
 msgid ""
 "This will create or update :file:`ablog/locale/sphinx.pot` file, the "
 "central messages catalog used by the different translations."
 msgstr ""
+"这将创建或更新 :file:`ablog/locale/sphinx.pot` 文件，"
+"这是不同翻译使用的中心信息目录。"
 
 #: ../../manual/ablog-i18n.rst:27
 msgid "Create new translation catalog:"
-msgstr ""
+msgstr "创建新的翻译目录："
 
 #: ../../manual/ablog-i18n.rst:29
 msgid "Execute init_catalog_ once for each *new* language, e.g.::"
-msgstr ""
+msgstr "为每一种 *新* 的语言执行一次 init_catalog_，例如 ::"
 
 #: ../../manual/ablog-i18n.rst:33
 msgid ""
 "This will create a file :file:`ablog/locale/de/LC_MESSAGES/sphinx.po` in "
 "which translations needs to be placed."
 msgstr ""
+"这将创建一个文件 :file:`ablog/locale/de/LC_MESSAGES/sphinx.po`，需要将翻译放在其中。"
 
 #: ../../manual/ablog-i18n.rst:35
 msgid "Update translation catalog:"
-msgstr ""
+msgstr "更新翻译目录："
 
 #: ../../manual/ablog-i18n.rst:37
 msgid "Execute update_catalog_ for each *existing* language, e.g.::"
-msgstr ""
+msgstr "为每一种 *存在* 的语言执行 update_catalog_，例如 ::"
 
 #: ../../manual/ablog-i18n.rst:41
 msgid ""
 "This will update file :file:`ablog/locale/de/LC_MESSAGES/sphinx.po` where"
 " translations of new text needs to be placed."
 msgstr ""
+"这将更新文件 :file:`ablog/locale/de/LC_MESSAGES/sphinx.po`，"
+"新文本的翻译需要放在这里。"
 
 #: ../../manual/ablog-i18n.rst:43
 msgid "Compile catalogs:"
-msgstr ""
+msgstr "编译目录："
 
 #: ../../manual/ablog-i18n.rst:45
 msgid "Execute compile_catalog_ for each existing language, e.g::"
-msgstr ""
+msgstr "为每一种现有的语言执行 compile_catalog_，例如 ::"
 
 #: ../../manual/ablog-quick-start.rst:5
 msgid "ABlog Quick Start"
-msgstr ""
+msgstr "ABlog 快速入门"
 
 #: ../../manual/ablog-quick-start.rst:13
 msgid ""
 "This short walk through of blogging work flow assumes that you have "
 "already installed ABlog. If not, see :ref:`installation` guide."
 msgstr ""
+"这个简短的博客工作流程假设你已经安装了 ABlog。"
+"如果没有，请看 :ref:`installation` 指南。"
 
 #: ../../manual/ablog-quick-start.rst:15
 msgid ""
 "*Note that this post is a working draft. Feel free to revise it on "
 "GitHub.*"
 msgstr ""
+"*注意，这个帖子是一个工作草案。欢迎在 GitHub 上进行修改。*"
 
 #: ../../manual/ablog-quick-start.rst:18
 msgid "Start a Project"
-msgstr ""
+msgstr "启动项目"
 
 #: ../../manual/ablog-quick-start.rst:20
 msgid ""
@@ -512,30 +532,34 @@ msgid ""
 "you want to keep your project source files. This command will ask you a "
 "few questions and create the following files:"
 msgstr ""
+"要启动新的项目，在一个你想保存项目源文件的目录下运行： "
+"``ablog start`` 命令。这个命令会问你几个问题并创建以下文件："
 
 #: ../../manual/ablog-quick-start.rst:23
 msgid ""
 ":file:`conf.py` that contains project configuration for building HTML "
 "pages."
 msgstr ""
+":file:`conf.py`，包含用于构建 HTML 页面的项目配置。"
 
 #: ../../manual/ablog-quick-start.rst:25
 msgid ":file:`first-post.rst`, a blog post example."
-msgstr ""
+msgstr ":file:`first-post.rst`，一个博客帖子的例子。"
 
 #: ../../manual/ablog-quick-start.rst:27
 msgid ""
 ":file:`index.rst` that contains content for the *landing* page of your "
 "website."
 msgstr ""
+":file:`index.rst`，包含你网站的 *登陆* 页的内容。"
 
 #: ../../manual/ablog-quick-start.rst:29
 msgid ":file:`about.rst`, another non-post page example."
-msgstr ""
+msgstr ":file:`about.rst`，另一个非帖子页面的例子。"
 
 #: ../../manual/ablog-quick-start.rst:33
 msgid "Build and View"
-msgstr ""
+msgstr "构建与查看"
 
 #: ../../manual/ablog-quick-start.rst:35
 msgid ""
@@ -545,6 +569,11 @@ msgid ""
 "default web browser. See :ref:`commands` for more information about these"
 " commands."
 msgstr ""
+"不再拖延，让我们看看你的项目会是什么样子。"
+"首先运行 ``ablog build``，"
+"将在你的项目文件夹中建立 HTML 页面于 :file:`_website` 文件夹中。"
+"然后，调用 ``ablog serve`` 在你的默认网络浏览器中查看它们。"
+"关于这些命令的更多信息，请看 :ref:`commands`。"
 
 #: ../../manual/ablog-quick-start.rst:40
 msgid ""
@@ -552,20 +581,25 @@ msgid ""
 "your first post and about page. Take a look at :file:`index.rst` for some"
 " tips on navigation links within the project."
 msgstr ""
+"你的登陆页是由 :file:`index.rst` 建立的，"
+"包含了你的第一个帖子和关于页面的链接。"
+"请看 :file:`index.rst`，了解一些关于项目内导航链接的小技巧。"
 
 #: ../../manual/ablog-quick-start.rst:44
 msgid "Write Content"
-msgstr ""
+msgstr "撰写内容"
 
 #: ../../manual/ablog-quick-start.rst:46
 msgid ""
 "If you are new to Sphinx_ and reStructuredText markup language, you might"
 " find `reStructuredText Primer`_ useful."
 msgstr ""
+"如果你是 Sphinx_ 和 reStructuredText 标记语言的新手，"
+"你可能会发现 `reStructuredText Primer`_ 很有用。"
 
 #: ../../manual/ablog-quick-start.rst:51
 msgid "Pages"
-msgstr ""
+msgstr "网页"
 
 #: ../../manual/ablog-quick-start.rst:53
 msgid ""
@@ -575,21 +609,28 @@ msgid ""
 ":rst:dir:`toctree`. This is shown for *about* page into "
 ":file:`index.rst`."
 msgstr ""
+"你项目中的页面是 :file:`.rst` 文件，"
+"只差一个 :rst:dir:`post` 指令就能成为博客文章。"
+"为了使普通的页面能够从导航栏中访问，"
+"你需要将它们列在一个 :rst:dir:`toctree` 中。"
+"这是为 *about* 页面显示的，进入 :file:`index.rst`。"
 
 #: ../../manual/ablog-quick-start.rst:58
 #: ../../manual/cross-referencing-blog-pages.rst:28
 msgid "Posts"
-msgstr ""
+msgstr "帖子"
 
 #: ../../manual/ablog-quick-start.rst:60
 msgid ""
 "You can convert any page to a post with a :rst:dir:`post` directive. "
 "ABlog will take care of listing posts in specified archives and sidebars."
 msgstr ""
+"你可以用一个 :rst:dir:`post` 指令将任何页面转换为一个帖子。"
+"ABlog 将负责在指定的档案库和侧边栏中列出帖子。"
 
 #: ../../manual/ablog-quick-start.rst:64
 msgid "Blog posts"
-msgstr ""
+msgstr "博客帖子"
 
 #: ../../manual/ablog-quick-start.rst:66
 msgid ""
@@ -597,22 +638,26 @@ msgid ""
 "using ABlog. Simply use something based on the following template as the "
 "front-matter::"
 msgstr ""
+"你可以用 ABlog 的 front-matter 或指令来新建博客文章。"
+"只需使用基于以下模板的东西作为 front-matter ::"
 
 #: ../../manual/ablog-quick-start.rst:77
 msgid ""
 "Simply use something based on the following template as the directive for"
 " ABlog::"
 msgstr ""
+"只需使用基于以下模板的东西作为 ABlog 的指令 ::"
 
 #: ../../manual/ablog-quick-start.rst:87
 msgid ""
 "For more information, see :ref:`posting-directive` and :ref:`posting-"
 "front-matter`."
 msgstr ""
+"更多信息，请参阅 :ref:`posting-directive` 和 :ref:`posting-front-matter`。"
 
 #: ../../manual/ablog-quick-start.rst:90
 msgid "Comments"
-msgstr ""
+msgstr "评论"
 
 #: ../../manual/ablog-quick-start.rst:92
 msgid ""
@@ -620,32 +665,39 @@ msgid ""
 " obtaining a unique identifier, i.e. :confval:`disqus_shortname`. See "
 ":ref:`disqus-integration` for configuration options."
 msgstr ""
+"你可以通过创建一个 Disqus_ 账户并获得一个唯一的标识符，"
+"即 :confval:`disqus_shortname`，在你的网站上启用评论。"
+"请参阅 :ref:`disqus-integration` 了解配置选项。"
 
 #: ../../manual/ablog-quick-start.rst:96
 msgid "Analytics"
-msgstr ""
+msgstr "分析"
 
 #: ../../manual/ablog-quick-start.rst:98
 msgid ""
 "ABlog uses Alabaster_ theme by default. You can use theme options to set "
 "your `Google Analytics`_ identifier to enable tracking."
 msgstr ""
+"ABlog 默认使用 Alabaster_ 主题。"
+"你可以使用主题选项来设置你的 `Google Analytics`_ 标识符，以启用跟踪。"
 
 #: ../../manual/ablog-quick-start.rst:103
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: ../../manual/ablog-quick-start.rst:105
 msgid ""
 "There are four major groups of configuration options that can help you "
 "customize how your website looks:"
 msgstr ""
+"有四组主要的配置选项可以帮助你定制你的网站外观："
 
 #: ../../manual/ablog-quick-start.rst:107
 msgid ""
 ":ref:`config` - add blog authors, post locations and languages to your "
 "blog, adjust archive and feed content, etc."
 msgstr ""
+":ref:`config` - 为你的博客添加博客作者、文章地点和语言，调整档案和 feed 内容等。"
 
 #: ../../manual/ablog-quick-start.rst:109
 msgid ""
@@ -653,38 +705,46 @@ msgid ""
 "configuration>`__ and `project information <http://sphinx-"
 "doc.org/config.html#project-information>`__"
 msgstr ""
+"`一般配置 <http://sphinx-doc.org/config.html#general-configuration>`__ "
+"和 `项目信息 <http://sphinx-doc.org/config.html#project-information>`__"
 
 #: ../../manual/ablog-quick-start.rst:111
 msgid ":ref:`html-options` - configure appearance of your website."
-msgstr ""
+msgstr ":ref:`html-options` - 配置你的网站的外观。"
 
 #: ../../manual/ablog-quick-start.rst:113
 msgid ""
 "Alabaster_ theme options - link to your GitHub account and project, set "
 "up tracking, etc."
 msgstr ""
+"Alabaster_ 主题选项 -- 链接到你的 GitHub 账户和项目，设置跟踪，等等。"
 
 #: ../../manual/ablog-quick-start.rst:116
 msgid "Other Folders"
-msgstr ""
+msgstr "其他文件夹"
 
 #: ../../manual/ablog-quick-start.rst:118
 msgid ""
 "You might have noticed that your project contains three folders that we "
 "have not mention yet. Here they are:"
 msgstr ""
+"你可能已经注意到，你的项目包含三个文件夹，我们还没有提到。它们是："
 
 #: ../../manual/ablog-quick-start.rst:121
 msgid ""
 ":file:`_static` is for keeping image, :file:`.js`, and :file:`.css` "
 "files. :confval:`html_static_path` Sphinx option for more information."
 msgstr ""
+":file:`_static` 是用来保存图片、:file:`.js` 和 :file:`.css` 文件的，"
+":confval:`html_static_path` Sphinx 选项的更多信息。"
 
 #: ../../manual/ablog-quick-start.rst:124
 msgid ""
 ":file:`_templates` is for custom HTML templates. See "
 ":confval:`templates_path` for more information."
 msgstr ""
+":file:`_templates` 是用于自定义 HTML 模板。"
+"更多信息见 :confval:`templates_path`。"
 
 #: ../../manual/ablog-quick-start.rst:127
 msgid ""
@@ -692,6 +752,8 @@ msgid ""
 "Sphinx_ stores the state of your project. Files in this folder saves time"
 " when you rebuild your project."
 msgstr ""
+":file:`.doctree` 文件夹，在调用构建命令后创建，是 Sphinx_ 存储项目状态的地方。"
+"这个文件夹里的文件在你重建项目时可以节省时间。"
 
 #: ../../manual/api.rst:4
 msgid "ABlog API"
@@ -699,28 +761,28 @@ msgstr ""
 
 #: ../../manual/api.rst:14
 msgid "ablog Package"
-msgstr ""
+msgstr "ablog 包"
 
 #: ../../manual/api.rst:19 ../../manual/api.rst:52 ../../manual/api.rst:65
 #: ../../manual/api.rst:92
 msgid "Functions"
-msgstr ""
+msgstr "函数"
 
 #: ../../manual/api.rst:25:<autosummary>:1
 msgid ":obj:`setup <ablog.setup>`\\ \\(app\\)"
-msgstr ""
+msgstr ":obj:`设置 <ablog.setup>`\\ \\(app\\)"
 
 #: ../../manual/api.rst:25:<autosummary>:1
 msgid "Setup ABlog extension."
-msgstr ""
+msgstr "设置 ABlog 插件。"
 
 #: ../../manual/api.rst:27
 msgid "ablog.blog Module"
-msgstr ""
+msgstr "ablog.blog 模块"
 
 #: ../../manual/api.rst:32 ../../manual/api.rst:72
 msgid "Classes"
-msgstr ""
+msgstr "类"
 
 #: ../../manual/api.rst:37:<autosummary>:1
 msgid ":obj:`Blog <ablog.blog.Blog>`\\ \\(app\\)"
@@ -728,7 +790,7 @@ msgstr ""
 
 #: ../../manual/api.rst:37:<autosummary>:1
 msgid "Handle blog operations."
-msgstr ""
+msgstr "处理博客的运作。"
 
 #: ../../manual/api.rst:37:<autosummary>:1
 msgid ":obj:`Post <ablog.blog.Post>`\\ \\(blog\\, docname\\, info\\)"
@@ -736,7 +798,7 @@ msgstr ""
 
 #: ../../manual/api.rst:37:<autosummary>:1
 msgid "Handle post metadata."
-msgstr ""
+msgstr "处理博客的元数据。"
 
 #: ../../manual/api.rst:37:<autosummary>:1
 msgid ""
