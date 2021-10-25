@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts from San Francisco, CA</title>
-  <updated>2021-10-25T03:25:14.548886+00:00</updated>
+  <updated>2021-10-25T09:24:43.872643+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/location/san-francisco-ca/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
@@ -122,20 +122,6 @@ and bug fixes:</summary>
     <published>2014-12-20T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
-    <title>ABlog Quick Start</title>
-    <updated>2015-03-01T00:00:00+00:00</updated>
-    <author>
-      <name>Ahmet Bakan</name>
-    </author>
-    <content type="html">ABlog Quick Start #config #tips</content>
-    <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
-    <summary>This short walk through of blogging work flow assumes that you have already installed ABlog. If not, see installation guide.</summary>
-    <category term="config" label="config"/>
-    <category term="tips" label="tips"/>
-    <published>2015-03-01T00:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://ablog.readthedocs.org/manual/ablog-commands.html</id>
     <title>ABlog 命令</title>
     <updated>2015-04-07T00:00:00+00:00</updated>
@@ -147,6 +133,20 @@ and bug fixes:</summary>
     <summary>ablog 命令是为了简化博客操作，即建立、提供和查看博客页面，以及启动一个新的博客</summary>
     <category term="config" label="config"/>
     <category term="commands" label="commands"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
+    <title>ABlog 快速入门</title>
+    <updated>2015-03-01T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog 快速入门 #config #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
+    <summary>这个简短的博客工作流程假设你已经安装了 ABlog。如果没有，请看 installation 指南。</summary>
+    <category term="config" label="config"/>
+    <category term="tips" label="tips"/>
     <published>2015-03-01T00:00:00+00:00</published>
   </entry>
   <entry>
@@ -176,12 +176,12 @@ a quick-start guide.</summary>
   </entry>
   <entry>
     <id>https://ablog.readthedocs.org/manual/deploy-to-github-pages.html</id>
-    <title>Deploy to GitHub Pages</title>
+    <title>部署到 GitHub Pages</title>
     <updated>2015-04-07T00:00:00+00:00</updated>
     <author>
       <name>Ahmet Bakan</name>
     </author>
-    <content type="html">Deploy to GitHub Pages #deploy</content>
+    <content type="html">部署到 GitHub Pages #deploy</content>
     <link href="https://ablog.readthedocs.org/manual/deploy-to-github-pages.html" rel="alternate"/>
     <summary>If you are looking for a place to publish your blog, GitHub Pages might be the place for you.</summary>
     <category term="deploy" label="deploy"/>

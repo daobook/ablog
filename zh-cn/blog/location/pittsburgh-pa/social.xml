@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts from Pittsburgh, PA</title>
-  <updated>2021-10-25T03:25:14.497900+00:00</updated>
+  <updated>2021-10-25T09:24:43.682382+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/location/pittsburgh-pa/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
@@ -21,14 +21,14 @@
   </entry>
   <entry>
     <id>https://ablog.readthedocs.org/manual/ablog-configuration-options.html</id>
-    <title>ABlog Configuration Options</title>
+    <title>ABlog 配置选项</title>
     <updated>2021-03-20T00:00:00+00:00</updated>
     <author>
       <name>Ahmet Bakan</name>
     </author>
-    <content type="html">ABlog Configuration Options #config</content>
+    <content type="html">ABlog 配置选项 #config</content>
     <link href="https://ablog.readthedocs.org/manual/ablog-configuration-options.html" rel="alternate"/>
-    <summary>This post describes ABlog configuration options that go in Sphinx build configuration file.</summary>
+    <summary>此帖子描述了 ABlog 的配置选项，这些选项在 Sphinx 构建配置文件 中。</summary>
     <category term="config" label="config"/>
     <published>2014-05-10T00:00:00+00:00</published>
   </entry>

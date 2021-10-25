@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>ABlog Quick Start &#8212; ABlog</title>
+    <title>ABlog 快速入门 &#8212; ABlog</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
@@ -20,7 +20,7 @@
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
     <link rel="next" title="ABlog API" href="api.html" />
-    <link rel="prev" title="ABlog Internationalization" href="ablog-i18n.html" /> 
+    <link rel="prev" title="ABlog 国际化" href="ablog-i18n.html" /> 
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -75,49 +75,40 @@
 
           <div class="body" role="main">
              <section id="ablog-quick-start">
-<span id="quick-start"></span><h1>ABlog Quick Start<a class="headerlink" href="#ablog-quick-start" title="永久链接至标题">¶</a></h1>
-<p>This short walk through of blogging work flow assumes that you have already installed ABlog. If not, see <a class="reference internal" href="../index.html#installation"><span class="std std-ref">安装</span></a> guide.</p>
-<p><em>Note that this post is a working draft. Feel free to revise it on GitHub.</em></p>
+<span id="quick-start"></span><h1>ABlog 快速入门<a class="headerlink" href="#ablog-quick-start" title="永久链接至标题">¶</a></h1>
+<p>这个简短的博客工作流程假设你已经安装了 ABlog。如果没有，请看 <a class="reference internal" href="../index.html#installation"><span class="std std-ref">安装</span></a> 指南。</p>
+<p><em>注意，这个帖子是一个工作草案。欢迎在 GitHub 上进行修改。</em></p>
 <section id="start-a-project">
-<h2>Start a Project<a class="headerlink" href="#start-a-project" title="永久链接至标题">¶</a></h2>
-<p>To start a new project, run <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">start</span></code> command in a directory where you want to keep your project source files.
-This command will ask you a few questions and create the following files:</p>
+<h2>启动项目<a class="headerlink" href="#start-a-project" title="永久链接至标题">¶</a></h2>
+<p>要启动新的项目，在一个你想保存项目源文件的目录下运行： <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">start</span></code> 命令。这个命令会问你几个问题并创建以下文件：</p>
 <blockquote>
 <div><ul class="simple">
-<li><p><code class="file docutils literal notranslate"><span class="pre">conf.py</span></code> that contains project configuration for building HTML pages.</p></li>
-<li><p><code class="file docutils literal notranslate"><span class="pre">first-post.rst</span></code>, a blog post example.</p></li>
-<li><p><code class="file docutils literal notranslate"><span class="pre">index.rst</span></code> that contains content for the <em>landing</em> page of your website.</p></li>
-<li><p><code class="file docutils literal notranslate"><span class="pre">about.rst</span></code>, another non-post page example.</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">conf.py</span></code>，包含用于构建 HTML 页面的项目配置。</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">first-post.rst</span></code>，一个博客帖子的例子。</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">index.rst</span></code>，包含你网站的 <em>登陆</em> 页的内容。</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">about.rst</span></code>，另一个非帖子页面的例子。</p></li>
 </ul>
 </div></blockquote>
 </section>
 <section id="build-and-view">
-<h2>Build and View<a class="headerlink" href="#build-and-view" title="永久链接至标题">¶</a></h2>
-<p>With no further delay, let’s see what your project will look like.
-First run <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">build</span></code>, in your project folder, to have HTML pages built in <code class="file docutils literal notranslate"><span class="pre">_website</span></code> folder.
-Then, call <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">serve</span></code> to view them in your default web browser.
-See <a class="reference internal" href="ablog-commands.html#commands"><span class="std std-ref">ABlog 命令</span></a> for more information about these commands.</p>
-<p>Your landing page is built from <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code> and contains links to your first post and about page.
-Take a look at <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code> for some tips on navigation links within the project.</p>
+<h2>构建与查看<a class="headerlink" href="#build-and-view" title="永久链接至标题">¶</a></h2>
+<p>不再拖延，让我们看看你的项目会是什么样子。首先运行 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">build</span></code>，将在你的项目文件夹中建立 HTML 页面于 <code class="file docutils literal notranslate"><span class="pre">_website</span></code> 文件夹中。然后，调用 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">serve</span></code> 在你的默认网络浏览器中查看它们。关于这些命令的更多信息，请看 <a class="reference internal" href="ablog-commands.html#commands"><span class="std std-ref">ABlog 命令</span></a>。</p>
+<p>你的登陆页是由 <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code> 建立的，包含了你的第一个帖子和关于页面的链接。请看 <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code>，了解一些关于项目内导航链接的小技巧。</p>
 </section>
 <section id="write-content">
-<h2>Write Content<a class="headerlink" href="#write-content" title="永久链接至标题">¶</a></h2>
-<p>If you are new to <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> and reStructuredText markup language, you might find <a class="reference external" href="http://sphinx-doc.org/rest.html">reStructuredText Primer</a> useful.</p>
+<h2>撰写内容<a class="headerlink" href="#write-content" title="永久链接至标题">¶</a></h2>
+<p>如果你是 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> 和 reStructuredText 标记语言的新手，你可能会发现 <a class="reference external" href="http://sphinx-doc.org/rest.html">reStructuredText Primer</a> 很有用。</p>
 <section id="pages">
-<h3>Pages<a class="headerlink" href="#pages" title="永久链接至标题">¶</a></h3>
-<p>Pages in your project are <code class="file docutils literal notranslate"><span class="pre">.rst</span></code> files that are only a <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> directive short of becoming blog posts.
-To make regular pages accessible from the navigation bar, you need to list them in a <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-toctree" title="(在 Sphinx v5.0.0+)"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">toctree</span></code></a>.
-This is shown for <em>about</em> page into <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code>.</p>
+<h3>网页<a class="headerlink" href="#pages" title="永久链接至标题">¶</a></h3>
+<p>你项目中的页面是 <code class="file docutils literal notranslate"><span class="pre">.rst</span></code> 文件，只差一个 <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令就能成为博客文章。为了使普通的页面能够从导航栏中访问，你需要将它们列在一个 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-toctree" title="(在 Sphinx v5.0.0+)"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">toctree</span></code></a> 中。这是为 <em>about</em> 页面显示的，进入 <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code>。</p>
 </section>
 <section id="posts">
-<h3>Posts<a class="headerlink" href="#posts" title="永久链接至标题">¶</a></h3>
-<p>You can convert any page to a post with a <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> directive.
-ABlog will take care of listing posts in specified archives and sidebars.</p>
+<h3>帖子<a class="headerlink" href="#posts" title="永久链接至标题">¶</a></h3>
+<p>你可以用一个 <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令将任何页面转换为一个帖子。ABlog 将负责在指定的档案库和侧边栏中列出帖子。</p>
 </section>
 <section id="blog-posts">
-<h3>Blog posts<a class="headerlink" href="#blog-posts" title="永久链接至标题">¶</a></h3>
-<p>You can start new blog posts with either a front-matter or a directive using ABlog.
-Simply use something based on the following template as the front-matter:</p>
+<h3>博客帖子<a class="headerlink" href="#blog-posts" title="永久链接至标题">¶</a></h3>
+<p>你可以用 ABlog 的 front-matter 或指令来新建博客文章。只需使用基于以下模板的东西作为 front-matter</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">:</span><span class="n">blogpost</span><span class="p">:</span> <span class="n">true</span>
 <span class="p">:</span><span class="n">date</span><span class="p">:</span> <span class="n">January</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2020</span>
 <span class="p">:</span><span class="n">author</span><span class="p">:</span> <span class="n">A</span><span class="o">.</span> <span class="n">Author</span>
@@ -127,7 +118,7 @@ Simply use something based on the following template as the front-matter:</p>
 <span class="p">:</span><span class="n">tags</span><span class="p">:</span> <span class="n">blog</span>
 </pre></div>
 </div>
-<p>Simply use something based on the following template as the directive for ABlog:</p>
+<p>只需使用基于以下模板的东西作为 ABlog 的指令</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">post</span><span class="p">::</span> <span class="n">January</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2020</span>
 
   <span class="p">:</span><span class="n">author</span><span class="p">:</span> <span class="n">A</span><span class="o">.</span> <span class="n">Author</span>
@@ -137,42 +128,37 @@ Simply use something based on the following template as the front-matter:</p>
   <span class="p">:</span><span class="n">tags</span><span class="p">:</span> <span class="n">blog</span>
 </pre></div>
 </div>
-<p>For more information, see <a class="reference internal" href="posting-and-listing.html#posting-directive"><span class="std std-ref">Posting with a Directive</span></a> and <a class="reference internal" href="posting-and-listing.html#posting-front-matter"><span class="std std-ref">Posting with page front-matter</span></a>.</p>
+<p>更多信息，请参阅 <a class="reference internal" href="posting-and-listing.html#posting-directive"><span class="std std-ref">Posting with a Directive</span></a> 和 <a class="reference internal" href="posting-and-listing.html#posting-front-matter"><span class="std std-ref">Posting with page front-matter</span></a>。</p>
 </section>
 </section>
 <section id="comments">
-<h2>Comments<a class="headerlink" href="#comments" title="永久链接至标题">¶</a></h2>
-<p>You can enable comments in your website by creating a <a class="reference external" href="https://disqus.com/">Disqus</a> account and obtaining a unique identifier, i.e. <a class="reference internal" href="ablog-configuration-options.html#confval-disqus_shortname"><code class="xref std std-confval docutils literal notranslate"><span class="pre">disqus_shortname</span></code></a>.
-See <a class="reference internal" href="ablog-configuration-options.html#disqus-integration"><span class="std std-ref">Disqus integration</span></a> for configuration options.</p>
+<h2>评论<a class="headerlink" href="#comments" title="永久链接至标题">¶</a></h2>
+<p>你可以通过创建一个 <a class="reference external" href="https://disqus.com/">Disqus</a> 账户并获得一个唯一的标识符，即 <a class="reference internal" href="ablog-configuration-options.html#confval-disqus_shortname"><code class="xref std std-confval docutils literal notranslate"><span class="pre">disqus_shortname</span></code></a>，在你的网站上启用评论。请参阅 <a class="reference internal" href="ablog-configuration-options.html#disqus-integration"><span class="std std-ref">Disqus integration</span></a> 了解配置选项。</p>
 </section>
 <section id="analytics">
-<h2>Analytics<a class="headerlink" href="#analytics" title="永久链接至标题">¶</a></h2>
-<p>ABlog uses <a class="reference external" href="https://github.com/bitprophet/alabaster">Alabaster</a> theme by default. You can use theme options to set your <a class="reference external" href="https://www.google.com/analytics/">Google Analytics</a> identifier to enable tracking.</p>
+<h2>分析<a class="headerlink" href="#analytics" title="永久链接至标题">¶</a></h2>
+<p>ABlog 默认使用 <a class="reference external" href="https://github.com/bitprophet/alabaster">Alabaster</a> 主题。你可以使用主题选项来设置你的 <a class="reference external" href="https://www.google.com/analytics/">Google Analytics</a> 标识符，以启用跟踪。</p>
 </section>
 <section id="configuration">
-<h2>Configuration<a class="headerlink" href="#configuration" title="永久链接至标题">¶</a></h2>
-<p>There are four major groups of configuration options that can help you customize how your website looks:</p>
+<h2>配置<a class="headerlink" href="#configuration" title="永久链接至标题">¶</a></h2>
+<p>有四组主要的配置选项可以帮助你定制你的网站外观：</p>
 <blockquote>
 <div><ul class="simple">
-<li><p><a class="reference internal" href="ablog-configuration-options.html#config"><span class="std std-ref">ABlog Configuration Options</span></a> - add blog authors, post locations and languages to your blog, adjust archive and feed content, etc.</p></li>
-<li><p><a class="reference external" href="http://sphinx-doc.org/config.html#general-configuration">General configuration</a> and <a class="reference external" href="http://sphinx-doc.org/config.html#project-information">project information</a></p></li>
-<li><p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#html-options" title="(在 Sphinx v5.0.0+)"><span>Options for HTML output</span></a> - configure appearance of your website.</p></li>
-<li><p><a class="reference external" href="https://github.com/bitprophet/alabaster">Alabaster</a> theme options - link to your GitHub account and project, set up tracking, etc.</p></li>
+<li><p><a class="reference internal" href="ablog-configuration-options.html#config"><span class="std std-ref">ABlog 配置选项</span></a> - 为你的博客添加博客作者、文章地点和语言，调整档案和 feed 内容等。</p></li>
+<li><p><a class="reference external" href="http://sphinx-doc.org/config.html#general-configuration">一般配置</a> 和 <a class="reference external" href="http://sphinx-doc.org/config.html#project-information">项目信息</a></p></li>
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#html-options" title="(在 Sphinx v5.0.0+)"><span>Options for HTML output</span></a> - 配置你的网站的外观。</p></li>
+<li><p><a class="reference external" href="https://github.com/bitprophet/alabaster">Alabaster</a> 主题选项 – 链接到你的 GitHub 账户和项目，设置跟踪，等等。</p></li>
 </ul>
 </div></blockquote>
 </section>
 <section id="other-folders">
-<h2>Other Folders<a class="headerlink" href="#other-folders" title="永久链接至标题">¶</a></h2>
-<p>You might have noticed that your project contains three folders that we have not mention yet.
-Here they are:</p>
+<h2>其他文件夹<a class="headerlink" href="#other-folders" title="永久链接至标题">¶</a></h2>
+<p>你可能已经注意到，你的项目包含三个文件夹，我们还没有提到。它们是：</p>
 <blockquote>
 <div><ul class="simple">
-<li><p><code class="file docutils literal notranslate"><span class="pre">_static</span></code> is for keeping image, <code class="file docutils literal notranslate"><span class="pre">.js</span></code>, and <code class="file docutils literal notranslate"><span class="pre">.css</span></code> files.
-<a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_static_path" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">html_static_path</span></code></a> Sphinx option for more information.</p></li>
-<li><p><code class="file docutils literal notranslate"><span class="pre">_templates</span></code> is for custom HTML templates.
-See <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-templates_path" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">templates_path</span></code></a> for more information.</p></li>
-<li><p><code class="file docutils literal notranslate"><span class="pre">.doctree</span></code> folder, created after build command is called, is where <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> stores the state of your project.
-Files in this folder saves time when you rebuild your project.</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">_static</span></code> 是用来保存图片、<code class="file docutils literal notranslate"><span class="pre">.js</span></code> 和 <code class="file docutils literal notranslate"><span class="pre">.css</span></code> 文件的，<a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_static_path" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">html_static_path</span></code></a> Sphinx 选项的更多信息。</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">_templates</span></code> 是用于自定义 HTML 模板。更多信息见 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-templates_path" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">templates_path</span></code></a>。</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">.doctree</span></code> 文件夹，在调用构建命令后创建，是 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> 存储项目状态的地方。这个文件夹里的文件在你重建项目时可以节省时间。</p></li>
 </ul>
 </div></blockquote>
 </section>
@@ -183,16 +169,16 @@ Files in this folder saves time when you rebuild your project.</p></li>
 <div class="section">
   <span style="float: left">
      
-    <a href="../release/ablog-v0.4-released.html">
-      <i class="fa fa-arrow-circle-left"></i> ABlog v0.4 released
+    <a href="ablog-commands.html">
+      <i class="fa fa-arrow-circle-left"></i> ABlog 命令
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
      
-    <a href="ablog-commands.html">
-      ABlog 命令 <i
+    <a href="../release/ablog-v0.5-released.html">
+      ABlog v0.5 released <i
         class="fa fa-arrow-circle-right"
       ></i
       >
@@ -207,7 +193,7 @@ Files in this folder saves time when you rebuild your project.</p></li>
     <script type="text/javascript">
       var disqus_shortname = "ablogforsphinx";
       var disqus_identifier = "/manual/ablog-quick-start/";
-      var disqus_title = "ABlog Quick Start";
+      var disqus_title = "ABlog 快速入门";
       var disqus_url = "https://ablog.readthedocs.org/manual/ablog-quick-start";
 
       (function () {

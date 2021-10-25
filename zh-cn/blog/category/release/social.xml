@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts in Release</title>
-  <updated>2021-10-25T03:25:16.460879+00:00</updated>
+  <updated>2021-10-25T09:24:46.231823+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/category/release/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>

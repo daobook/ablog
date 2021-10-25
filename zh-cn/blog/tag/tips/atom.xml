@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts tagged tips</title>
-  <updated>2021-10-25T03:25:17.829872+00:00</updated>
+  <updated>2021-10-25T09:24:47.913734+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/tag/tips/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
@@ -36,14 +36,14 @@ Posts can be cross-referenced using the name of the file, or when the file is na
   </entry>
   <entry>
     <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
-    <title>ABlog Quick Start</title>
+    <title>ABlog 快速入门</title>
     <updated>2015-03-01T00:00:00+00:00</updated>
     <author>
       <name>Ahmet Bakan</name>
     </author>
-    <content type="html">ABlog Quick Start #config #tips</content>
+    <content type="html">ABlog 快速入门 #config #tips</content>
     <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
-    <summary>This short walk through of blogging work flow assumes that you have already installed ABlog. If not, see installation guide.</summary>
+    <summary>这个简短的博客工作流程假设你已经安装了 ABlog。如果没有，请看 installation 指南。</summary>
     <category term="config" label="config"/>
     <category term="tips" label="tips"/>
     <published>2015-03-01T00:00:00+00:00</published>

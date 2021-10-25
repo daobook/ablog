@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="../_static/ablog.ico"/>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="next" title="ABlog Configuration Options" href="ablog-configuration-options.html" />
+    <link rel="next" title="ABlog 配置选项" href="ablog-configuration-options.html" />
     <link rel="prev" title="generate" href="../api/ablog.start.generate.html" /> 
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -101,17 +101,17 @@ See &#39;ablog &lt;command&gt; -h&#39; for more information on a specific comman
 <div class="contents local topic" id="here-are-all-the-things-you-can-do">
 <p class="topic-title">下面是你能做的所有事情：</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#start-a-new-project" id="id1">启动一个新项目</a></p></li>
+<li><p><a class="reference internal" href="#start-a-new-project" id="id1">启动新项目</a></p></li>
 <li><p><a class="reference internal" href="#build-your-website" id="id2">建立网站</a></p></li>
-<li><p><a class="reference internal" href="#serve-and-view-locally" id="id3">Serve and View Locally</a></p></li>
-<li><p><a class="reference internal" href="#deploy-to-github-pages" id="id4">Deploy to GitHub Pages</a></p></li>
+<li><p><a class="reference internal" href="#serve-and-view-locally" id="id3">在本地服务和查看</a></p></li>
+<li><p><a class="reference internal" href="#deploy-to-github-pages" id="id4">部署到 GitHub Pages</a></p></li>
 <li><p><a class="reference internal" href="#create-a-post" id="id5">Create a Post</a></p></li>
-<li><p><a class="reference internal" href="#clean-build-files" id="id6">Clean Build Files</a></p></li>
+<li><p><a class="reference internal" href="#clean-build-files" id="id6">清理构建文件</a></p></li>
 </ul>
 </div>
 <section id="start-a-new-project">
-<span id="start"></span><h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">启动一个新项目</a><a class="headerlink" href="#start-a-new-project" title="永久链接至标题">¶</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">start</span></code> 命令可以快速建立一个博客项目。请看 <a class="reference internal" href="ablog-quick-start.html#quick-start"><span class="std std-ref">ABlog Quick Start</span></a> 了解它是如何工作的，以及它为你准备了什么</p>
+<span id="start"></span><h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">启动新项目</a><a class="headerlink" href="#start-a-new-project" title="永久链接至标题">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">start</span></code> 命令可以快速建立一个博客项目。请看 <a class="reference internal" href="ablog-quick-start.html#quick-start"><span class="std std-ref">ABlog 快速入门</span></a> 了解它是如何工作的，以及它为你准备了什么</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ablog start -h
 usage: ablog start [-h]
 
@@ -125,7 +125,7 @@ optional arguments:
 </section>
 <section id="build-your-website">
 <span id="build"></span><h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">建立网站</a><a class="headerlink" href="#build-your-website" title="永久链接至标题">¶</a></h2>
-<p>Running <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">build</span></code> in your project folder builds your website HTML pages:</p>
+<p>在你的项目文件夹中运行 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">build</span></code>，可以构建你的网站 HTML 页面：”</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ablog build -h
 usage: ablog build [-h] [-a] [-b BUILDER] [-s SOURCEDIR] [-w WEBSITE]
                    [-d DOCTREES] [-T] [-P]
@@ -150,8 +150,8 @@ optional arguments:
 </div>
 </section>
 <section id="serve-and-view-locally">
-<h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">Serve and View Locally</a><a class="headerlink" href="#serve-and-view-locally" title="永久链接至标题">¶</a></h2>
-<p>Running <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">serve</span></code>, after building your website, will start a Python server and open up browser tab to view your website:</p>
+<h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">在本地服务和查看</a><a class="headerlink" href="#serve-and-view-locally" title="永久链接至标题">¶</a></h2>
+<p>在建立你的网站后，运行 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">serve</span></code>，将启动一个 Python 服务器，并打开浏览器标签查看你的网站</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ablog serve -h
 usage: ablog serve [-h] [-w WEBSITE] [-p PORT] [-n] [-r] [--patterns]
 
@@ -170,8 +170,8 @@ optional arguments:
 </div>
 </section>
 <section id="deploy-to-github-pages">
-<span id="deploy"></span><h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">Deploy to GitHub Pages</a><a class="headerlink" href="#deploy-to-github-pages" title="永久链接至标题">¶</a></h2>
-<p>Running <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">deploy</span></code> will push your website to GitHub:</p>
+<span id="deploy"></span><h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">部署到 GitHub Pages</a><a class="headerlink" href="#deploy-to-github-pages" title="永久链接至标题">¶</a></h2>
+<p>运行 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">deploy</span></code> 会将你的网站推送到 GitHub</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ablog deploy -h
 usage: ablog deploy [-h] [-w WEBSITE] [-p REPODIR] [-g GITHUB_PAGES]
                     [-m MESSAGE] [-f] [--push-quietly]
@@ -198,7 +198,7 @@ optional arguments:
 </section>
 <section id="create-a-post">
 <h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">Create a Post</a><a class="headerlink" href="#create-a-post" title="永久链接至标题">¶</a></h2>
-<p>Finally, <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">post</span></code> will make a new post template file:</p>
+<p>最后，<code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">post</span></code> 将制作一个新的帖子模板文件</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ablog post -h
 usage: ablog post [-h] [-t TITLE] filename
 
@@ -212,8 +212,8 @@ optional arguments:
 </div>
 </section>
 <section id="clean-build-files">
-<h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">Clean Build Files</a><a class="headerlink" href="#clean-build-files" title="永久链接至标题">¶</a></h2>
-<p>In case you needed, running <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">clean</span></code> will remove build files and do a deep clean with <code class="docutils literal notranslate"><span class="pre">-D</span></code> option:</p>
+<h2><a class="toc-backref" href="#here-are-all-the-things-you-can-do">清理构建文件</a><a class="headerlink" href="#clean-build-files" title="永久链接至标题">¶</a></h2>
+<p>如果有需要，则运行 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">clean</span></code> 将删除构建文件并使用 <code class="docutils literal notranslate"><span class="pre">-D</span></code> 选项进行深度清理</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ablog clean -h
 usage: ablog clean [-h] [-d DOCTREES] [-w WEBSITE] [-D]
 
@@ -231,7 +231,7 @@ optional arguments:
 </div>
 <div class="note update admonition">
 <p class="admonition-title">Updated on 07 April 2015</p>
-<p>Added <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">clean</span></code> and <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">deploy</span></code> commands.</p>
+<p>增加了 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">clean</span></code> 和 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">deploy</span></code> 命令。</p>
 </div>
 </section>
 </section>
@@ -241,16 +241,16 @@ optional arguments:
 <div class="section">
   <span style="float: left">
      
-    <a href="ablog-quick-start.html">
-      <i class="fa fa-arrow-circle-left"></i> ABlog Quick Start
+    <a href="../release/ablog-v0.4-released.html">
+      <i class="fa fa-arrow-circle-left"></i> ABlog v0.4 released
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
      
-    <a href="../release/ablog-v0.5-released.html">
-      ABlog v0.5 released <i
+    <a href="ablog-quick-start.html">
+      ABlog 快速入门 <i
         class="fa fa-arrow-circle-right"
       ></i
       >
