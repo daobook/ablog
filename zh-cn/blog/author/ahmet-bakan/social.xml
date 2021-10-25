@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posts by Ahmet Bakan</title>
+  <updated>2021-10-25T02:22:06.998032+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/author/ahmet-bakan/social.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/posting-and-listing.html</id>
+    <title>Posting and Listing</title>
+    <updated>2021-05-25T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Posting and Listing #directive</content>
+    <link href="https://ablog.readthedocs.org/manual/posting-and-listing.html" rel="alternate"/>
+    <summary>This post describes post, update, and postlist directives.</summary>
+    <category term="directive" label="directive"/>
+    <published>2014-05-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-configuration-options.html</id>
+    <title>ABlog Configuration Options</title>
+    <updated>2021-03-20T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Configuration Options #config</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-configuration-options.html" rel="alternate"/>
+    <summary>This post describes ABlog configuration options that go in Sphinx build configuration file.</summary>
+    <category term="config" label="config"/>
+    <published>2014-05-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/cross-referencing-blog-pages.html</id>
+    <title>Cross-referencing Blog Pages</title>
+    <updated>2014-05-11T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Cross-referencing Blog Pages #tips #Sphinx</content>
+    <link href="https://ablog.readthedocs.org/manual/cross-referencing-blog-pages.html" rel="alternate"/>
+    <summary>ABlog creates references to all post and archive pages.
+Posts can be cross-referenced using the name of the file, or when the file is named index, the name of the folder that contains the file.</summary>
+    <category term="tips" label="tips"/>
+    <category term="Sphinx" label="Sphinx"/>
+    <published>2014-05-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/post-excerpts-and-images.html</id>
+    <title>Post Excerpts and Images</title>
+    <updated>2014-05-12T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Post Excerpts and Images #directive</content>
+    <link href="https://ablog.readthedocs.org/manual/post-excerpts-and-images.html" rel="alternate"/>
+    <summary>This post describes how to choose an excerpt and an image image for a post to be displayed in archive pages.</summary>
+    <category term="directive" label="directive"/>
+    <published>2014-05-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.1-released.html</id>
+    <title>ABlog v0.1 发布</title>
+    <updated>2014-05-14T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.1 发布 #tips</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.1-released.html" rel="alternate"/>
+    <summary>ABlog v0.1 发布。</summary>
+    <category term="tips" label="tips"/>
+    <published>2014-05-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/posting-and-listing.html#posting-sections</id>
+    <title>Posting Sections</title>
+    <updated>2014-08-20T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Posting Sections #directive</content>
+    <link href="https://ablog.readthedocs.org/manual/posting-and-listing.html#posting-sections" rel="alternate"/>
+    <summary>post directive can be used multiple times in a single page to create multiple posts of different sections of the document.</summary>
+    <category term="directive" label="directive"/>
+    <published>2014-08-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-i18n.html</id>
+    <title>ABlog Internationalization</title>
+    <updated>2014-08-30T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Internationalization #i18n</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-i18n.html" rel="alternate"/>
+    <summary>ABlog automatically generates certain labels like blog-posts and blog-categories.
+If these labels appear in English on your blog although you specified another language, then this page is for you.</summary>
+    <category term="i18n" label="i18n"/>
+    <published>2014-08-30T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.2-released.html</id>
+    <title>ABlog v0.2 released</title>
+    <updated>2014-08-31T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.2-released.html" rel="alternate"/>
+    <summary>ABlog v0.2 is released. This version comes with several new features:</summary>
+    <published>2014-08-31T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.2-released.html#ablog-v0-2-1-released</id>
+    <title>ABlog v0.2.1 released</title>
+    <updated>2014-09-01T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.2.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.2-released.html#ablog-v0-2-1-released" rel="alternate"/>
+    <summary>ABlog v0.2.1 is a bug fix release that solves duplicated content
+problem in full text atom feeds.</summary>
+    <published>2014-09-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.2-released.html#ablog-v0-2-2-released</id>
+    <title>ABlog v0.2.2 released</title>
+    <updated>2014-09-03T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.2.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.2-released.html#ablog-v0-2-2-released" rel="alternate"/>
+    <summary>ABlog v0.2.2 is a bug fix release that solves broken links problem
+in post lists (issue 12).</summary>
+    <published>2014-09-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.2-released.html#ablog-v0-2-3-released</id>
+    <title>ABlog v0.2.3 released</title>
+    <updated>2014-09-10T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.2.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.2-released.html#ablog-v0-2-3-released" rel="alternate"/>
+    <summary>ABlog v0.2.3 is a bug fix release that solves broken links (issue 13)
+and non-unique post IDs problems atom feeds.</summary>
+    <published>2014-09-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.3-released.html</id>
+    <title>ABlog v0.3 released</title>
+    <updated>2014-09-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.3-released.html" rel="alternate"/>
+    <summary>ABlog v0.3 is released. This version comes with the following core
+improvements:</summary>
+    <published>2014-09-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.3-released.html#ablog-v0-3-1-released</id>
+    <title>ABlog v0.3.1 released</title>
+    <updated>2014-09-24T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.3.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.3-released.html#ablog-v0-3-1-released" rel="alternate"/>
+    <summary>ABlog v0.3.1 is a minor release to fix two issues in templates:</summary>
+    <published>2014-09-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.4-released.html</id>
+    <title>ABlog v0.4 released</title>
+    <updated>2014-12-20T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.4 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.4-released.html" rel="alternate"/>
+    <summary>ABlog v0.4 is released. This version comes with the following improvements
+and bug fixes:</summary>
+    <published>2014-12-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
+    <title>ABlog Quick Start</title>
+    <updated>2015-03-01T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog Quick Start #config #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
+    <summary>This short walk through of blogging work flow assumes that you have already installed ABlog. If not, see installation guide.</summary>
+    <category term="config" label="config"/>
+    <category term="tips" label="tips"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-commands.html</id>
+    <title>ABlog 命令</title>
+    <updated>2015-04-07T00:00:00+00:00</updated>
+    <author>
+      <name>Mehmet Gerçeker</name>
+    </author>
+    <content type="html">ABlog 命令 #config #commands</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-commands.html" rel="alternate"/>
+    <summary>ablog 命令是为了简化博客操作，即建立、提供和查看博客页面，以及启动一个新的博客</summary>
+    <category term="config" label="config"/>
+    <category term="commands" label="commands"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.5-released.html</id>
+    <title>ABlog v0.5 released</title>
+    <updated>2015-03-25T00:00:00+00:00</updated>
+    <author>
+      <name>Mehmet Gerçeker</name>
+    </author>
+    <content type="html">ABlog v0.5 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.5-released.html" rel="alternate"/>
+    <summary>ABlog v0.5 is released. This version comes with ablog-commands and
+a quick-start guide.</summary>
+    <published>2015-03-25T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.5-released.html#ablog-v0-5-1-released</id>
+    <title>ABlog v0.5.1 released</title>
+    <updated>2015-03-28T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.5.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.5-released.html#ablog-v0-5-1-released" rel="alternate"/>
+    <summary>Added :excerpts: option to postlist directive.</summary>
+    <published>2015-03-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/deploy-to-github-pages.html</id>
+    <title>Deploy to GitHub Pages</title>
+    <updated>2015-04-07T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Deploy to GitHub Pages #deploy</content>
+    <link href="https://ablog.readthedocs.org/manual/deploy-to-github-pages.html" rel="alternate"/>
+    <summary>If you are looking for a place to publish your blog, GitHub Pages might be the place for you.</summary>
+    <category term="deploy" label="deploy"/>
+    <published>2015-04-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.6-released.html</id>
+    <title>ABlog v0.6 released</title>
+    <updated>2015-04-08T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.6 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.6-released.html" rel="alternate"/>
+    <summary>ABlog v0.6 is released with new ablog-commands. You can use
+ablog deploy to deploy-to-github-pages, and also ablog clean
+to do spring cleaning every once in a while.</summary>
+    <published>2015-04-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-1-released</id>
+    <title>ABlog v0.6.1 released</title>
+    <updated>2015-04-09T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.6.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-1-released" rel="alternate"/>
+    <summary>ABlog v0.6.1 is released with improvements to ablog deploy command.
+It will add .nojekyll file when needed to deployments to GitHub pages.</summary>
+    <published>2015-04-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-2-released</id>
+    <title>ABlog v0.6.2 released</title>
+    <updated>2015-04-14T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.6.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-2-released" rel="alternate"/>
+    <summary>ABlog v0.6.2 is released to fix an issue with loading of Disqus comments
+(issue 33) and interpreting non-ascii characters (issue 34).</summary>
+    <published>2015-04-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-3-released</id>
+    <title>ABlog v0.6.3 released</title>
+    <updated>2015-04-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.6.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-3-released" rel="alternate"/>
+    <summary>ABlog v0.6.3 comes with Russian localisation and following enhancements:</summary>
+    <published>2015-04-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-4-released</id>
+    <title>ABlog v0.6.4 released</title>
+    <updated>2015-04-19T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.6.4 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-4-released" rel="alternate"/>
+    <summary>ABlog v0.6.4 comes with improved ablog serve command that helps you
+watch-yourself-blogging.</summary>
+    <published>2015-04-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/watch-yourself-blogging.html</id>
+    <title>Watch Yourself Blogging</title>
+    <updated>2015-04-19T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Watch Yourself Blogging #commands #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/watch-yourself-blogging.html" rel="alternate"/>
+    <summary>Wouldn’t you like your blog being rebuilt and served to you automatically as you are blogging on a sunny Sunday afternoon?
+It’s now possible with the improved ablog serve command.</summary>
+    <category term="commands" label="commands"/>
+    <category term="tips" label="tips"/>
+    <published>2015-04-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-5-released</id>
+    <title>ABlog v0.6.5 released</title>
+    <updated>2015-04-27T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.6.5 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.6-released.html#ablog-v0-6-5-released" rel="alternate"/>
+    <summary>ABlog v0.6.5 is a bug fix release to resolve issue 38, an exception raised
+when using postlist without specifying number of posts.</summary>
+    <published>2015-04-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html</id>
+    <title>ABlog v0.7 released</title>
+    <updated>2015-05-03T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html" rel="alternate"/>
+    <summary>ABlog v0.7.0 is released to fix the long standing issue 1 related to
+pickling of Sphinx build environment on Read The Docs. Improvements
+also resolved issues with using LaTeX builder, improved cross-referencing
+for non-html builders.</summary>
+    <published>2015-05-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-1-released</id>
+    <title>ABlog v0.7.1 released</title>
+    <updated>2015-06-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-1-released" rel="alternate"/>
+    <summary>ABlog v0.7.1 is released to fix Python 3 import issues in ablog serve
+command.</summary>
+    <published>2015-06-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-2-released</id>
+    <title>ABlog v0.7.2 released</title>
+    <updated>2015-06-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-2-released" rel="alternate"/>
+    <summary>ABlog v0.7.2 is released to prevent potential issues with Disqus thread URLs
+by requiring disqus_shortname and blog_baseurl
+to be specified together for Disqus integration.</summary>
+    <published>2015-06-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html</id>
+    <title>Automate GitHub Pages Deploys</title>
+    <updated>2015-06-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">Automate GitHub Pages Deploys #deploy #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html" rel="alternate"/>
+    <summary>If being away from your personal computer is holding you back from blogging, keep reading.
+This post will show you how to automate builds and deploys using Travis CI.
+Once you set this up, all you need to do post an article will be pushing to GitHub or creating a new file on GitHub.com from any computer!</summary>
+    <category term="deploy" label="deploy"/>
+    <category term="tips" label="tips"/>
+    <published>2015-06-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-3-released</id>
+    <title>ABlog v0.7.3 released</title>
+    <updated>2015-07-04T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-3-released" rel="alternate"/>
+    <summary>ABlog v0.7.3 makes use of python-dateutil for parsing post dates, so now you
+can be flexible with the format you use in posts. Thanks to Andy Maloney
+for this improvement.</summary>
+    <published>2015-07-04T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-5-released</id>
+    <title>ABlog v0.7.5 released</title>
+    <updated>2015-07-05T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.5 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-5-released" rel="alternate"/>
+    <summary>ABlog v0.7.5 is released to fix Windows specific path resolving issue with
+archive pages. Thanks to Peter Mills for reporting this issue.</summary>
+    <published>2015-07-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-6-released</id>
+    <title>ABlog v0.7.6 released</title>
+    <updated>2015-07-13T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.6 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-6-released" rel="alternate"/>
+    <summary>ABlog v0.7.6 is released to fix path resolving issue that arose when
+:excerpts: is used in postlist directive. Once again, thanks
+to Peter Mills for reporting this issue. Other minor changes are:</summary>
+    <published>2015-07-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-7-released</id>
+    <title>ABlog v0.7.7 released</title>
+    <updated>2015-07-24T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.7 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-7-released" rel="alternate"/>
+    <summary>ABlog v0.7.7 is released to fix path resolving issue 41 that arose when
+cross-references were used in post excerpts, and also post redirect
+issue in templates.</summary>
+    <published>2015-07-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-8-released</id>
+    <title>ABlog v0.7.8 released</title>
+    <updated>2015-08-22T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.8 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-8-released" rel="alternate"/>
+    <summary>ABlog v0.7.8 is released to fix a Python 2 issue that appears when creating
+collection pages that contain non-ascii characters in their names (issue 45)
+and filename escaping issue when committing changes using
+ablog deploy command (pull request 44).
+Thanks to uralbash for these contributions.</summary>
+    <published>2015-08-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-9-released</id>
+    <title>ABlog v0.7.9 released</title>
+    <updated>2015-08-25T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.9 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-9-released" rel="alternate"/>
+    <summary>ABlog v0.7.9 is released to fix Windows specific file renaming issue in
+ablog deploy command (issue 46). Thanks to Velimir
+for the fix.</summary>
+    <published>2015-08-25T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-10-released</id>
+    <title>ABlog v0.7.10 released</title>
+    <updated>2015-09-14T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.10 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-10-released" rel="alternate"/>
+    <summary>ABlog v0.7.10 is released to resolve Sphinx JSON/Pickle builder issues
+related to serialization.</summary>
+    <published>2015-09-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-12-released</id>
+    <title>ABlog v0.7.12 released</title>
+    <updated>2015-09-15T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.7.12 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.7-released.html#ablog-v0-7-12-released" rel="alternate"/>
+    <summary>ABlog v0.7.12 (and also v0.7.11) maintenance release are available.</summary>
+    <published>2015-09-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.8-released.html</id>
+    <title>ABlog v0.8 released</title>
+    <updated>2015-10-12T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.8 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.8-released.html" rel="alternate"/>
+    <summary>ABlog v0.8.0 is released with additions and changes:</summary>
+    <published>2015-10-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.8-released.html#ablog-v0-8-1-released</id>
+    <title>ABlog v0.8.1 released</title>
+    <updated>2015-10-24T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.8.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.8-released.html#ablog-v0-8-1-released" rel="alternate"/>
+    <summary>ABlog v0.8.1 is released to fix atom feed linking in HTML header (issue 54).</summary>
+    <published>2015-10-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.8-released.html#ablog-v0-8-2-released</id>
+    <title>ABlog v0.8.2 released</title>
+    <updated>2016-01-06T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.8.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.8-released.html#ablog-v0-8-2-released" rel="alternate"/>
+    <summary>ABlog v0.8.2 is released to fix date parsing (issue 58) and Python 2.6
+installation (issue 59) issues.</summary>
+    <published>2016-01-06T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.8-released.html#ablog-v0-8-3-released</id>
+    <title>ABlog v0.8.3 released</title>
+    <updated>2016-04-23T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog v0.8.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.8-released.html#ablog-v0-8-3-released" rel="alternate"/>
+    <summary>ABlog v0.8.3 is released to bring you recent enhancements:</summary>
+    <published>2016-04-23T00:00:00+00:00</published>
+  </entry>
+</feed>
