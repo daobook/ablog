@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, ABlog Team
+# This file is distributed under the same license as the ABlog package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ABlog 0.10.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-25 19:20+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:9
+#: ../html/manual/notebook_support.ipynb:9
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:9
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:9
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:9
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:9
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:9
+#: ../html/zh-cn/manual/notebook_support.ipynb:9
+msgid "Jupyter Notebook Posting"
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:30
+#: ../html/manual/notebook_support.ipynb:30
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:30
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:30
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:30
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:30
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:30
+#: ../html/zh-cn/manual/notebook_support.ipynb:30
+msgid ""
+"To add support for Notebooks to your Ablog instance, you need to "
+"configure your ``docs/conf.py`` (or whereever your ``conf.py`` is "
+"located."
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:32
+#: ../html/manual/notebook_support.ipynb:32
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:32
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:32
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:32
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:32
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:32
+#: ../html/zh-cn/manual/notebook_support.ipynb:32
+msgid "You will need to add"
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:39
+#: ../html/manual/notebook_support.ipynb:39
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:39
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:39
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:39
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:39
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:39
+#: ../html/zh-cn/manual/notebook_support.ipynb:39
+msgid ""
+"You will need to install `nbsphinx <https://nbsphinx.readthedocs.io/>`__ "
+"either from ``Anaconda`` or ``pip``. You might need to install `ipython "
+"<https://ipython.org/>`__ to make sure the notebook can be run."
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:50
+#: ../html/manual/notebook_support.ipynb:50
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:50
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:50
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:50
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:50
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:50
+#: ../html/zh-cn/manual/notebook_support.ipynb:50
+msgid ""
+"Within the notebook you need to make sure the cells are in this order: "
+"Titlte cell, post cell. So for this notebook, it looks like this: "
+"|posting|"
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:52
+#: ../html/manual/notebook_support.ipynb:52
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:52
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:52
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:52
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:52
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:52
+#: ../html/zh-cn/manual/notebook_support.ipynb:52
+msgid "posting"
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:63
+#: ../html/manual/notebook_support.ipynb:63
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:63
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:63
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:63
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:63
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:63
+#: ../html/zh-cn/manual/notebook_support.ipynb:63
+msgid "So the information is similar to how you create a normal RST post."
+msgstr ""
+
+#: ../doctrees/nbsphinx/manual/notebook_support.ipynb:74
+#: ../html/manual/notebook_support.ipynb:74
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:74
+#: ../html/zh-cn/.doctrees/nbsphinx/_build/html/manual/notebook_support.ipynb:74
+#: ../html/zh-cn/.doctrees/nbsphinx/manual/notebook_support.ipynb:74
+#: ../html/zh-cn/_build/doctrees/nbsphinx/manual/notebook_support.ipynb:74
+#: ../html/zh-cn/_build/html/manual/notebook_support.ipynb:74
+#: ../html/zh-cn/manual/notebook_support.ipynb:74
+msgid ""
+"Another working example is SunPy’s website which runs `Ablog "
+"<https://sunpy.org/blog.html>`__. The Pull Request that added support can"
+" be found `here <https://github.com/sunpy/sunpy.org/pull/131>`__ and how "
+"to link them to a `Binder <https://mybinder.org/>`__ instance `here "
+"<https://github.com/sunpy/sunpy.org/pull/134>`__."
+msgstr ""
+

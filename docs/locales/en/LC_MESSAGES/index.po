@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, ABlog Team
+# This file is distributed under the same license as the ABlog package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ABlog 0.10.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-25 19:20+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../index.rst:2
+msgid "ABlog for Sphinx"
+msgstr ""
+
+#: ../../index.rst:4
+msgid ""
+"ABlog is a Sphinx extension that converts any documentation or personal "
+"website project into a full-fledged blog with:"
+msgstr ""
+
+#: ../../index.rst:6
+msgid "`Atom feeds`__"
+msgstr ""
+
+#: ../../index.rst:7
+msgid "`Archive pages`__"
+msgstr ""
+
+#: ../../index.rst:8
+msgid "`Blog sidebars`__"
+msgstr ""
+
+#: ../../index.rst:9
+msgid "`Disqus integration`__"
+msgstr ""
+
+#: ../../index.rst:10
+msgid "`Font-Awesome integration`__"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "`Easy GitHub Pages deploys`__"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "`Markdown support`__"
+msgstr ""
+
+#: ../../index.rst:25
+msgid "Installation"
+msgstr ""
+
+#: ../../index.rst:27
+msgid "You can install ABlog using `pip <https://pip.pypa.io/en/stable/>`__::"
+msgstr ""
+
+#: ../../index.rst:31
+msgid "or `miniconda <https://docs.conda.io/en/latest/miniconda.html>`__::"
+msgstr ""
+
+#: ../../index.rst:37
+msgid ""
+"This will also install `Sphinx <http://sphinx-doc.org/>`__, `feedgen "
+"<https://github.com/lkiesow/python-feedgen>`__, and `Invoke "
+"<https://www.pyinvoke.org/>`__ respectively required for building your "
+"website, making it look good, generating feeds, and running deploy "
+"commands."
+msgstr ""
+
+#: ../../index.rst:40
+msgid "Getting Started"
+msgstr ""
+
+#: ../../index.rst:42
+msgid ""
+"If you are starting a new project, see the :ref:`quick-start` guide. If "
+"you already have a project, enable blogging by making following changes "
+"in ``conf.py``:"
+msgstr ""
+
+#: ../../index.rst:55
+msgid "How it works"
+msgstr ""
+
+#: ../../index.rst:57
+msgid ""
+"If you are new to Sphinx_ and reStructuredText markup language, you might"
+" find `reStructuredText Primer`_ useful. Once you have content (in "
+"``.rst`` files), you can post *any page* using the :rst:dir:`post` "
+"directive as follows:"
+msgstr ""
+
+#: ../../index.rst:71
+msgid "An alterative method is:"
+msgstr ""
+
+#: ../../index.rst:82
+msgid "at the top of the file."
+msgstr ""
+
+#: ../../index.rst:84
+msgid ""
+"ABlog will index all files posted as above and list them in archives and "
+"feeds specified in ``:tag:``, ``:category:``, etc. options."
+msgstr ""
+
+#: ../../index.rst:86
+msgid "You can also include a list of posts using :rst:dir:`postlist` directive:"
+msgstr ""
+
+#: ../../index.rst:96
+msgid ""
+"For ABlog documentation, this converts to the following where you can "
+"find more about configuring and using ABlog:"
+msgstr ""
+
