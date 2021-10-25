@@ -23,6 +23,9 @@ jobs:
           pip install -r docs/requirements.txt
           conda install -c conda-forge pandoc
           conda install -c conda-forge ipython
+          sudo apt update
+          sudo apt install -y graphviz
+          
       # pandoc
       # - uses: docker://pandoc/core:2.9
 

@@ -4,3 +4,4 @@ ablog
 sphinx-automodapi
 nbsphinx
 myst-parser
+graphviz
