@@ -1,0 +1,979 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, ABlog Team
+# This file is distributed under the same license as the ABlog package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ABlog 0.10.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-24 17:14+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../release/ablog-v0.1-released.rst:9
+msgid "ABlog v0.1 released"
+msgstr "ABlog v0.1 发布"
+
+#: ../../release/ablog-v0.1-released.rst:11
+msgid "ABlog v0.1 is released."
+msgstr "ABlog v0.1 发布。"
+
+#: ../../release/ablog-v0.1-released.rst:13
+msgid ""
+"This is the very first release, so there are no release notes in this "
+"post."
+msgstr ""
+"这是第一个版本，所以这篇文章中没有发布说明。"
+
+#: ../../release/ablog-v0.1-released.rst:15
+msgid ""
+"Yes, this page is also a post and it resides in a folder different from "
+"most other posts in this blogumentation."
+msgstr ""
+"是的，此页面也是一篇文章，它所在的文件夹与此博客中的大多数其他文章不同。"
+
+#: ../../release/ablog-v0.1-released.rst:18
+msgid ""
+"The idea is to enable making any page in a Sphinx_ project a post so that"
+" users of a software package can subscribe to feeds and follow new "
+"releases as well as code examples added to the documentation."
+msgstr ""
+"我们的想法是使 Sphinx_ 项目中的任何页面都能成为一个帖子，"
+"这样软件包的用户就可以订阅 feeds，关注新的发布，以及添加到文档中的代码示例。"
+
+#: ../../release/ablog-v0.10-released.rst:2
+msgid "ABlog v0.10 released"
+msgstr "ABlog v0.10 发布"
+
+#: ../../release/ablog-v0.10-released.rst:9
+msgid ""
+"ABlog v0.10 is released with the main focus being to support the latest "
+"version of Sphinx as well as Python 3 only support."
+msgstr ""
+"ABlog v0.10 发布，主要是为了支持最新版本的 Sphinx 以及只支持 Python 3。"
+
+#: ../../release/ablog-v0.10-released.rst:11
+msgid ""
+"Ablog V0.9.X will no longer be supported as Python 2 comes to an end in a"
+" few months and it is time people upgraded."
+msgstr ""
+"Ablog V0.9.X 将不再被支持，因为 Python 2 在几个月内就会结束，现在是人们升级的时候了。"
+
+#: ../../release/ablog-v0.10-released.rst:13
+#: ../../release/ablog-v0.10-released.rst:30
+#: ../../release/ablog-v0.10-released.rst:41
+#: ../../release/ablog-v0.10-released.rst:52
+#: ../../release/ablog-v0.10-released.rst:65
+#: ../../release/ablog-v0.10-released.rst:80
+#: ../../release/ablog-v0.10-released.rst:91
+#: ../../release/ablog-v0.10-released.rst:102
+#: ../../release/ablog-v0.10-released.rst:126
+#: ../../release/ablog-v0.10-released.rst:137
+#: ../../release/ablog-v0.10-released.rst:152
+#: ../../release/ablog-v0.10-released.rst:164
+#: ../../release/ablog-v0.10-released.rst:175
+#: ../../release/ablog-v0.10-released.rst:189
+#: ../../release/ablog-v0.10-released.rst:212
+#: ../../release/ablog-v0.10-released.rst:223
+#: ../../release/ablog-v0.10-released.rst:234
+#: ../../release/ablog-v0.10-released.rst:246
+#: ../../release/ablog-v0.10-released.rst:258
+msgid "Pull Requests merged in:"
+msgstr "拉取请求被合并："
+
+#: ../../release/ablog-v0.10-released.rst:15
+msgid ""
+"`Overhaul of package underneath for python3 only "
+"<https://github.com/sunpy/ablog/pull/41>`__ from `nabobalis "
+"<https://github.com/nabobalis>`__."
+msgstr ""
+"`只针对 Python3 的软件包下的检修 "
+"<https://github.com/sunpy/ablog/pull/41>`__ 来自 "
+"`nabobalis <https://github.com/nabobalis>`__。"
+
+#: ../../release/ablog-v0.10-released.rst:17
+msgid ""
+"`Add validation for conf.py entries "
+"<https://github.com/sunpy/ablog/pull/38>`__ from `rayalan "
+"<https://github.com/rayalan>`__."
+msgstr ""
+"`为 conf.py 条目增加验证功能 "
+"<https://github.com/sunpy/ablog/pull/38>`__ 来自 "
+"`rayalan <https://github.com/rayalan>`__。"
+
+#: ../../release/ablog-v0.10-released.rst:19
+msgid ""
+"`Deploy improve <https://github.com/sunpy/ablog/pull/42>`__ from `rayalan"
+" <https://github.com/rayalan>`__."
+msgstr ""
+"`部署改善 <https://github.com/sunpy/ablog/pull/42>`__ "
+"从 `rayalan <https://github.com/rayalan>`__。"
+
+#: ../../release/ablog-v0.10-released.rst:21
+msgid ""
+"`Get ablog ready for 0.10 <https://github.com/sunpy/ablog/pull/46>`__ "
+"from `nabobalis <https://github.com/nabobalis>`__."
+msgstr ""
+"`让 ablog 为 0.10 做好准备 <https://github.com/sunpy/ablog/pull/46>`__"
+"来自 `nabobalis <https://github.com/nabobalis>`__。"
+
+#: ../../release/ablog-v0.10-released.rst:24
+msgid "ABlog v0.10.1 released"
+msgstr "ABlog v0.10.1 发布"
+
+#: ../../release/ablog-v0.10-released.rst:32
+msgid ""
+"`Change StopIteration to return "
+"<https://github.com/sunpy/ablog/pull/48>`__ from `remyabel "
+"<https://github.com/remyabel>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:35
+msgid "ABlog v0.10.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:43
+msgid ""
+"`Fix unclosed span tag <https://github.com/sunpy/ablog/pull/41>`__ from "
+"`ykrods <https://github.com/ykrods>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:46
+msgid "ABlog v0.10.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:54
+msgid ""
+"`Pin werkzeug to < 1 <https://github.com/sunpy/ablog/pull/53>`__ from "
+"`dstansby <https://github.com/dstansby>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:56
+msgid ""
+"`MNT: Fix Giles URL <https://github.com/sunpy/ablog/pull/50>`__ from "
+"`pllim <https://github.com/pllim>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:59
+msgid "ABlog v0.10.4 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:67
+msgid ""
+"`Add zh_CN locale <https://github.com/sunpy/ablog/pull/61>`__ from "
+"`daimon99 <https://github.com/daimon99>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:69
+msgid ""
+"`Add intersphinx to the extension list "
+"<https://github.com/sunpy/ablog/pull/60>`__ from `plaindocs "
+"<https://github.com/plaindocs>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:71
+msgid ""
+"`Fix \"test5\" <https://github.com/sunpy/ablog/pull/58>`__ and `Use "
+"\"dirhtml\" builder on Read The Docs "
+"<https://github.com/sunpy/ablog/pull/57>`__ from `blueyed "
+"<https://github.com/blueyed>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:74
+msgid "ABlog v0.10.5 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:82
+msgid ""
+"`Add custom GitHub URL support "
+"<https://github.com/sunpy/ablog/pull/63>`__ from `tg-m "
+"<https://github.com/tg-m>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:85
+msgid "ABlog v0.10.6 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:93
+msgid ""
+"`Add french locale <https://github.com/sunpy/ablog/pull/65>`__ from "
+"`kujiu <https://github.com/kujiu>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:96
+msgid "ABlog v0.10.7 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:104
+msgid ""
+"`Automatically add templates path to documentation "
+"<https://github.com/sunpy/ablog/pull/63>`__ from `choldgraf "
+"<https://github.com/choldgraf>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:107
+msgid "ABlog v0.10.8 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:113
+msgid "Removed the hard dependencies on alabaster and sphinx-automodapi."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:115
+msgid ""
+"Replaced `werkzeug <https://pypi.org/project/Werkzeug/>`__ with `feedgen "
+"<https://pypi.org/project/feedgen/>`__ due to the former removing ATOM "
+"support."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:117
+msgid "Version pin of nbsphinx has been removed."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:120
+msgid "ABlog v0.10.9 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:128
+msgid ""
+"`frontmatter and blog post matching "
+"<https://github.com/sunpy/ablog/pull/63>`__ from `choldgraf "
+"<https://github.com/choldgraf>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:131
+msgid "ABlog v0.10.10 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:139
+msgid "`Various Issues <https://github.com/sunpy/ablog/pull/77>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:141
+msgid ""
+"`Fix missing reference caused by ref with title "
+"<https://github.com/sunpy/ablog/pull/73>`__ from `ykrods "
+"<https://github.com/ykrods>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:143
+msgid ""
+"`Add instructions for starting new blog posts with front-matter "
+"<https://github.com/sunpy/ablog/pull/71>`__ from `kakirastern "
+"<https://github.com/kakirastern>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:146
+msgid "ABlog v0.10.11 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:154
+msgid ""
+"`improving glob matching and documenting it "
+"<https://github.com/sunpy/ablog/pull/79>`__ from `choldgraf "
+"<https://github.com/choldgraf>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:158
+msgid "ABlog v0.10.12 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:166
+msgid ""
+"`id of feed is now blog.blog_baseurl "
+"<https://github.com/sunpy/ablog/pull/83>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:169
+msgid "ABlog v0.10.13 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:177
+msgid ""
+"`updated CI and py39 tests <https://github.com/sunpy/ablog/pull/86>`__. "
+"`Add test #87 <https://github.com/sunpy/ablog/pull/87>`__. `Some minor "
+"fixes <https://github.com/sunpy/ablog/pull/88>`__. `Ensure "
+"blog_post_pattern are relative to srcdir "
+"<https://github.com/sunpy/ablog/pull/89>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:183
+msgid "ABlog v0.10.14 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:191
+msgid ""
+"`feat(feeds): Add missing Atom entry metadata "
+"<https://github.com/sunpy/ablog/pull/92>`__. `feat(feeds): Add entry "
+"element template support <https://github.com/sunpy/ablog/pull/93>`__. "
+"`misc update <https://github.com/sunpy/ablog/pull/94>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:197
+msgid "ABlog v0.10.15 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:203
+msgid ""
+"Fixed `Index Out of Range with Atom Feeds "
+"<https://github.com/sunpy/ablog/issues/96>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:206
+msgid "ABlog v0.10.16 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:214
+msgid ""
+"`fix(feeds): Feed validation, templates regression "
+"<https://github.com/sunpy/ablog/pull/97>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:217
+msgid "ABlog v0.10.17 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:225
+msgid "`Correct draft URL <https://github.com/sunpy/ablog/pull/98>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:228
+msgid "ABlog v0.10.18 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:236
+msgid ""
+"`Correct posts URL <https://github.com/sunpy/ablog/pull/99>`__. `Add isso"
+" integration <https://github.com/sunpy/ablog/pull/100>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:240
+msgid "ABlog v0.10.19 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:248
+msgid "`Add expand option <https://github.com/sunpy/ablog/pull/104>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:252
+msgid "ABlog v0.10.20 released"
+msgstr ""
+
+#: ../../release/ablog-v0.10-released.rst:260
+msgid ""
+"`fix documentation typo in blog-drafts "
+"<https://github.com/sunpy/ablog/pull/105>`__. `Fix typo in \"extennsion\""
+" <https://github.com/sunpy/ablog/pull/109>`__. `Catalan translation "
+"<https://github.com/sunpy/ablog/pull/113>`__. `Fix ablog post "
+"<https://github.com/sunpy/ablog/pull/114>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:2
+msgid "ABlog v0.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:9
+msgid "ABlog v0.2 is released. This version comes with several new features:"
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:11
+msgid ""
+"You can post a document multiple times, see :ref:`posting-sections` for "
+"details."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:14
+msgid "You can make note of updates in a post using :rst:dir:`update` directive."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:17
+msgid ""
+"Blog feeds for authors, locations, categories, tags, and years can be "
+"enabled using :confval:`blog_feed_archives` configuration variable."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:21
+msgid ""
+"Blog Feeds can be made full text using :confval:`blog_feed_fulltext` "
+"configuration variable."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:24
+msgid "Recent posts side bar includes month and day of the posts."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:27
+msgid "ABlog v0.2.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:34
+msgid ""
+"ABlog v0.2.1 is a bug fix release that solves duplicated content problem "
+"in full text atom feeds."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:38
+msgid "ABlog v0.2.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:45
+msgid ""
+"ABlog v0.2.2 is a bug fix release that solves broken links problem in "
+"post lists (:issue:`12`)."
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:49
+msgid "ABlog v0.2.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.2-released.rst:56
+msgid ""
+"ABlog v0.2.3 is a bug fix release that solves broken links (:issue:`13`) "
+"and non-unique post IDs problems atom feeds."
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:2
+msgid "ABlog v0.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:9
+msgid ""
+"ABlog v0.3 is released. This version comes with the following core "
+"improvements:"
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:12
+msgid ""
+"You can now specify language of a post with ``:language:`` option, and an"
+" archive page will be created for each language. See "
+":confval:`blog_languages` and :confval:`blog_default_language` if you are"
+" posting in multiple languages."
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:17
+msgid ""
+"You can list language archives on your website by adding "
+"``languages.html`` to :confval:`html_sidebars` configuration option."
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:20
+msgid ":rst:dir:`postlist` directive takes options to filter posts."
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:23
+msgid "ABlog v0.3.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:30
+msgid "ABlog v0.3.1 is a minor release to fix two issues in templates:"
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:32
+msgid ""
+"Links to collection (archive) feeds is displayed only on collection page "
+"(e.g. `:ref:`category-manual``), not on a catalog page that lists posts "
+"for multiple collections (e.g. `:ref:`blog-categories``)."
+msgstr ""
+
+#: ../../release/ablog-v0.3-released.rst:36
+msgid ""
+"Links to collection feeds is displayed only when they are generated (see "
+":confval:`blog_feed_archives`). Previously, links would be generated to "
+"feeds that did not exist."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:2
+msgid "ABlog v0.4 released"
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:9
+msgid ""
+"ABlog v0.4 is released. This version comes with the following "
+"improvements and bug fixes:"
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:12
+msgid ""
+"Added :confval:`blog_feed_titles`, :confval:`blog_feed_length`, and "
+":confval:`blog_archive_titles` configuration options (see :issue:`24`)."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:15
+msgid ""
+"Set the default for :confval:`blog_feed_archives` to ``False``, which was"
+" set to ``True`` although documented to be otherwise."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:18
+msgid ""
+"Fixed issues with :confval:`post_auto_excerpt` and "
+":confval:`post_auto_image` configuration options."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:21
+msgid ""
+"Fixed :issue:`2`, relative size of tags being the minimum size when all "
+"tags have the same number of posts. Now, mean size is used, and max/min "
+"size can be controlled from template."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:25
+msgid "Fixed :issue:`19`. Yearly archives are ordered by recency."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:27
+msgid "Fixed duplicated post title in feeds, :issue:`21`."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:29
+msgid ""
+"Fixed :issue:`22`, :rst:dir:`postlist` directive listing more than "
+"specified number of posts."
+msgstr ""
+
+#: ../../release/ablog-v0.4-released.rst:32
+msgid ""
+":rst:dir:`postlist` directive accepts arguments to format list items "
+"(:issue:`20`)."
+msgstr ""
+
+#: ../../release/ablog-v0.5-released.rst:2
+msgid "ABlog v0.5 released"
+msgstr ""
+
+#: ../../release/ablog-v0.5-released.rst:9
+msgid ""
+"ABlog v0.5 is released. This version comes with :ref:`ablog-commands` and"
+" a :ref:`quick-start` guide."
+msgstr ""
+
+#: ../../release/ablog-v0.5-released.rst:13
+msgid "ABlog v0.5.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.5-released.rst:20
+msgid "Added ``:excerpts:`` option to :rst:dir:`postlist` directive."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:2
+msgid "ABlog v0.6 released"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:9
+msgid ""
+"ABlog v0.6 is released with new :ref:`ablog-commands`. You can use "
+"``ablog deploy`` to :ref:`deploy-to-github-pages`, and also ``ablog "
+"clean`` to do spring cleaning every once in a while."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:14
+msgid "ABlog v0.6.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:21
+msgid ""
+"ABlog v0.6.1 is released with improvements to ``ablog deploy`` command. "
+"It will add ``.nojekyll`` file when needed to deployments to GitHub "
+"pages."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:25
+msgid "ABlog v0.6.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:32
+msgid ""
+"ABlog v0.6.2 is released to fix an issue with loading of Disqus comments "
+"(:issue:`33`) and interpreting non-ascii characters (:issue:`34`)."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:36
+msgid "ABlog v0.6.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:43
+msgid "ABlog v0.6.3 comes with Russian localisation and following enhancements:"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:45
+msgid ""
+"Added ``:list-style:`` option to :rst:dir:`postlist` to enable "
+"controlling bullet list style."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:48
+msgid ""
+"``ablog post`` command de-slugifies filename to make the title when it's "
+"not given."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:52
+msgid "ABlog v0.6.4 released"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:59
+msgid ""
+"ABlog v0.6.4 comes with improved ``ablog serve`` command that helps you "
+":ref:`watch-yourself-blogging`."
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:63
+msgid "ABlog v0.6.5 released"
+msgstr ""
+
+#: ../../release/ablog-v0.6-released.rst:70
+msgid ""
+"ABlog v0.6.5 is a bug fix release to resolve :issue:`38`, an exception "
+"raised when using :rst:dir:`postlist` without specifying number of posts."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:2
+msgid "ABlog v0.7 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:9
+msgid ""
+"ABlog v0.7.0 is released to fix the long standing :issue:`1` related to "
+"pickling of Sphinx build environment on Read The Docs. Improvements also "
+"resolved issues with using LaTeX builder, improved cross-referencing for "
+"non-html builders."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:15
+msgid "ABlog v0.7.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:22
+msgid ""
+"ABlog v0.7.1 is released to fix Python 3 import issues in :command:`ablog"
+" serve` command."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:26
+msgid "ABlog v0.7.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:33
+msgid ""
+"ABlog v0.7.2 is released to prevent potential issues with Disqus thread "
+"URLs by requiring :confval:`disqus_shortname` and :confval:`blog_baseurl`"
+" to be specified together for Disqus integration."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:38
+msgid "ABlog v0.7.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:45
+msgid ""
+"ABlog v0.7.3 makes use of `python-dateutil`_ for parsing post dates, so "
+"now you can be flexible with the format you use in posts. Thanks to `Andy"
+" Maloney`_ for this improvement."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:53
+msgid "ABlog v0.7.5 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:60
+msgid ""
+"ABlog v0.7.5 is released to fix Windows specific path resolving issue "
+"with archive pages. Thanks to Peter Mills for reporting this issue."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:64
+msgid "ABlog v0.7.6 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:71
+msgid ""
+"ABlog v0.7.6 is released to fix path resolving issue that arose when "
+"``:excerpts:`` is used in :rst:dir:`postlist` directive. Once again, "
+"thanks to Peter Mills for reporting this issue. Other minor changes are:"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:75
+msgid ""
+"``-P`` argument is added to :ref:`ablog build <build>` command to enable "
+"running pdb on exceptions."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:78
+msgid ""
+"``conf.py`` file created by :ref:`ablog start <start>` updated to include"
+" ``about.html`` sidebar that comes with Alabaster_ theme."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:82
+msgid "ABlog v0.7.7 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:89
+msgid ""
+"ABlog v0.7.7 is released to fix path resolving :issue:`41` that arose "
+"when cross-references were used in post excerpts, and also post redirect "
+"issue in templates."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:94
+msgid "ABlog v0.7.8 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:101
+msgid ""
+"ABlog v0.7.8 is released to fix a Python 2 issue that appears when "
+"creating collection pages that contain non-ascii characters in their "
+"names (:issue:`45`) and filename escaping issue when committing changes "
+"using :ref:`ablog deploy <deploy>` command (:pull:`44`). Thanks to "
+"`uralbash`_ for these contributions."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:110
+msgid "ABlog v0.7.9 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:117
+msgid ""
+"ABlog v0.7.9 is released to fix Windows specific file renaming issue in "
+":ref:`ablog deploy <deploy>` command (:issue:`46`). Thanks to `Velimir`_ "
+"for the fix."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:124
+msgid "ABlog v0.7.10 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:131
+msgid ""
+"ABlog v0.7.10 is released to resolve Sphinx JSON/Pickle builder issues "
+"related to serialization."
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:135
+msgid "ABlog v0.7.12 released"
+msgstr ""
+
+#: ../../release/ablog-v0.7-released.rst:142
+msgid "ABlog v0.7.12 (and also v0.7.11) maintenance release are available."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:2
+msgid "ABlog v0.8 released"
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:9
+msgid "ABlog v0.8.0 is released with additions and changes:"
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:11
+msgid ""
+"Added ``-a`` argument to :ref:`ablog build <build>` command, with which "
+"you can force rewriting all pages when rebuilding your project. Default "
+"is writing only pages that have changed."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:15
+msgid ""
+"Added ``-f`` argument to :ref:`ablog deploy <deploy>` command, with which"
+" you can amend to latest commit to keep GitHub pages repository small. "
+"Thanks to `uralbash`_ for this contribution."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:19
+msgid ""
+"Added ``-p`` argument to :ref:`ablog deploy <deploy>` command, with which"
+" you can specify the path to your GitHub pages repository, i.e. "
+"``username.github.io``."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:23
+msgid ""
+"Changed :confval:`fontawesome_link_cdn` to be a string argument to enable"
+" linking to desired version of `Font Awesome`_. Thanks to `Albert "
+"Mietus`_ for this contribution."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:27
+msgid ""
+"Post lists font style is now controlled through CSS. Thanks to `Albert "
+"Mietus`_ for this contribution as well."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:30
+msgid ""
+"Fixed internal link resolution issue that affected atom feeds of "
+"collections, i.e. feeds of posts under a category, tag, or author."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:38
+msgid "ABlog v0.8.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:45
+msgid ""
+"ABlog v0.8.1 is released to fix atom feed linking in HTML header "
+"(:issue:`54`)."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:48
+msgid "ABlog v0.8.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:55
+msgid ""
+"ABlog v0.8.2 is released to fix date parsing (:issue:`58`) and Python 2.6"
+" installation (:issue:`59`) issues."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:59
+msgid "ABlog v0.8.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:66
+msgid "ABlog v0.8.3 is released to bring you recent enhancements:"
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:68
+msgid ""
+"`ninmesara`_ added ``:nocomments:`` argument to :rst:dir:`post` directive"
+" to disable comments per post."
+msgstr ""
+
+#: ../../release/ablog-v0.8-released.rst:70
+msgid "`José Carlos García`_ added Spanish translations."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:2
+msgid "ABlog v0.9 released"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:9
+msgid ""
+"ABlog v0.9.0 is released with the main focus being to support the latest "
+"version of Sphinx. This also moves the main development from `Abakan`_ to"
+" `SunPy`_."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:12
+msgid ""
+"This has merged in all current (at time of writing, 6) open PRs to the "
+"original repository."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:14
+msgid "These are:"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:16
+msgid ""
+"`fix(commands): Update command arguments so patterns works correctly "
+"<https://github.com/abakan/ablog/pull/96>`__ from `rayalan "
+"<https://github.com/rayalan>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:18
+msgid ""
+"`Fix couple of bugs with latest stable Sphinx "
+"<https://github.com/abakan/ablog/pull/93>`__ from `tadeboro "
+"<https://github.com/tadeboro>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:20
+msgid ""
+"`don't use fancy quotes in the conf.py template "
+"<https://github.com/abakan/ablog/pull/87>`__ from `tiwo "
+"<https://github.com/tiwo>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:22
+msgid ""
+"`Pass through additional Sphinx options and fix a typo "
+"<https://github.com/abakan/ablog/pull/84>`__ from `ahrbel "
+"<https://github.com/ahrbe1>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:24
+msgid ""
+"`fix #78 (ImportError: cannot import name make_admonition in Sphinx 1.6) "
+"<https://github.com/abakan/ablog/pull/79>`_ from `lsaffre "
+"<https://github.com/lsaffre>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:26
+msgid ""
+"`Raise exception when title is missing "
+"<https://github.com/abakan/ablog/pull/76>`__ from `rgrinberg "
+"<https://github.com/rgrinberg>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:32
+msgid "ABlog v0.9.1 released"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:39
+msgid "Minor update to remove Ablog{}.format(python_number) exes"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:42
+msgid "ABlog v0.9.2 released"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:49
+msgid "Fixed Windows String issue."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:52
+msgid "ABlog v0.9.3 released"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:59
+msgid "Added example on how to use writing blog posts in Jupyter notebooks."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:61
+msgid ""
+"`show </span> when if fa <https://github.com/sunpy/ablog/pull/22>`__, "
+"`Add create file encoding <https://github.com/sunpy/ablog/pull/23>`__ and"
+" `fix serve command path <https://github.com/sunpy/ablog/pull/31>`__ from"
+" `anzawatta <https://github.com/anzawatta>`__."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:63
+msgid "Sorry I was late to release these!"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:66
+msgid "ABlog v0.9.4 released"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:73
+msgid "Fixes for gettext break and some pathing issues."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:76
+msgid "ABlog v0.9.5 released"
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:83
+msgid ""
+"v0.9.5 is the that supports Python 2 and Sphinx <2. v0.10.0 on main now, "
+"will not."
+msgstr ""
+
+#: ../../release/ablog-v0.9-released.rst:86
+msgid ""
+"`Define an auto-orphan option "
+"<https://github.com/sunpy/ablog/pull/39>`__, `Repair update directive "
+"<https://github.com/sunpy/ablog/pull/37>`__ and `Fix sidebar and "
+"blog_baseurl misconfig during quick start "
+"<https://github.com/sunpy/ablog/pull/36>`__ from `rayalan "
+"<https://github.com/rayalan>`__."
+msgstr ""
+

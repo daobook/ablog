@@ -1,0 +1,1766 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, ABlog Team
+# This file is distributed under the same license as the ABlog package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ABlog 0.10.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-24 17:14+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../manual/ablog-commands.rst:4
+msgid "ABlog Commands"
+msgstr "ABlog 命令"
+
+#: ../../manual/ablog-commands.rst:13
+msgid ""
+"``ablog`` commands are for streamlining blog operations, i.e. building, "
+"serving, and viewing blog pages, as well as starting a new blog::"
+msgstr ""
+"``ablog`` 命令是为了简化博客操作，即建立、提供和查看博客页面，以及启动一个新的博客 ::"
+
+#: ../../manual/ablog-commands.rst:37
+msgid "Here are all the things you can do:"
+msgstr "下面是你能做的所有事情："
+
+#: ../../manual/ablog-commands.rst:42
+msgid "Start a New Project"
+msgstr "启动一个新项目"
+
+#: ../../manual/ablog-commands.rst:44
+msgid ""
+"``ablog start`` command is for quickly setting up a blog project. See "
+":ref:`quick-start` for how it works and what it prepares for you::"
+msgstr ""
+"``ablog start`` 命令可以快速建立一个博客项目。请看 "
+":ref:`quick-start` 了解它是如何工作的，以及它为你准备了什么 ::"
+
+#: ../../manual/ablog-commands.rst:59
+msgid "Build your Website"
+msgstr "建立网站"
+
+#: ../../manual/ablog-commands.rst:61
+msgid ""
+"Running ``ablog build`` in your project folder builds your website HTML "
+"pages::"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:85
+msgid "Serve and View Locally"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:87
+msgid ""
+"Running ``ablog serve``, after building your website, will start a Python"
+" server and open up browser tab to view your website::"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:107
+#: ../../manual/deploy-to-github-pages.rst:3
+msgid "Deploy to GitHub Pages"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:109
+msgid "Running ``ablog deploy`` will push your website to GitHub::"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:134
+msgid "Create a Post"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:136
+msgid "Finally, ``ablog post`` will make a new post template file::"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:149
+msgid "Clean Build Files"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:151
+msgid ""
+"In case you needed, running ``ablog clean`` will remove build files and "
+"do a deep clean with ``-D`` option::"
+msgstr ""
+
+#: ../../manual/ablog-commands.rst:169
+msgid "Added ``ablog clean`` and ``ablog deploy`` commands."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:4
+msgid "ABlog Configuration Options"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:13
+msgid ""
+"This post describes ABlog configuration options that go in :ref:`Sphinx "
+"build configuration file <sphinx:build-config>`."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:16
+msgid "General options"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:20
+msgid ""
+"A path relative to the configuration directory for blog archive pages. "
+"Default is ``'blog'``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:25
+msgid "The “title” for the blog, used in acthive pages.  Default is ``'Blog'``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:29
+msgid "Base URL for the website, required for generating feeds."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:33
+msgid ""
+"Choose to archive only post titles in collection pages, default is "
+"``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:36
+msgid "Authors, languages, & locations"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:40
+msgid ""
+"A dictionary of author names mapping to author full display names and "
+"links. Dictionary keys are what should be used in ``post`` directive to "
+"refer to the author. Default is ``{}``. Example::"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:53
+msgid ""
+"A dictionary of language code names mapping to full display names and "
+"links of these languages. Similar to :confval:`blog_authors`, dictionary "
+"keys should be used in ``post`` directive to refer to the locations. "
+"Default is ``{}``. Example::"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:64
+msgid ""
+"A dictionary of location names mapping to full display names and links of"
+" these locations. Similar to :confval:`blog_authors`, dictionary keys "
+"should be used in ``post`` directive to refer to the locations. Default "
+"is ``{}``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:70
+msgid ""
+"Name of the default author defined in :confval:`blog_authors`. Default is"
+" ``None``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:75
+msgid ""
+"Code name of the default language defined in :confval:`blog_languages`. "
+"Default is ``None``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:80
+msgid ""
+"Name of the default location defined in :confval:`blog_locations`. "
+"Default is ``None``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:85
+msgid ""
+"Added :confval:`blog_languages` and :confval:`blog_default_language` "
+"configuration variables."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:88
+msgid "Post related"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:92
+#, python-format
+msgid ""
+"Date display format (default is ``'%b %d, %Y'``) for published posts that"
+" goes as input to :meth:`datetime.date.strftime`."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:96
+msgid ""
+"Number of paragraphs (default is ``1``) that will be displayed as an "
+"excerpt from the post. Setting this ``0`` will result in displaying no "
+"post excerpt in archive pages. This option can be set on a per post basis"
+" using :rst:dir:`post` directive option ``excerpt``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:100
+msgid "See :ref:`post-excerpts-and-images` for a more detailed discussion."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:104
+msgid ""
+"Index of the image that will be displayed in the excerpt of the post. "
+"Default is ``0``, meaning no image. Setting this to ``1`` will include "
+"the first image, when available, to the excerpt. This option can be set "
+"on a per post basis using :rst:dir:`post` directive option ``image``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:111
+msgid ""
+"Number of seconds (default is ``5``) that a redirect page waits before "
+"refreshing the page to redirect to the post."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:115
+msgid ""
+"When ``True``, post title and excerpt is always taken from the section "
+"that contains the :rst:dir:`post` directive, instead of the document. "
+"This is the behavior when :rst:dir:`post` is used multiple times in a "
+"document. Default is ``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:120
+msgid "Blog feeds"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:122
+msgid "Turn feeds on by setting :confval:`blog_baseurl` configuration variable."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:126
+msgid ""
+"Choose to create feeds per author, location, tag, category, and year, "
+"default is ``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:130
+msgid "Choose to display full text in blog feeds, default is ``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:134
+msgid "Blog feed subtitle, default is ``None``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:138
+msgid "Choose to feed only post titles, default is ``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:142
+msgid ""
+"A dictionary of feed filename roots mapping to nested dictionaries of "
+"feed entry elements, ``title``, ``summary``, and/or ``content``, and a "
+"`Jinja2`_ template which will be used to render the value used for that "
+"element in that feed.  Templates are rendered with the the following "
+"context: - ``feed_length`` - ``feed_fulltext`` - ``feed_posts`` - "
+"``pagename`` - ``feed_title`` - ``feed_url`` - ``feed`` - ``post`` - "
+"``post_url`` - ``content`` - ``feed_entry`` - ``title`` - ``summary`` - "
+"``blog`` - ``url`` - ``app`` Default is: ``{\"atom\": {}}`` Example to "
+"add an additional feed for posting to social media::"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:179
+msgid ""
+"Specify number of recent posts to include in feeds, default is ``None`` "
+"for all posts."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:183
+msgid ""
+"Added :confval:`blog_feed_archives`, :confval:`blog_feed_fulltext`, "
+":confval:`blog_feed_subtitle`, and :confval:`post_always_section` "
+"options."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:187
+msgid ""
+"Added :confval:`blog_feed_titles`, :confval:`blog_feed_length`, and "
+":confval:`blog_archive_titles` options."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:191
+msgid "Added :confval:`blog_feed_templates` option."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:197
+msgid "Font awesome"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:199
+msgid ""
+"ABlog templates will use of `Font Awesome`_ icons if one of the following"
+" is set:"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:205
+msgid ""
+"URL to `Font Awesome`_ :file:`.css` hosted at `Bootstrap CDN`_ or "
+"anywhere else. Default: ``None``"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:212
+msgid ""
+":confval:`fontawesome_link_cdn` was a *boolean* option, and now became a "
+"*string* to enable using desired version of `Font Awesome`_. To get the "
+"old behavior, use ``‘https://netdna.bootstrapcdn.com/font-"
+"awesome/4.0.3/css/font-awesome.min.css'``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:217
+msgid "Sphinx_ theme already links to `Font Awesome`_. Default: ``False``"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:220
+msgid ""
+"Alternatively, you can provide the path to `Font Awesome`_ :file:`.css` "
+"with the following configuration option:"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:224
+msgid ""
+"Path to `Font Awesome`_ :file:`.css` (default is ``None``) that will be "
+"linked to in HTML output by ABlog."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:229
+msgid "Disqus integration"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:231
+msgid ""
+"Of course one cannot think of a blog that doesn't allow for visitors to "
+"comment. You can enable Disqus_ by setting :confval:`disqus_shortname` "
+"and :confval:`blog_baseurl` variables. The reason for requiring "
+":confval:`blog_baseurl` to be specified as of v0.7.2 is to ensure that "
+"Disqus associates correct URLs with threads when you serve new posts "
+"locally for the first time."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:237
+msgid "Disqus_ short name for the website."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:241
+msgid "Choose to disqus pages that are not posts, default is ``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:245
+msgid ""
+"Choose to disqus posts that are drafts (without a published date), "
+"default is ``False``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:248
+msgid "Isso integration"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:250
+msgid ""
+"An alternative to Disqus, is `Isso <https://posativ.org/isso/>`__. "
+"Integration is provided by `sphinxnotes-isso`_ and the instructions "
+"there."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:258
+msgid "Blog sidebars"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:260
+msgid ""
+"Finally, there are seven sidebars you can include in your HTML output "
+"using Sphinx_ :confval:`html_sidebars` configuration option. Sidebars "
+"that you see on the left are listed below in the same order:"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:273
+msgid ""
+":file:`postcard.html` provides information regarding the current post. "
+":file:`recentposts.html` lists most recent five posts. Others provide a "
+"link to a archive pages generated for each tag, category, and year. In "
+"addition, there are ``authors.html``, ``languages.html``, and "
+"``locations.html`` sidebars that link to author and location archive "
+"pages."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:279
+msgid "Command Options"
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:283
+msgid "Added :ref:`commands` options."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:287
+msgid "Directory name for build output files. Default is ``_website``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:291
+msgid "Directory name for build cache files. Default is ``.doctrees``."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:295
+msgid ""
+"HTML builder, default is ``dirhtml``. Build HTML pages, but with a single"
+" directory per document. Makes for prettier URLs (no .html) if served "
+"from a webserver. Alternative is ``html`` to build one HTML file per "
+"document."
+msgstr ""
+
+#: ../../manual/ablog-configuration-options.rst:300
+msgid ""
+"GitHub user name used by ``ablog deploy`` command. See :ref:`deploy` and "
+":ref:`deploy-to-github-pages` for more information."
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:2
+msgid "ABlog Internationalization"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:9
+msgid ""
+"ABlog automatically generates certain labels like :ref:`blog-posts` and "
+":ref:`blog-categories`. If these labels appear in English on your blog "
+"although you specified another language, then this page is for you."
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:12
+msgid ""
+"ABlog needs your help for translation of these labels. Translation "
+"process involves the following steps:"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:16
+msgid "Update translatable messages:"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:18
+msgid ""
+"Execute extract_messages_ each time a translatable message text is "
+"changed or added::"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:23
+msgid ""
+"This will create or update :file:`ablog/locale/sphinx.pot` file, the "
+"central messages catalog used by the different translations."
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:27
+msgid "Create new translation catalog:"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:29
+msgid "Execute init_catalog_ once for each *new* language, e.g.::"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:33
+msgid ""
+"This will create a file :file:`ablog/locale/de/LC_MESSAGES/sphinx.po` in "
+"which translations needs to be placed."
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:35
+msgid "Update translation catalog:"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:37
+msgid "Execute update_catalog_ for each *existing* language, e.g.::"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:41
+msgid ""
+"This will update file :file:`ablog/locale/de/LC_MESSAGES/sphinx.po` where"
+" translations of new text needs to be placed."
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:43
+msgid "Compile catalogs:"
+msgstr ""
+
+#: ../../manual/ablog-i18n.rst:45
+msgid "Execute compile_catalog_ for each existing language, e.g::"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:5
+msgid "ABlog Quick Start"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:13
+msgid ""
+"This short walk through of blogging work flow assumes that you have "
+"already installed ABlog. If not, see :ref:`installation` guide."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:15
+msgid ""
+"*Note that this post is a working draft. Feel free to revise it on "
+"GitHub.*"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:18
+msgid "Start a Project"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:20
+msgid ""
+"To start a new project, run ``ablog start`` command in a directory where "
+"you want to keep your project source files. This command will ask you a "
+"few questions and create the following files:"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:23
+msgid ""
+":file:`conf.py` that contains project configuration for building HTML "
+"pages."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:25
+msgid ":file:`first-post.rst`, a blog post example."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:27
+msgid ""
+":file:`index.rst` that contains content for the *landing* page of your "
+"website."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:29
+msgid ":file:`about.rst`, another non-post page example."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:33
+msgid "Build and View"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:35
+msgid ""
+"With no further delay, let's see what your project will look like. First "
+"run ``ablog build``, in your project folder, to have HTML pages built in "
+":file:`_website` folder. Then, call ``ablog serve`` to view them in your "
+"default web browser. See :ref:`commands` for more information about these"
+" commands."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:40
+msgid ""
+"Your landing page is built from :file:`index.rst` and contains links to "
+"your first post and about page. Take a look at :file:`index.rst` for some"
+" tips on navigation links within the project."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:44
+msgid "Write Content"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:46
+msgid ""
+"If you are new to Sphinx_ and reStructuredText markup language, you might"
+" find `reStructuredText Primer`_ useful."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:51
+msgid "Pages"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:53
+msgid ""
+"Pages in your project are :file:`.rst` files that are only a "
+":rst:dir:`post` directive short of becoming blog posts. To make regular "
+"pages accessible from the navigation bar, you need to list them in a "
+":rst:dir:`toctree`. This is shown for *about* page into "
+":file:`index.rst`."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:58
+#: ../../manual/cross-referencing-blog-pages.rst:28
+msgid "Posts"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:60
+msgid ""
+"You can convert any page to a post with a :rst:dir:`post` directive. "
+"ABlog will take care of listing posts in specified archives and sidebars."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:64
+msgid "Blog posts"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:66
+msgid ""
+"You can start new blog posts with either a front-matter or a directive "
+"using ABlog. Simply use something based on the following template as the "
+"front-matter::"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:77
+msgid ""
+"Simply use something based on the following template as the directive for"
+" ABlog::"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:87
+msgid ""
+"For more information, see :ref:`posting-directive` and :ref:`posting-"
+"front-matter`."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:90
+msgid "Comments"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:92
+msgid ""
+"You can enable comments in your website by creating a Disqus_ account and"
+" obtaining a unique identifier, i.e. :confval:`disqus_shortname`. See "
+":ref:`disqus-integration` for configuration options."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:96
+msgid "Analytics"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:98
+msgid ""
+"ABlog uses Alabaster_ theme by default. You can use theme options to set "
+"your `Google Analytics`_ identifier to enable tracking."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:103
+msgid "Configuration"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:105
+msgid ""
+"There are four major groups of configuration options that can help you "
+"customize how your website looks:"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:107
+msgid ""
+":ref:`config` - add blog authors, post locations and languages to your "
+"blog, adjust archive and feed content, etc."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:109
+msgid ""
+"`General configuration <http://sphinx-doc.org/config.html#general-"
+"configuration>`__ and `project information <http://sphinx-"
+"doc.org/config.html#project-information>`__"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:111
+msgid ":ref:`html-options` - configure appearance of your website."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:113
+msgid ""
+"Alabaster_ theme options - link to your GitHub account and project, set "
+"up tracking, etc."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:116
+msgid "Other Folders"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:118
+msgid ""
+"You might have noticed that your project contains three folders that we "
+"have not mention yet. Here they are:"
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:121
+msgid ""
+":file:`_static` is for keeping image, :file:`.js`, and :file:`.css` "
+"files. :confval:`html_static_path` Sphinx option for more information."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:124
+msgid ""
+":file:`_templates` is for custom HTML templates. See "
+":confval:`templates_path` for more information."
+msgstr ""
+
+#: ../../manual/ablog-quick-start.rst:127
+msgid ""
+":file:`.doctree` folder, created after build command is called, is where "
+"Sphinx_ stores the state of your project. Files in this folder saves time"
+" when you rebuild your project."
+msgstr ""
+
+#: ../../manual/api.rst:4
+msgid "ABlog API"
+msgstr ""
+
+#: ../../manual/api.rst:14
+msgid "ablog Package"
+msgstr ""
+
+#: ../../manual/api.rst:19 ../../manual/api.rst:52 ../../manual/api.rst:65
+#: ../../manual/api.rst:92
+msgid "Functions"
+msgstr ""
+
+#: ../../manual/api.rst:25:<autosummary>:1
+msgid ":obj:`setup <ablog.setup>`\\ \\(app\\)"
+msgstr ""
+
+#: ../../manual/api.rst:25:<autosummary>:1
+msgid "Setup ABlog extension."
+msgstr ""
+
+#: ../../manual/api.rst:27
+msgid "ablog.blog Module"
+msgstr ""
+
+#: ../../manual/api.rst:32 ../../manual/api.rst:72
+msgid "Classes"
+msgstr ""
+
+#: ../../manual/api.rst:37:<autosummary>:1
+msgid ":obj:`Blog <ablog.blog.Blog>`\\ \\(app\\)"
+msgstr ""
+
+#: ../../manual/api.rst:37:<autosummary>:1
+msgid "Handle blog operations."
+msgstr ""
+
+#: ../../manual/api.rst:37:<autosummary>:1
+msgid ":obj:`Post <ablog.blog.Post>`\\ \\(blog\\, docname\\, info\\)"
+msgstr ""
+
+#: ../../manual/api.rst:37:<autosummary>:1
+msgid "Handle post metadata."
+msgstr ""
+
+#: ../../manual/api.rst:37:<autosummary>:1
+msgid ""
+":obj:`Collection <ablog.blog.Collection>`\\ \\(catalog\\, label\\[\\, "
+"name\\, href\\, ...\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:37:<autosummary>:1
+msgid "Posts sharing a label, i.e. tag, category, author, or location."
+msgstr ""
+
+#: ../../manual/api.rst:39 ../../manual/api.rst:79
+msgid "Class Inheritance Diagram"
+msgstr ""
+
+#: ../../manual/api.rst:47
+msgid "ablog.commands Module"
+msgstr ""
+
+#: ../../manual/api.rst:58:<autosummary>:1
+msgid ""
+":obj:`ablog_build <ablog.commands.ablog_build>`\\ \\(\\[builder\\, "
+"sourcedir\\, website\\, ...\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:58:<autosummary>:1
+msgid ""
+":obj:`ablog_clean <ablog.commands.ablog_clean>`\\ \\(\\[website\\, "
+"doctrees\\, deep\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:58:<autosummary>:1
+msgid ""
+":obj:`ablog_serve <ablog.commands.ablog_serve>`\\ \\(\\[website\\, "
+"port\\, view\\, rebuild\\, ...\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:58:<autosummary>:1
+msgid ""
+":obj:`ablog_deploy <ablog.commands.ablog_deploy>`\\ \\(website\\[\\, "
+"message\\, ...\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:58:<autosummary>:1
+msgid ":obj:`ablog_main <ablog.commands.ablog_main>`\\ \\(\\)"
+msgstr ""
+
+#: ../../manual/api.rst:58:<autosummary>:1
+msgid "Ablog Main."
+msgstr ""
+
+#: ../../manual/api.rst:60
+msgid "ablog.post Module"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ":obj:`purge_posts <ablog.post.purge_posts>`\\ \\(app\\, env\\, docname\\)"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ""
+"Remove post and reference to it from the standard domain when its "
+"document is removed or changed."
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ":obj:`process_posts <ablog.post.process_posts>`\\ \\(app\\, doctree\\)"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ""
+"Process posts and map posted document names to post details in the "
+"environment."
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ""
+":obj:`process_postlist <ablog.post.process_postlist>`\\ \\(app\\, "
+"doctree\\, docname\\)"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid "Replace `PostList` nodes with lists of posts."
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ""
+":obj:`generate_archive_pages <ablog.post.generate_archive_pages>`\\ "
+"\\(app\\)"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ""
+"Generate archive pages for all posts, categories, tags, authors, and "
+"drafts."
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ":obj:`generate_atom_feeds <ablog.post.generate_atom_feeds>`\\ \\(app\\)"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid ":obj:`register_posts <ablog.post.register_posts>`\\ \\(app\\)"
+msgstr ""
+
+#: ../../manual/api.rst:70:<autosummary>:1
+msgid "Register posts found in the Sphinx build environment."
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ":obj:`PostNode <ablog.post.PostNode>`\\ \\(\\[rawsource\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid "Represent ``post`` directive content and options in document tree."
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ":obj:`PostList <ablog.post.PostList>`\\ \\(\\[rawsource\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid "Represent ``postlist`` directive converted to a list of links."
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ":obj:`UpdateNode <ablog.post.UpdateNode>`\\ \\(\\[rawsource\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid "Represent ``update`` directive."
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ""
+":obj:`PostDirective <ablog.post.PostDirective>`\\ \\(name\\, arguments\\,"
+" options\\, ...\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid "Handle ``post`` directives."
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ""
+":obj:`UpdateDirective <ablog.post.UpdateDirective>`\\ \\(name\\, "
+"arguments\\, options\\, ...\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ""
+":obj:`PostListDirective <ablog.post.PostListDirective>`\\ \\(name\\, "
+"arguments\\, options\\, ...\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid "Handle ``postlist`` directives."
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid ""
+":obj:`CheckFrontMatter <ablog.post.CheckFrontMatter>`\\ \\(document\\[\\,"
+" startnode\\]\\)"
+msgstr ""
+
+#: ../../manual/api.rst:77:<autosummary>:1
+msgid "Check the doctree for frontmatter meant for a blog post."
+msgstr ""
+
+#: ../../manual/api.rst:87
+msgid "ablog.start Module"
+msgstr ""
+
+#: ../../<rst_epilog>:1:<autosummary>:1
+msgid ""
+":obj:`generate <ablog.start.generate>`\\ \\(d\\[\\, overwrite\\, "
+"silent\\]\\)"
+msgstr ""
+
+#: ../../<rst_epilog>:1:<autosummary>:1
+msgid "Borrowed from Sphinx 1.3b3."
+msgstr ""
+
+#: ../../<rst_epilog>:1:<autosummary>:1
+msgid ":obj:`ask_user <ablog.start.ask_user>`\\ \\(d\\)"
+msgstr ""
+
+#: ../../<rst_epilog>:1:<autosummary>:1
+msgid ":obj:`ablog_start <ablog.start.ablog_start>`\\ \\(\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:2
+msgid "Automate GitHub Pages Deploys"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:12
+msgid ""
+"If being away from your personal computer is holding you back from "
+"blogging, keep reading. This post will show you how to automate builds "
+"and deploys using Travis CI. Once you set this up, all you need to do "
+"post an article will be pushing to GitHub or creating a new file on "
+"`GitHub.com <https://github.com>`__ from any computer!"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:16
+msgid ""
+"For this to work, you need to be hosting your website on GitHub pages. If"
+" you are not already doing so, see :ref:`deploy-to-github-pages`."
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:20
+msgid "Sign up for Travis CI"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:22
+msgid ""
+"Travis CI is a continuous integration service used to build and test "
+"projects hosted at GitHub. You can easily sync your GitHub projects with "
+"Travis CI signing up for Travis CI using your GitHub account:"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:29
+msgid ""
+"Once you login, go to :guilabel:`Accounts` page and flick the switch on "
+"for your source repository for GitHub pages. In the below example, "
+"**website** is the source repository and *sunpy.github.io* contains HTML "
+"output from builds:"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:37
+msgid "Deploy key setup"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:39
+msgid ""
+"To have builds pushed from Travis CI to GitHub, you will need a *personal"
+" access token*. Go to GitHub :menuselection:`Settings --> Personal access"
+" tokens` page to generate a new token. You need only *public repo* access"
+" checked for this purpose:"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:47
+msgid ""
+"Then, you need to set this access token as an environment variable, e.g. "
+"``DEPLOY_KEY``, under :menuselection:`Settings --> Environment "
+"Variables`. Keep the :guilabel:`Display value in build logs switch off`."
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:54
+msgid ""
+"Also, do not forget to flick :guilabel:`Build pushes` on under "
+":menuselection:`Settings --> General Settings`:"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:61
+msgid "Configuration file"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:63
+msgid ""
+"Finally, you need a :file:`.travis.yml` in your project that looks like "
+"the following:"
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:87
+msgid ""
+"The main part of the process, that is building of the website, is under "
+"``script`` block. If you repository has dependencies to other Python "
+"packages, you can install them in ``before_install`` block."
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:90
+msgid ""
+"Upon a successful built, your website is deployed. Note that there is no "
+"mention of your GitHub Pages repository, i.e. ``username.github.io``. "
+"That is specified in :file:`conf.py` file with :confval:`github_pages`. "
+"See :ref:`deploy-to-github-pages` and :ref:`commands` to find out more "
+"about deploy options."
+msgstr ""
+
+#: ../../manual/auto-github-pages-deploys.rst:95
+msgid ""
+"Finally, you can find out more about :file:`.travis.yml` file and "
+"customizing your built on Travis CI `user documentation <https://docs"
+".travis-ci.com/user/customizing-the-build/>`__."
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:2
+msgid "Cross-referencing Blog Pages"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:10
+msgid ""
+"ABlog creates references to all post and archive pages. Posts can be "
+"cross-referenced using the name of the file, or when the file is named "
+":file:`index`, the name of the folder that contains the file."
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:13
+msgid ""
+"This page, :ref:`cross-referencing-blog-pages`, for example is referenced"
+" as ``:ref:`cross-referencing-blog-pages``` using :rst:role:`ref` role."
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:15
+msgid ""
+"When posts have long file names, it may be inconvenient to use them "
+"repeatedly for cross-referencing. An alternative that Sphinx_ offers is "
+"creating your own short and unique labels for cross-referencing to posts."
+" See :ref:`xref-syntax` for details."
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:21
+msgid "Archive pages"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:23
+msgid ""
+"Archive pages, on the other hand, can be cross-referenced by combining "
+"archive type and archive name as follows:"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:26
+#: ../../manual/cross-referencing-blog-pages.rst:39
+msgid "Archive"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:26
+#: ../../manual/cross-referencing-blog-pages.rst:39
+msgid "Example"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:26
+#: ../../manual/cross-referencing-blog-pages.rst:39
+msgid "reStructured Text"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:28
+msgid ":ref:`blog-posts`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:28
+msgid "``:ref:`blog-posts```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:29
+msgid "Drafts"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:29
+msgid ":ref:`blog-drafts`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:29
+msgid "``:ref:`blog-drafts```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:30
+msgid "Blog Feed"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:30
+msgid ":ref:`blog-feed`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:30
+msgid "``:ref:`blog-feed```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:31
+msgid "Author"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:31
+msgid ":ref:`author-ahmet`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:31
+msgid "``:ref:`author-ahmet```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:32
+msgid "Language"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:32
+msgid ":ref:`language-en`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:32
+msgid "``:ref:`language-en```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:33
+msgid "Location"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:33
+msgid ":ref:`location-pittsburgh`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:33
+msgid "``:ref:`location-pittsburgh```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:36
+msgid "Following archive pages list all posts by grouping them:"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:41
+msgid "By tag"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:41
+msgid ":ref:`blog-tags`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:41
+msgid "``:ref:`blog-tags```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:42
+msgid "By author"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:42
+msgid ":ref:`blog-authors`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:42
+msgid "``:ref:`blog-authors```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:43
+msgid "By language"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:43
+msgid ":ref:`blog-languages`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:43
+msgid "``:ref:`blog-languages```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:44
+msgid "By location"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:44
+msgid ":ref:`blog-locations`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:44
+msgid "``:ref:`blog-locations```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:45
+msgid "By category"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:45
+msgid ":ref:`blog-categories`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:45
+msgid "``:ref:`blog-categories```"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:46
+msgid "By archive"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:46
+msgid ":ref:`blog-archives`"
+msgstr ""
+
+#: ../../manual/cross-referencing-blog-pages.rst:46
+msgid "``:ref:`blog-archives```"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:12
+msgid ""
+"If you are looking for a place to publish your blog, `GitHub Pages`_ "
+"might be the place for you."
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:16
+msgid ""
+"Assuming that you have a GitHub account, here are what you need to do to "
+"get published:"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:18
+msgid ""
+"Head over to GitHub_ and create a new repository named "
+"``username.github.io``, where username is your username (or organization "
+"name) on GitHub."
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:20
+msgid ""
+"(optional) If you followed the link, you might as well give a star to "
+"ABlog ;)"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:22
+msgid ""
+"Set :confval:`github_pages` configuration variable in :file:`conf.py` "
+"file."
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:24
+msgid "Run ``ablog build`` in your project folder."
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:26
+msgid "Run ``ablog deploy``. This command will"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:28
+msgid "clone your GitHub pages repository to project folder,"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:30
+msgid ""
+"copy all files from build folder (:file:`_website`) to "
+":file:`username.github.io`,"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:32
+msgid "add and commit copied files,"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:34
+msgid ""
+"add `.nojekyll <https://help.github.com/articles/using-jekyll-with-pages"
+"/#turning-jekyll-off>`_ file, since this ain't no Jekyll_"
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:37
+msgid "and finally push the changes to publish."
+msgstr ""
+
+#: ../../manual/deploy-to-github-pages.rst:39
+msgid "Let us know how this works for you!"
+msgstr ""
+
+#: ../../manual/forever-draft.rst:2
+msgid "Draft Example"
+msgstr ""
+
+#: ../../manual/forever-draft.rst:9
+msgid ""
+"As the title suggests, this is a draft example and shall remain so until "
+"the end of time or internet."
+msgstr ""
+
+#: ../../manual/forever-draft.rst:12
+msgid "How do you draft a post?"
+msgstr ""
+
+#: ../../manual/forever-draft.rst:14
+msgid ""
+"Just indicate that the page is a post using :rst:dir:`post` directive, "
+"but do not provide give a published date:"
+msgstr ""
+
+#: ../../manual/forever-draft.rst:22
+msgid ""
+"You can still label a post you are drafting with tags and categories, but"
+" the post will not be listed in corresponding archive pages until it is "
+"published."
+msgstr ""
+
+#: ../../manual/forever-draft.rst:25
+msgid "How can you see a list of drafts?"
+msgstr ""
+
+#: ../../manual/forever-draft.rst:27
+msgid ""
+"See :ref:`blog-drafts` archive page, which can be referred to as ``:ref"
+":`blog-drafts```."
+msgstr ""
+
+#: ../../manual/forever-draft.rst:30
+msgid "Why would you make a post draft?"
+msgstr ""
+
+#: ../../manual/forever-draft.rst:32
+msgid ""
+"Let's say you are using Disqus_ on your website, and allowing non-post "
+"pages to be discussed as well, but you don't want a draft to be discussed"
+" before it is published. By adding :rst:dir:`post` directive without "
+"published date and keeping configuration variable "
+":confval:`disqus_drafts` as ``False``, you can achieve that."
+msgstr ""
+
+#: ../../manual/markdown.md:10
+msgid "Markdown Support"
+msgstr ""
+
+#: ../../manual/markdown.md:12
+msgid ""
+"ABlog can support markdown pages using [myst-"
+"parser](https://pypi.org/project/myst-parser/). This page is a markdown "
+"file underneath."
+msgstr ""
+
+#: ../../manual/markdown.md:15
+msgid "You will need to do a few things to get setup."
+msgstr ""
+
+#: ../../manual/markdown.md:17
+msgid "Install [myst-parser](https://pypi.org/project/myst-parser/)"
+msgstr ""
+
+#: ../../manual/markdown.md:18
+msgid "Add these options to your config, ``conf.py``"
+msgstr ""
+
+#: ../../manual/markdown.md:29
+msgid "Then use the new blogpost metadata format (with a slight twist):"
+msgstr ""
+
+#: ../../manual/markdown.md:41
+msgid ""
+"Notice here we do not have a \":\" at the start since the markdown "
+"metadata format is different from rst."
+msgstr ""
+
+#: ../../manual/markdown.md:43
+msgid ""
+"Please be aware that adding \"myst-parser\" will mean it will read all "
+"markdown files and try to parse them. You will need to use the following "
+"in your ``conf.py`` to prevent this:"
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:9
+msgid "Jupyter Notebook Posting"
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:30
+msgid ""
+"To add support for Notebooks to your Ablog instance, you need to "
+"configure your ``docs/conf.py`` (or whereever your ``conf.py`` is "
+"located."
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:32
+msgid "You will need to add"
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:39
+msgid ""
+"You will need to install `nbsphinx <https://nbsphinx.readthedocs.io/>`__ "
+"either from ``Anaconda`` or ``pip``. You might need to install `ipython "
+"<https://ipython.org/>`__ to make sure the notebook can be run."
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:50
+msgid ""
+"Within the notebook you need to make sure the cells are in this order: "
+"Titlte cell, post cell. So for this notebook, it looks like this: "
+"|posting|"
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:52
+msgid "posting"
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:63
+msgid "So the information is similar to how you create a normal RST post."
+msgstr ""
+
+#: ../../manual/notebook_support.ipynb:74
+msgid ""
+"Another working example is SunPy’s website which runs `Ablog "
+"<https://sunpy.org/blog.html>`__. The Pull Request that added support can"
+" be found `here <https://github.com/sunpy/sunpy.org/pull/131>`__ and how "
+"to link them to a `Binder <https://mybinder.org/>`__ instance `here "
+"<https://github.com/sunpy/sunpy.org/pull/134>`__."
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:2
+msgid "Post Excerpts and Images"
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:15
+msgid "Excerpts"
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:17
+msgid ""
+"ABlog, by default, uses first paragraph of the document as post excerpt. "
+"Default number of paragraphs to use in excerpts is controlled via "
+":confval:`post_auto_excerpt` configuration variable. This option can be "
+"overwritten using ``:excerpt:`` option in :rst:dir:`post` directive."
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:21
+msgid ""
+"Alternatively, you can provide some content in a post directive as "
+"follows::"
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:27
+msgid ""
+"This content is going to be used as excerpt in archive pages. "
+"Furthermore, if you do not want the excerpt to be included in the post, "
+"you can use ``:exclude:`` option as follows::"
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:37
+msgid "Images"
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:39
+msgid "Let's first include a local and a non-local image in this post."
+msgstr ""
+
+#: ../../manual/post-excerpts-and-images.rst:44
+msgid ""
+"To link the second one of these, we add ``:image: 2`` option in "
+":rst:dir:`post` directive."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:2
+msgid "Posting and Listing"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:10
+msgid ""
+"This post describes :rst:dir:`post`, :rst:dir:`update`, and "
+":rst:dir:`postlist` directives."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:15
+msgid "Posting with a Directive"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:17
+msgid ""
+"Any page in a Sphinx_ project can be converted to a post using the "
+"following directive:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:21
+msgid "All possible directive options are shown below::"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:33
+msgid "**Drafts & Posts**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:35
+msgid ""
+"Posts without dates or with future dates are considered as drafts and are"
+" published only in :ref:`blog-drafts` archive page."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:37
+msgid ""
+"Posts with dates that are older than the day Sphinx project is built are "
+"published in :ref:`blog-posts` page."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:39
+msgid ""
+"Post date format must follow the format specified with "
+"confval:`post_date_format` configuration option."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:41
+msgid "**Tags & Categories**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:43
+msgid ""
+"You can specify multiple tags and categories by separating them with "
+"commas. Posts will be listed in archive pages generated for each unique "
+"tag and category."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:46
+msgid "**Authors, Languages, & Locations**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:48
+msgid ""
+"Likewise, you can specify authors, languages, and locations of a post "
+"using ``:author:``, ``:language:``, and ``:location:`` options. All of "
+"these option names are in their singular form, but multiple values "
+"separated by commas are accepted."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:51
+msgid ""
+"Using :confval:`blog_authors`, :confval:`blog_languages`, and "
+":confval:`blog_locations` configuration variables, you can also provide "
+"home pages and/or full display names of authors, languages, and "
+"locations, which will be displayed in archive pages generated for all "
+"unique authors, languages, and locations."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:53
+msgid "**Redirections**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:55
+msgid ""
+"You can make ABlog create pages that will redirect to current post using "
+"``:redirect:`` option.  It takes a comma separated list of paths, "
+"relative to the root folder. The redirect page waits for "
+":confval:`post_redirect_refresh` seconds before redirection occurs."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:58
+msgid "**Disable comments**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:60
+msgid ""
+"You can disable comments for the current post using the ``:nocomments:`` "
+"option. Currently there is no way to disable comments in a specific page."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:63
+msgid "**Excerpts & Images**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:65
+msgid ""
+"By default, ABlog uses the first paragraph of a page as post excerpt. You"
+" can change this behavior and also add an image to the excerpt. To find "
+"out how, see :ref:`post-excerpts-and-images`."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:69
+msgid "**Update Notes**"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:73
+msgid "Update in a post can be noted anywhere in the post as follows::"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:80
+msgid ""
+"Update date format must follow the format specified with "
+":confval:`post_date_format` configuration option."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:82
+msgid ""
+"Update directive renders like the updates that are at the end of this "
+"post."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:87
+msgid "Posting with page front-matter"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:89
+msgid ""
+"If you'd prefer to use `page front matter <https://www.sphinx-"
+"doc.org/en/1.7/markup/misc.html>`__ instead of using a directive, you may"
+" mark a page as a \"blog post\" by adding the following front-matter at "
+"the top:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:95
+msgid ""
+"``ABlog`` will treat any pages with this front-matter as a blog post. All"
+" fields that are available to the :ref:`posting directive <posting-"
+"directive>` can be given as page-level front-matter as well."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:98
+msgid "Automatically detect blog posts with a ``glob`` pattern"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:101
+msgid ""
+"Instead of adding ``blogpost: true`` to each page, you may also provide a"
+" pattern (or list of patterns) in your ``conf.py`` file using the "
+"``blog_post_pattern`` option. Any filenames that match this pattern will "
+"be treated as blog posts (and page front-matter will be used to classify "
+"the blog post). For example, the following configuration would match all "
+"``rst`` files in the ``posts/`` folder:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:109
+msgid ""
+"and this configuration will match all blog posts that match either "
+"``rst`` or ``md``:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:118
+msgid "Posting Sections"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:126
+msgid ""
+":rst:dir:`post` directive can be used multiple times in a single page to "
+"create multiple posts of different sections of the document."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:128
+msgid ""
+"When :rst:dir:`post` is used more than once, post titles and excerpts are"
+" extracted from the sections that contain the directives. This behavior "
+"can also be set as the default behavior using "
+":confval:`post_always_section` configuration options."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:131
+msgid "Some caveats and differences from posting a document once are:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:133
+msgid ""
+"Next and previous links at the bottom will only regard the first post in "
+"the document."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:134
+msgid "Information displayed on the sidebar will belong to the first post."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:135
+msgid ""
+"References for section posts is not automatically created. Labels for "
+"cross-referencing needs to be created manually, e.g., ``.. _posting-"
+"sections``. See :ref:`xref-syntax` for details."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:137
+msgid ""
+"Multiple use of :rst:dir:`post` may be suitable for major additions to a "
+"previous post. For minor changes, :rst:dir:`update` directive may be "
+"preferred."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:140
+msgid "Listing"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:142
+msgid ""
+"A list of posts can be displayed in any page using the following "
+"directive:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:146
+msgid "Following example display all the options the directive takes::"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:161
+msgid ""
+"This will result in a bullet list of up to 5 posts (default is all) "
+"authored by `:ref:`author-ahmet`` in `:ref:`language-en`` when he was in "
+"`:ref:`location-pittsburgh`` and posted in `:ref:`category-manual`` with "
+"tags `:ref:`tag-tips``. Posts will be in ``:sort:``\\ed to appear in "
+"chronological order and listed with their ``:excerpts:``. Here are those "
+"posts:"
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:178
+msgid ""
+"When no options are given all posts will be considered and they will be "
+"ordered by recency. Also, note that if the current post is one of the "
+"most recent posts, it will be omitted."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:183
+msgid ""
+"Added :rst:dir:`update` directive and :ref:`posting-sections` section. "
+"Also revised the text here and there."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:189
+msgid ":rst:dir:`post` directive has ``:language:`` option."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:190
+msgid ":rst:dir:`postlist` directive takes arguments to filter posts."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:194
+msgid ""
+"Added ``:excerpts:`` option to :rst:dir:`postlist` to list posts with "
+"their excerpts."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:198
+msgid ""
+"Added ``:list-style:`` option to :rst:dir:`postlist` to control bullet "
+"list style. *circle*, *disc*, and *none* (default) are recognized."
+msgstr ""
+
+#: ../../manual/posting-and-listing.rst:203
+msgid ""
+"Added ``:expand:`` option to :rst:dir:`postlist` to add a call to action "
+"to continue reading the post."
+msgstr ""
+
+#: ../../manual/watch-yourself-blogging.rst:3
+msgid "Watch Yourself Blogging"
+msgstr ""
+
+#: ../../manual/watch-yourself-blogging.rst:12
+msgid ""
+"Wouldn't you like your blog being rebuilt and served to you automatically"
+" as you are blogging on a sunny Sunday afternoon? It's now possible with "
+"the improved ``ablog serve`` command."
+msgstr ""
+
+#: ../../manual/watch-yourself-blogging.rst:15
+msgid ""
+"First, you need to install Watchdog_ Python package, e.g. `pip install "
+"watchdog`. Then, you need to run ``ablog serve -r``. Regardless of the "
+"weather being sunny or the day of the week, your project will be rebuilt "
+"when you change a page or add a new one. This won't refresh your browser "
+"page though. Unless you want to hit refresh once in a while, you can "
+"easily find an auto refresher extension for you browser."
+msgstr ""
+
