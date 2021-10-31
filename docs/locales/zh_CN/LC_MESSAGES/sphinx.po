@@ -82,31 +82,3 @@ msgstr "下一篇"
 #: C:/Users/xinet/anaconda3/lib/site-packages/ablog-0.10.21.dev1+g226fef0-py3.8.egg/ablog/templates/recentposts.html:3
 msgid "Recent Posts"
 msgstr "最近文章"
-
-#~ msgid "Posts by"
-#~ msgstr "文章"
-
-#~ msgid "Posts from"
-#~ msgstr "文章自"
-
-#~ msgid "Posts in"
-#~ msgstr "文章在"
-
-#~ msgid "All posts"
-#~ msgstr "所有文章"
-
-#~ msgid "Posted in"
-#~ msgstr "文章在"
-
-#~ msgid "Posts tagged"
-#~ msgstr "文章标签"
-
-#~ msgid "All Posts"
-#~ msgstr "所有文章"
-
-#~ msgid "All"
-#~ msgstr "所有"
-
-#~ msgid "Drafts"
-#~ msgstr "草稿"
-

@@ -116,21 +116,22 @@ msgstr "一个相对于博客档案页配置目录的路径。默认为 ``'blog'
 
 #: ../../manual/ablog-configuration-options.rst:25
 msgid "The “title” for the blog, used in acthive pages.  Default is ``'Blog'``."
-msgstr ""
+msgstr "博客的“标题”，在 acthive 页面中使用。默认是 ``'Blog'``。"
 
 #: ../../manual/ablog-configuration-options.rst:29
 msgid "Base URL for the website, required for generating feeds."
-msgstr ""
+msgstr "网站的基本 URL，生成 feeds 时需要。"
 
 #: ../../manual/ablog-configuration-options.rst:33
 msgid ""
 "Choose to archive only post titles in collection pages, default is "
 "``False``."
 msgstr ""
+"选择只对收藏页中的帖子标题进行存档，默认为 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:36
 msgid "Authors, languages, & locations"
-msgstr ""
+msgstr "作者、语言及地点"
 
 #: ../../manual/ablog-configuration-options.rst:40
 msgid ""
@@ -138,6 +139,8 @@ msgid ""
 "links. Dictionary keys are what should be used in ``post`` directive to "
 "refer to the author. Default is ``{}``. Example::"
 msgstr ""
+"一个作者名字的字典，映射到作者的完整显示名称和链接。"
+"字典中的键是应该在 ``post`` 指令中用来指代作者的。默认是  ``{}``。例如 ::"
 
 #: ../../manual/ablog-configuration-options.rst:53
 msgid ""
@@ -146,6 +149,9 @@ msgid ""
 "keys should be used in ``post`` directive to refer to the locations. "
 "Default is ``{}``. Example::"
 msgstr ""
+"语言代码名称的字典，映射到这些语言的完整显示名称和链接。"
+"类似于 :confval:`blog_authors`，字典的键应该在 ``post`` 指令中使用，以指代这些位置。"
+"默认是 ``{}``。例如 ::"
 
 #: ../../manual/ablog-configuration-options.rst:64
 msgid ""
@@ -154,34 +160,43 @@ msgid ""
 "should be used in ``post`` directive to refer to the locations. Default "
 "is ``{}``."
 msgstr ""
+"一个位置名称的字典，映射到这些位置的完整显示名称和链接。"
+"类似于 :confval:`blog_authors`，字典中的键应该在 ``post`` 指令中使用，以引用位置。"
+"默认是 ``{}``。"
 
 #: ../../manual/ablog-configuration-options.rst:70
 msgid ""
 "Name of the default author defined in :confval:`blog_authors`. Default is"
 " ``None``."
 msgstr ""
+"在 :confval:`blog_authors` 中定义的默认作者的名字。默认为 ``None``。"
 
 #: ../../manual/ablog-configuration-options.rst:75
 msgid ""
 "Code name of the default language defined in :confval:`blog_languages`. "
 "Default is ``None``."
 msgstr ""
+"在 :confval:`blog_languages` 中定义的默认语言的代码名称。"
+"默认为 ``None``。"
 
 #: ../../manual/ablog-configuration-options.rst:80
 msgid ""
 "Name of the default location defined in :confval:`blog_locations`. "
 "Default is ``None``."
 msgstr ""
+"在 :confval:`blog_locations` 中定义的默认位置的名称。"
+"默认为 ``None``。"
 
 #: ../../manual/ablog-configuration-options.rst:85
 msgid ""
 "Added :confval:`blog_languages` and :confval:`blog_default_language` "
 "configuration variables."
 msgstr ""
+"增加了 :confval:`blog_languages` 和 :confval:`blog_default_language` 配置变量。"
 
 #: ../../manual/ablog-configuration-options.rst:88
 msgid "Post related"
-msgstr ""
+msgstr "帖子相关"
 
 #: ../../manual/ablog-configuration-options.rst:92
 #, python-format
@@ -189,6 +204,8 @@ msgid ""
 "Date display format (default is ``'%b %d, %Y'``) for published posts that"
 " goes as input to :meth:`datetime.date.strftime`."
 msgstr ""
+"发表文章的日期显示格式（默认为 ``'%b %d, %Y'``），"
+"作为 :meth:`datetime.date.strftime` 的输入。"
 
 #: ../../manual/ablog-configuration-options.rst:96
 msgid ""
@@ -197,10 +214,13 @@ msgid ""
 "post excerpt in archive pages. This option can be set on a per post basis"
 " using :rst:dir:`post` directive option ``excerpt``."
 msgstr ""
+"将作为文章摘要显示的段落数（默认为 ``1``）。"
+"设置为 ``0`` 将导致在存档页中不显示文章摘录。"
+"这个选项可以在每个帖子的基础上使用 :rst:dir:`post` 指令选项 ``excerpt`` 来设置。"
 
 #: ../../manual/ablog-configuration-options.rst:100
 msgid "See :ref:`post-excerpts-and-images` for a more detailed discussion."
-msgstr ""
+msgstr "更详细的讨论见 :ref:`post-excerpts-and-images`。"
 
 #: ../../manual/ablog-configuration-options.rst:104
 msgid ""
@@ -209,12 +229,16 @@ msgid ""
 "the first image, when available, to the excerpt. This option can be set "
 "on a per post basis using :rst:dir:`post` directive option ``image``."
 msgstr ""
+"将显示在文章摘录中的图片的索引。"
+"默认是 ``0``，意味着没有图片。设置为 ``1`` 将包括第一张图片（如果有的话）到摘录中。"
+"这个选项可以在每个帖子的基础上使用 :rst:dir:`post` 指令选项 ``image`` 来设置。"
 
 #: ../../manual/ablog-configuration-options.rst:111
 msgid ""
 "Number of seconds (default is ``5``) that a redirect page waits before "
 "refreshing the page to redirect to the post."
 msgstr ""
+"重定向页面在刷新页面之前等待的秒数（默认为 ``5``），以重定向到帖子。"
 
 #: ../../manual/ablog-configuration-options.rst:115
 msgid ""
@@ -223,32 +247,36 @@ msgid ""
 "This is the behavior when :rst:dir:`post` is used multiple times in a "
 "document. Default is ``False``."
 msgstr ""
+"当 ``True`` 时，帖子的标题和摘要总是从包含 :rst:dir:`post` 指令的部分提取，而不是从文档中提取。"
+"这是当 :rst:dir:`post` 在一个文档中被多次使用时的行为。默认是 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:120
 msgid "Blog feeds"
-msgstr ""
+msgstr "博客反馈"
 
 #: ../../manual/ablog-configuration-options.rst:122
 msgid "Turn feeds on by setting :confval:`blog_baseurl` configuration variable."
 msgstr ""
+"通过设置 :confval:`blog_baseurl` 配置变量打开 feeds。"
 
 #: ../../manual/ablog-configuration-options.rst:126
 msgid ""
 "Choose to create feeds per author, location, tag, category, and year, "
 "default is ``False``."
 msgstr ""
+"选择按作者、地点、标签、类别和年份创建 feeds，默认为 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:130
 msgid "Choose to display full text in blog feeds, default is ``False``."
-msgstr ""
+msgstr "选择在博客 feeds 中显示全文，默认为 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:134
 msgid "Blog feed subtitle, default is ``None``."
-msgstr ""
+msgstr "博客 feed 的副标题，默认为 ``None``。"
 
 #: ../../manual/ablog-configuration-options.rst:138
 msgid "Choose to feed only post titles, default is ``False``."
-msgstr ""
+msgstr "选择只提供文章标题，默认为 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:142
 msgid ""
@@ -262,12 +290,21 @@ msgid ""
 "``blog`` - ``url`` - ``app`` Default is: ``{\"atom\": {}}`` Example to "
 "add an additional feed for posting to social media::"
 msgstr ""
+"一个 feed 文件名根的字典，映射到 feed 条目元素的嵌套字典，"
+"``title``, ``summary`` 和/或 ``content``，以及一个 `Jinja2`_ 模板，"
+"将用于渲染该 feed 中该元素的值。"
+"模板的渲染内容如下： ``feed_length`` - ``feed_fulltext`` - ``feed_posts`` - "
+"``pagename`` - ``feed_title`` - ``feed_url`` - ``feed`` - ``post`` - "
+"``post_url`` - ``content`` - ``feed_entry`` - ``title`` - ``summary`` - "
+"``blog`` - ``url`` - ``app`` 默认是: ``{\"atom\": {}}`` 例子是 "
+"添加一个额外的 feed，用于发布到社交媒体上 ::"
 
 #: ../../manual/ablog-configuration-options.rst:179
 msgid ""
 "Specify number of recent posts to include in feeds, default is ``None`` "
 "for all posts."
 msgstr ""
+"指定在 feeds 中包含的最近帖子的数量，默认为所有帖子的 ``None``。"
 
 #: ../../manual/ablog-configuration-options.rst:183
 msgid ""
@@ -275,32 +312,39 @@ msgid ""
 ":confval:`blog_feed_subtitle`, and :confval:`post_always_section` "
 "options."
 msgstr ""
+"增加了 :confval:`blog_feed_archives`, :confval:`blog_feed_fulltext`, "
+":confval:`blog_feed_subtitle` 和 :confval:`post_always_section` 选项。"
 
 #: ../../manual/ablog-configuration-options.rst:187
 msgid ""
 "Added :confval:`blog_feed_titles`, :confval:`blog_feed_length`, and "
 ":confval:`blog_archive_titles` options."
 msgstr ""
+"增加了 :confval:`blog_feed_titles`, :confval:`blog_feed_length` 和"
+":confval:`blog_archive_titles` 选项。"
 
 #: ../../manual/ablog-configuration-options.rst:191
 msgid "Added :confval:`blog_feed_templates` option."
-msgstr ""
+msgstr "增加 :confval:`blog_feed_templates` 选项。"
 
 #: ../../manual/ablog-configuration-options.rst:197
 msgid "Font awesome"
-msgstr ""
+msgstr "Font Awesome "
 
 #: ../../manual/ablog-configuration-options.rst:199
 msgid ""
 "ABlog templates will use of `Font Awesome`_ icons if one of the following"
 " is set:"
 msgstr ""
+"ABlog模板将使用 `Font Awesome`_ 图标，如果设置了以下一项："
 
 #: ../../manual/ablog-configuration-options.rst:205
 msgid ""
 "URL to `Font Awesome`_ :file:`.css` hosted at `Bootstrap CDN`_ or "
 "anywhere else. Default: ``None``"
 msgstr ""
+"在 `Bootstrap CDN`_ 或其他地方托管的 `Font Awesome`_ :file:`.css` 的 URL。"
+"默认: ``None``。"
 
 #: ../../manual/ablog-configuration-options.rst:212
 msgid ""
@@ -309,26 +353,33 @@ msgid ""
 "old behavior, use ``‘https://netdna.bootstrapcdn.com/font-"
 "awesome/4.0.3/css/font-awesome.min.css'``."
 msgstr ""
+":confval:`fontawesome_link_cdn` 是一个 *boolean* 选项，"
+"现在变成了一个 *string* 来启用所需的 `Font Awesome`_ 版本。"
+"要获得旧的行为，请使用 ``'https://netdna.bootstrapcdn.com/font-"
+"awesome/4.0.3/css/font-awesome.min.css'``。"
 
 #: ../../manual/ablog-configuration-options.rst:217
 msgid "Sphinx_ theme already links to `Font Awesome`_. Default: ``False``"
-msgstr ""
+msgstr "Sphinx_ 主题已经链接到 `Font Awesome`_。默认: ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:220
 msgid ""
 "Alternatively, you can provide the path to `Font Awesome`_ :file:`.css` "
 "with the following configuration option:"
 msgstr ""
+"另外，你可以用以下配置选项提供 `Font Awesome`_ :file:`.css` 的路径："
 
 #: ../../manual/ablog-configuration-options.rst:224
 msgid ""
 "Path to `Font Awesome`_ :file:`.css` (default is ``None``) that will be "
 "linked to in HTML output by ABlog."
 msgstr ""
+"`Font Awesome`_ :file:`.css` 的路径（默认为 ``None``），"
+"将被 ABlog 在 HTML 输出中链接到。"
 
 #: ../../manual/ablog-configuration-options.rst:229
 msgid "Disqus integration"
-msgstr ""
+msgstr "Disqus 集成"
 
 #: ../../manual/ablog-configuration-options.rst:231
 msgid ""
@@ -339,24 +390,30 @@ msgid ""
 "Disqus associates correct URLs with threads when you serve new posts "
 "locally for the first time."
 msgstr ""
+"当然，人们无法想到一个博客不允许访问者发表评论。"
+"你可以通过设置 :confval:`disqus_shortname` 和 :confval:`blog_baseurl` "
+"变量来启用 Disqus_。从 v0.7.2 开始，要求指定 :confval:`blog_baseurl` "
+"的原因是为了确保当你第一次在本地提供新帖子时，Disqus 将正确的 URL 与线程联系起来。"
 
 #: ../../manual/ablog-configuration-options.rst:237
 msgid "Disqus_ short name for the website."
-msgstr ""
+msgstr "Disqus_ 网站的简称。"
 
 #: ../../manual/ablog-configuration-options.rst:241
 msgid "Choose to disqus pages that are not posts, default is ``False``."
-msgstr ""
+msgstr "选择 disqus 是非帖子的页面，默认为 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:245
 msgid ""
 "Choose to disqus posts that are drafts (without a published date), "
 "default is ``False``."
 msgstr ""
+"选择将 disqus 的帖子作为草稿（没有发布日期）。"
+"默认为 ``False``。"
 
 #: ../../manual/ablog-configuration-options.rst:248
 msgid "Isso integration"
-msgstr ""
+msgstr "Isso 集成"
 
 #: ../../manual/ablog-configuration-options.rst:250
 msgid ""
@@ -364,10 +421,12 @@ msgid ""
 "Integration is provided by `sphinxnotes-isso`_ and the instructions "
 "there."
 msgstr ""
+"Disqus 的一个替代方案，是 `Isso <https://posativ.org/isso/>`__。"
+"集成是由 `sphinxnotes-isso`_ 和那里的说明提供的。"
 
 #: ../../manual/ablog-configuration-options.rst:258
 msgid "Blog sidebars"
-msgstr ""
+msgstr "博客侧边栏"
 
 #: ../../manual/ablog-configuration-options.rst:260
 msgid ""
@@ -375,6 +434,9 @@ msgid ""
 "using Sphinx_ :confval:`html_sidebars` configuration option. Sidebars "
 "that you see on the left are listed below in the same order:"
 msgstr ""
+"最后，你可以用 Sphinx_ :confval:`html_sidebars` "
+"配置选项在你的 HTML 输出中包含七个侧边栏。"
+"你在左边看到的侧边栏按照同样的顺序列在下面："
 
 #: ../../manual/ablog-configuration-options.rst:273
 msgid ""
@@ -385,22 +447,27 @@ msgid ""
 "``locations.html`` sidebars that link to author and location archive "
 "pages."
 msgstr ""
+":file:`postcard.html` 提供有关当前帖子的信息。"
+":file:`recentposts.html` 列出最近的五个帖子。"
+"其他的则提供一个链接到为每个标签、类别和年份生成的档案页。"
+"此外，还有 ``authors.html``、``languages.html`` 和 ``locations.html`` "
+"等侧边栏，链接到作者和位置的档案页。"
 
 #: ../../manual/ablog-configuration-options.rst:279
 msgid "Command Options"
-msgstr ""
+msgstr "命令选项"
 
 #: ../../manual/ablog-configuration-options.rst:283
 msgid "Added :ref:`commands` options."
-msgstr ""
+msgstr "添加 :ref:`commands` 选项。"
 
 #: ../../manual/ablog-configuration-options.rst:287
 msgid "Directory name for build output files. Default is ``_website``."
-msgstr ""
+msgstr "构建输出文件的目录名称。默认为 ``_website``。"
 
 #: ../../manual/ablog-configuration-options.rst:291
 msgid "Directory name for build cache files. Default is ``.doctrees``."
-msgstr ""
+msgstr "构建缓存文件的目录名称。默认为 ``.doctrees``。"
 
 #: ../../manual/ablog-configuration-options.rst:295
 msgid ""
@@ -409,12 +476,17 @@ msgid ""
 "from a webserver. Alternative is ``html`` to build one HTML file per "
 "document."
 msgstr ""
+"HTML 生成器，默认为 ``dirhtml``。建立 HTML 页面，但每个文件只有一个目录。"
+"如果从网络服务器提供服务，可以获得更漂亮的 URL（没有 .html）。"
+"替代方案是 ``html``，每个文档建立一个 HTML 文件。"
 
 #: ../../manual/ablog-configuration-options.rst:300
 msgid ""
 "GitHub user name used by ``ablog deploy`` command. See :ref:`deploy` and "
 ":ref:`deploy-to-github-pages` for more information."
 msgstr ""
+"GitHub 用户名被 ``ablog deploy`` 命令使用。"
+"参见 :ref:`deploy` 和 :ref:`deploy-to-github-pages` 获取更多信息。"
 
 #: ../../manual/ablog-i18n.rst:2
 msgid "ABlog Internationalization"
@@ -952,7 +1024,7 @@ msgstr ""
 
 #: ../../manual/auto-github-pages-deploys.rst:2
 msgid "Automate GitHub Pages Deploys"
-msgstr ""
+msgstr "自动化 GitHub Pages 的部署"
 
 #: ../../manual/auto-github-pages-deploys.rst:12
 msgid ""
@@ -962,16 +1034,22 @@ msgid ""
 "post an article will be pushing to GitHub or creating a new file on "
 "`GitHub.com <https://github.com>`__ from any computer!"
 msgstr ""
+"如果远离你的个人电脑使你无法写博客，请继续阅读。"
+"这篇文章将告诉你如何使用 Travis CI 自动构建和部署。"
+"一旦你设置好了，你所需要做的发布文章将是推送到 GitHub 或在 "
+"`GitHub.com <https://github.com>`__ 上创建一个新文件，在任何电脑上都可以！"
 
 #: ../../manual/auto-github-pages-deploys.rst:16
 msgid ""
 "For this to work, you need to be hosting your website on GitHub pages. If"
 " you are not already doing so, see :ref:`deploy-to-github-pages`."
 msgstr ""
+"要想让这一点发挥作用，你需要将你的网站托管在 GitHub 页面上。"
+"如果你还没有这样做，请参阅 :ref:`deploy-to-github-pages`。"
 
 #: ../../manual/auto-github-pages-deploys.rst:20
 msgid "Sign up for Travis CI"
-msgstr ""
+msgstr "注册加入 Travis CI"
 
 #: ../../manual/auto-github-pages-deploys.rst:22
 msgid ""
@@ -979,6 +1057,8 @@ msgid ""
 "projects hosted at GitHub. You can easily sync your GitHub projects with "
 "Travis CI signing up for Travis CI using your GitHub account:"
 msgstr ""
+"Travis CI 是一项持续集成服务，用于构建和测试托管在GitHub 的项目。"
+"你可以轻松地将你的 GitHub 项目与 Travis CI 同步，用你的 GitHub 账户注册 Travis CI："
 
 #: ../../manual/auto-github-pages-deploys.rst:29
 msgid ""
@@ -987,6 +1067,8 @@ msgid ""
 "**website** is the source repository and *sunpy.github.io* contains HTML "
 "output from builds:"
 msgstr ""
+"登录后，进入 :guilabel:`Accounts` 页面，为 GitHub 页面的源仓库打开开关。"
+"在下面的例子中，**website** 是源存储库，*sunpy.github.io* 包含构建的 HTML 输出："
 
 #: ../../manual/auto-github-pages-deploys.rst:37
 msgid "Deploy key setup"
@@ -1444,11 +1526,11 @@ msgstr ""
 
 #: ../../manual/post-excerpts-and-images.rst:2
 msgid "Post Excerpts and Images"
-msgstr ""
+msgstr "帖子节选和图片"
 
 #: ../../manual/post-excerpts-and-images.rst:15
 msgid "Excerpts"
-msgstr ""
+msgstr "节选"
 
 #: ../../manual/post-excerpts-and-images.rst:17
 msgid ""
@@ -1457,12 +1539,16 @@ msgid ""
 ":confval:`post_auto_excerpt` configuration variable. This option can be "
 "overwritten using ``:excerpt:`` option in :rst:dir:`post` directive."
 msgstr ""
+"ABlog，默认情况下，使用文档的第一段作为帖子的摘录。"
+"在摘录中使用的默认段落数是通过 :confval:`post_auto_excerpt` 配置变量控制。"
+"这个选项可以用 :rst:dir:`post` 指令中的 `:excerpt:` 选项来覆盖。"
 
 #: ../../manual/post-excerpts-and-images.rst:21
 msgid ""
 "Alternatively, you can provide some content in a post directive as "
 "follows::"
 msgstr ""
+"另外，你可以在 post 指令中提供一些内容，如下 ::"
 
 #: ../../manual/post-excerpts-and-images.rst:27
 msgid ""
@@ -1470,20 +1556,24 @@ msgid ""
 "Furthermore, if you do not want the excerpt to be included in the post, "
 "you can use ``:exclude:`` option as follows::"
 msgstr ""
+"这个内容将被用作档案页的摘录。"
+"此外，如果你不希望摘录内容包含在文章中，"
+"你可以使用 ``:exclude:`` 选项，如下所示 ::"
 
 #: ../../manual/post-excerpts-and-images.rst:37
 msgid "Images"
-msgstr ""
+msgstr "图片"
 
 #: ../../manual/post-excerpts-and-images.rst:39
 msgid "Let's first include a local and a non-local image in this post."
-msgstr ""
+msgstr "让我们首先在这篇文章中包括一个本地和一个非本地的图像。"
 
 #: ../../manual/post-excerpts-and-images.rst:44
 msgid ""
 "To link the second one of these, we add ``:image: 2`` option in "
 ":rst:dir:`post` directive."
 msgstr ""
+"为了链接其中的第二个，我们添加 ``:image: 2`` 选项在 :rst:dir:`post` 指令中。"
 
 #: ../../manual/posting-and-listing.rst:2
 msgid "Posting and Listing"
