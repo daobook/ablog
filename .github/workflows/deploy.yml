@@ -22,15 +22,10 @@ jobs:
         run: |
           pip install -r docs/requirements.txt
           conda install -c conda-forge pandoc
-          conda install -c conda-forge ipython
           sudo apt update
           sudo apt install -y graphviz
           pip install sphinxcontrib-websupport
           
-      # pandoc
-      # - uses: docker://pandoc/core:2.9
-
-
       - name: Build the book
         run: |
           cd docs
