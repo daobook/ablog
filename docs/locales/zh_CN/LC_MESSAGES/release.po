@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ABlog 0.10.20\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-24 17:14+0800\n"
+"POT-Creation-Date: 2021-10-25 19:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,24 +29,20 @@ msgstr "ABlog v0.1 发布。"
 msgid ""
 "This is the very first release, so there are no release notes in this "
 "post."
-msgstr ""
-"这是第一个版本，所以这篇文章中没有发布说明。"
+msgstr "这是第一个版本，所以这篇文章中没有发布说明。"
 
 #: ../../release/ablog-v0.1-released.rst:15
 msgid ""
 "Yes, this page is also a post and it resides in a folder different from "
 "most other posts in this blogumentation."
-msgstr ""
-"是的，此页面也是一篇文章，它所在的文件夹与此博客中的大多数其他文章不同。"
+msgstr "是的，此页面也是一篇文章，它所在的文件夹与此博客中的大多数其他文章不同。"
 
 #: ../../release/ablog-v0.1-released.rst:18
 msgid ""
 "The idea is to enable making any page in a Sphinx_ project a post so that"
 " users of a software package can subscribe to feeds and follow new "
 "releases as well as code examples added to the documentation."
-msgstr ""
-"我们的想法是使 Sphinx_ 项目中的任何页面都能成为一个帖子，"
-"这样软件包的用户就可以订阅 feeds，关注新的发布，以及添加到文档中的代码示例。"
+msgstr "我们的想法是使 Sphinx_ 项目中的任何页面都能成为一个帖子，这样软件包的用户就可以订阅 feeds，关注新的发布，以及添加到文档中的代码示例。"
 
 #: ../../release/ablog-v0.10-released.rst:2
 msgid "ABlog v0.10 released"
@@ -56,15 +52,13 @@ msgstr "ABlog v0.10 发布"
 msgid ""
 "ABlog v0.10 is released with the main focus being to support the latest "
 "version of Sphinx as well as Python 3 only support."
-msgstr ""
-"ABlog v0.10 发布，主要是为了支持最新版本的 Sphinx 以及只支持 Python 3。"
+msgstr "ABlog v0.10 发布，主要是为了支持最新版本的 Sphinx 以及只支持 Python 3。"
 
 #: ../../release/ablog-v0.10-released.rst:11
 msgid ""
 "Ablog V0.9.X will no longer be supported as Python 2 comes to an end in a"
 " few months and it is time people upgraded."
-msgstr ""
-"Ablog V0.9.X 将不再被支持，因为 Python 2 在几个月内就会结束，现在是人们升级的时候了。"
+msgstr "Ablog V0.9.X 将不再被支持，因为 Python 2 在几个月内就会结束，现在是人们升级的时候了。"
 
 #: ../../release/ablog-v0.10-released.rst:13
 #: ../../release/ablog-v0.10-released.rst:30
@@ -94,8 +88,7 @@ msgid ""
 "<https://github.com/sunpy/ablog/pull/41>`__ from `nabobalis "
 "<https://github.com/nabobalis>`__."
 msgstr ""
-"`只针对 Python3 的软件包下的检修 "
-"<https://github.com/sunpy/ablog/pull/41>`__ 来自 "
+"`只针对 Python3 的软件包下的检修 <https://github.com/sunpy/ablog/pull/41>`__ 来自 "
 "`nabobalis <https://github.com/nabobalis>`__。"
 
 #: ../../release/ablog-v0.10-released.rst:17
@@ -104,8 +97,7 @@ msgid ""
 "<https://github.com/sunpy/ablog/pull/38>`__ from `rayalan "
 "<https://github.com/rayalan>`__."
 msgstr ""
-"`为 conf.py 条目增加验证功能 "
-"<https://github.com/sunpy/ablog/pull/38>`__ 来自 "
+"`为 conf.py 条目增加验证功能 <https://github.com/sunpy/ablog/pull/38>`__ 来自 "
 "`rayalan <https://github.com/rayalan>`__。"
 
 #: ../../release/ablog-v0.10-released.rst:19
@@ -113,16 +105,16 @@ msgid ""
 "`Deploy improve <https://github.com/sunpy/ablog/pull/42>`__ from `rayalan"
 " <https://github.com/rayalan>`__."
 msgstr ""
-"`部署改善 <https://github.com/sunpy/ablog/pull/42>`__ "
-"从 `rayalan <https://github.com/rayalan>`__。"
+"`部署改善 <https://github.com/sunpy/ablog/pull/42>`__ 从 `rayalan "
+"<https://github.com/rayalan>`__。"
 
 #: ../../release/ablog-v0.10-released.rst:21
 msgid ""
 "`Get ablog ready for 0.10 <https://github.com/sunpy/ablog/pull/46>`__ "
 "from `nabobalis <https://github.com/nabobalis>`__."
 msgstr ""
-"`让 ablog 为 0.10 做好准备 <https://github.com/sunpy/ablog/pull/46>`__"
-"来自 `nabobalis <https://github.com/nabobalis>`__。"
+"`让 ablog 为 0.10 做好准备 <https://github.com/sunpy/ablog/pull/46>`__来自 "
+"`nabobalis <https://github.com/nabobalis>`__。"
 
 #: ../../release/ablog-v0.10-released.rst:24
 msgid "ABlog v0.10.1 released"
@@ -673,9 +665,9 @@ msgstr ""
 
 #: ../../release/ablog-v0.7-released.rst:45
 msgid ""
-"ABlog v0.7.3 makes use of `python-dateutil`_ for parsing post dates, so "
+"ABlog v0.7.3 makes use of `python-dateutil`__ for parsing post dates, so "
 "now you can be flexible with the format you use in posts. Thanks to `Andy"
-" Maloney`_ for this improvement."
+" Maloney`__ for this improvement."
 msgstr ""
 
 #: ../../release/ablog-v0.7-released.rst:53
@@ -976,4 +968,13 @@ msgid ""
 "<https://github.com/sunpy/ablog/pull/36>`__ from `rayalan "
 "<https://github.com/rayalan>`__."
 msgstr ""
+
+#~ msgid ""
+#~ "ABlog v0.7.3 makes use of `python-"
+#~ "dateutil`_ for parsing post dates, so"
+#~ " now you can be flexible with "
+#~ "the format you use in posts. "
+#~ "Thanks to `Andy Maloney`_ for this "
+#~ "improvement."
+#~ msgstr ""
 

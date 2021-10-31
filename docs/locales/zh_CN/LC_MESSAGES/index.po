@@ -83,7 +83,7 @@ msgid ""
 msgstr ""
 "这也将安装 `Sphinx <http://sphinx-doc.org/>`__，`feedgen "
 "<https://github.com/lkiesow/python-feedgen>`__ 和 `Invoke "
-"<https://www.pyinvoke.org/>`__，分别用于建立你的 网站，使其看起来更漂亮，生成 feeds，以及运行部署命令。"
+"<https://www.pyinvoke.org/>`__，分别用于建立网站，使其看起来更漂亮并生成 feeds，以及运行部署命令。"
 
 #: ../../index.rst:40
 msgid "Getting Started"
@@ -136,7 +136,3 @@ msgid ""
 "For ABlog documentation, this converts to the following where you can "
 "find more about configuring and using ABlog:"
 msgstr "对于 ABlog 文档，这可以转换为以下内容，在这里你可以找到更多关于配置和使用 ABlog 的信息："
-
-#~ msgid "`Atom feeds`_"
-#~ msgstr ""
-

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ABlog 0.10.20\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 19:20+0800\n"
+"POT-Creation-Date: 2021-10-25 19:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -564,9 +564,10 @@ msgid "Write Content"
 msgstr "撰写内容"
 
 #: ../../manual/ablog-quick-start.rst:46
+#, fuzzy
 msgid ""
 "If you are new to Sphinx_ and reStructuredText markup language, you might"
-" find `reStructuredText Primer`_ useful."
+" find `reStructuredText Primer`__ useful."
 msgstr ""
 "如果你是 Sphinx_ 和 reStructuredText 标记语言的新手，你可能会发现 `reStructuredText Primer`_"
 " 很有用。"
@@ -640,9 +641,10 @@ msgid "Analytics"
 msgstr "分析"
 
 #: ../../manual/ablog-quick-start.rst:98
+#, fuzzy
 msgid ""
 "ABlog uses Alabaster_ theme by default. You can use theme options to set "
-"your `Google Analytics`_ identifier to enable tracking."
+"your `Google Analytics`__ identifier to enable tracking."
 msgstr "ABlog 默认使用 Alabaster_ 主题。你可以使用主题选项来设置你的 `Google Analytics`_ 标识符，以启用跟踪。"
 
 #: ../../manual/ablog-quick-start.rst:103
@@ -1040,8 +1042,7 @@ msgstr ""
 #: ../../manual/auto-github-pages-deploys.rst:95
 msgid ""
 "Finally, you can find out more about :file:`.travis.yml` file and "
-"customizing your built on Travis CI `user documentation <https://docs"
-".travis-ci.com/user/customizing-the-build/>`__."
+"customizing your built on Travis CI `user documentation`__."
 msgstr ""
 
 #: ../../manual/cross-referencing-blog-pages.rst:2
@@ -1240,7 +1241,7 @@ msgstr ""
 
 #: ../../manual/deploy-to-github-pages.rst:12
 msgid ""
-"If you are looking for a place to publish your blog, `GitHub Pages`_ "
+"If you are looking for a place to publish your blog, `GitHub Pages`__ "
 "might be the place for you."
 msgstr ""
 
@@ -1785,5 +1786,19 @@ msgid ""
 msgstr ""
 
 #~ msgid "新建帖子"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Finally, you can find out more "
+#~ "about :file:`.travis.yml` file and customizing"
+#~ " your built on Travis CI `user "
+#~ "documentation <https://docs.travis-ci.com/user"
+#~ "/customizing-the-build/>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are looking for a place "
+#~ "to publish your blog, `GitHub Pages`_"
+#~ " might be the place for you."
 #~ msgstr ""
 
