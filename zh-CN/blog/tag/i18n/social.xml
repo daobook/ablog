@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posts tagged i18n</title>
+  <updated>2021-10-31T13:15:41.712063+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/tag/i18n/social.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-i18n.html</id>
+    <title>ABlog 国际化</title>
+    <updated>2014-08-30T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog 国际化 #i18n</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-i18n.html" rel="alternate"/>
+    <summary>ABlog 自动生成某些标签，如 blog-posts 和 blog-categories。如果尽管你指定了另一种语言，这些标签在你的博客上仍然以英语出现，那么这个页面就是为你准备的。</summary>
+    <category term="i18n" label="i18n"/>
+    <published>2014-08-30T00:00:00+00:00</published>
+  </entry>
+</feed>
