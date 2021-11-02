@@ -20,6 +20,8 @@ extensions = [
     "ablog",
 ]
 
+locale_dirs = ['locales/']   # path is example but recommended.
+
 # PROJECT
 versionmod = get_distribution("ablog")
 myst_update_mathjax = False
