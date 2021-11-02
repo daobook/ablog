@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts in Manual</title>
-  <updated>2021-11-02T17:02:29.928301+00:00</updated>
+  <updated>2021-11-02T17:12:40.943873+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/category/manual/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
