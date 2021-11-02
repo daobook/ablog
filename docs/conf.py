@@ -51,6 +51,9 @@ html_domain_indices = False
 html_show_sourcelink = True
 html_favicon = "_static/ablog.ico"
 
+post_date_format = '%c'
+post_date_format_short = '%b %d, %Y'
+
 # ABLOG
 blog_title = "ABlog"
 blog_baseurl = "https://ablog.readthedocs.org/"
