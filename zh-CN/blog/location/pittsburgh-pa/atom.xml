@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts from Pittsburgh, PA</title>
-  <updated>2021-10-31T13:33:23.715005+00:00</updated>
+  <updated>2021-11-02T17:02:43.047772+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/location/pittsburgh-pa/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
@@ -49,12 +49,12 @@ Posts can be cross-referenced using the name of the file, or when the file is na
   </entry>
   <entry>
     <id>https://ablog.readthedocs.org/manual/post-excerpts-and-images.html</id>
-    <title>Post Excerpts and Images</title>
+    <title>帖子节选和图片</title>
     <updated>2014-05-12T00:00:00+00:00</updated>
     <author>
       <name>Ahmet Bakan</name>
     </author>
-    <content type="html">Post Excerpts and Images #directive</content>
+    <content type="html">帖子节选和图片 #directive</content>
     <link href="https://ablog.readthedocs.org/manual/post-excerpts-and-images.html" rel="alternate"/>
     <summary>This post describes how to choose an excerpt and an image image for a post to be displayed in archive pages.</summary>
     <category term="directive" label="directive"/>

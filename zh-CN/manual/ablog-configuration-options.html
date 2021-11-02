@@ -88,31 +88,28 @@
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_title">
 <span class="sig-name descname"><span class="pre">blog_title</span></span><a class="headerlink" href="#confval-blog_title" title="永久链接至目标">¶</a></dt>
-<dd><p>The “title” for the blog, used in acthive pages.  Default is <code class="docutils literal notranslate"><span class="pre">'Blog'</span></code>.</p>
+<dd><p>博客的“标题”，在 acthive 页面中使用。默认是 <code class="docutils literal notranslate"><span class="pre">'Blog'</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_baseurl">
 <span class="sig-name descname"><span class="pre">blog_baseurl</span></span><a class="headerlink" href="#confval-blog_baseurl" title="永久链接至目标">¶</a></dt>
-<dd><p>Base URL for the website, required for generating feeds.</p>
+<dd><p>网站的基本 URL，生成 feeds 时需要。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_archive_titles">
 <span class="sig-name descname"><span class="pre">blog_archive_titles</span></span><a class="headerlink" href="#confval-blog_archive_titles" title="永久链接至目标">¶</a></dt>
-<dd><p>Choose to archive only post titles in collection pages, default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>选择只对收藏页中的帖子标题进行存档，默认为 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 </section>
 <section id="authors-languages-locations">
-<h2>Authors, languages, &amp; locations<a class="headerlink" href="#authors-languages-locations" title="永久链接至标题">¶</a></h2>
+<h2>作者、语言及地点<a class="headerlink" href="#authors-languages-locations" title="永久链接至标题">¶</a></h2>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_authors">
 <span class="sig-name descname"><span class="pre">blog_authors</span></span><a class="headerlink" href="#confval-blog_authors" title="永久链接至目标">¶</a></dt>
-<dd><p>A dictionary of author names mapping to author full display names and links.
-Dictionary keys are what should be used in <code class="docutils literal notranslate"><span class="pre">post</span></code> directive to refer to the author.
-Default is <code class="docutils literal notranslate"><span class="pre">{}</span></code>.
-Example:</p>
+<dd><p>一个作者名字的字典，映射到作者的完整显示名称和链接。字典中的键是应该在 <code class="docutils literal notranslate"><span class="pre">post</span></code> 指令中用来指代作者的。默认是  <code class="docutils literal notranslate"><span class="pre">{}</span></code>。例如</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">blog_authors</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;Ahmet&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;Ahmet Bakan&#39;</span><span class="p">,</span> <span class="s1">&#39;http://ahmetbakan.com&#39;</span><span class="p">),</span>
     <span class="s1">&#39;Durden&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;Tyler Durden&#39;</span><span class="p">,</span>
@@ -125,10 +122,7 @@ Example:</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_languages">
 <span class="sig-name descname"><span class="pre">blog_languages</span></span><a class="headerlink" href="#confval-blog_languages" title="永久链接至目标">¶</a></dt>
-<dd><p>A dictionary of language code names mapping to full display names and links of these languages.
-Similar to <a class="reference internal" href="#confval-blog_authors"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_authors</span></code></a>, dictionary keys should be used in <code class="docutils literal notranslate"><span class="pre">post</span></code> directive to refer to the locations.
-Default is <code class="docutils literal notranslate"><span class="pre">{}</span></code>.
-Example:</p>
+<dd><p>语言代码名称的字典，映射到这些语言的完整显示名称和链接。类似于 <a class="reference internal" href="#confval-blog_authors"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_authors</span></code></a>，字典的键应该在 <code class="docutils literal notranslate"><span class="pre">post</span></code> 指令中使用，以指代这些位置。默认是 <code class="docutils literal notranslate"><span class="pre">{}</span></code>。例如</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">blog_languages</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;en&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;English&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
 <span class="p">}</span>
@@ -139,130 +133,97 @@ Example:</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_locations">
 <span class="sig-name descname"><span class="pre">blog_locations</span></span><a class="headerlink" href="#confval-blog_locations" title="永久链接至目标">¶</a></dt>
-<dd><p>A dictionary of location names mapping to full display names and links of these locations.
-Similar to <a class="reference internal" href="#confval-blog_authors"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_authors</span></code></a>, dictionary keys should be used in <code class="docutils literal notranslate"><span class="pre">post</span></code> directive to refer to the locations.
-Default is <code class="docutils literal notranslate"><span class="pre">{}</span></code>.</p>
+<dd><p>一个位置名称的字典，映射到这些位置的完整显示名称和链接。类似于 <a class="reference internal" href="#confval-blog_authors"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_authors</span></code></a>，字典中的键应该在 <code class="docutils literal notranslate"><span class="pre">post</span></code> 指令中使用，以引用位置。默认是 <code class="docutils literal notranslate"><span class="pre">{}</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_default_author">
 <span class="sig-name descname"><span class="pre">blog_default_author</span></span><a class="headerlink" href="#confval-blog_default_author" title="永久链接至目标">¶</a></dt>
-<dd><p>Name of the default author defined in <a class="reference internal" href="#confval-blog_authors"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_authors</span></code></a>.
-Default is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<dd><p>在 <a class="reference internal" href="#confval-blog_authors"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_authors</span></code></a> 中定义的默认作者的名字。默认为 <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_default_language">
 <span class="sig-name descname"><span class="pre">blog_default_language</span></span><a class="headerlink" href="#confval-blog_default_language" title="永久链接至目标">¶</a></dt>
-<dd><p>Code name of the default language defined in <a class="reference internal" href="#confval-blog_languages"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_languages</span></code></a>.
-Default is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<dd><p>在 <a class="reference internal" href="#confval-blog_languages"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_languages</span></code></a> 中定义的默认语言的代码名称。默认为 <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_default_location">
 <span class="sig-name descname"><span class="pre">blog_default_location</span></span><a class="headerlink" href="#confval-blog_default_location" title="永久链接至目标">¶</a></dt>
-<dd><p>Name of the default location defined in <a class="reference internal" href="#confval-blog_locations"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_locations</span></code></a>.
-Default is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<dd><p>在 <a class="reference internal" href="#confval-blog_locations"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_locations</span></code></a> 中定义的默认位置的名称。默认为 <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
 </dd></dl>
 
 <div class="note update admonition">
 <p class="admonition-title">Updated on 15 September 2014</p>
-<p>Added <a class="reference internal" href="#confval-blog_languages"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_languages</span></code></a> and <a class="reference internal" href="#confval-blog_default_language"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_default_language</span></code></a> configuration variables.</p>
+<p>增加了 <a class="reference internal" href="#confval-blog_languages"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_languages</span></code></a> 和 <a class="reference internal" href="#confval-blog_default_language"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_default_language</span></code></a> 配置变量。</p>
 </div>
 </section>
 <section id="post-related">
-<h2>Post related<a class="headerlink" href="#post-related" title="永久链接至标题">¶</a></h2>
+<h2>帖子相关<a class="headerlink" href="#post-related" title="永久链接至标题">¶</a></h2>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-post_date_format">
 <span class="sig-name descname"><span class="pre">post_date_format</span></span><a class="headerlink" href="#confval-post_date_format" title="永久链接至目标">¶</a></dt>
-<dd><p>Date display format (default is <code class="docutils literal notranslate"><span class="pre">'%b</span> <span class="pre">%d,</span> <span class="pre">%Y'</span></code>) for published posts that goes as input to <a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.date.strftime" title="(在 Python v3.10)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">datetime.date.strftime()</span></code></a>.</p>
+<dd><p>发表文章的日期显示格式（默认为 <code class="docutils literal notranslate"><span class="pre">'%b</span> <span class="pre">%d,</span> <span class="pre">%Y'</span></code>），作为 <a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.date.strftime" title="(在 Python v3.10)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">datetime.date.strftime()</span></code></a> 的输入。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-post_auto_excerpt">
 <span class="sig-name descname"><span class="pre">post_auto_excerpt</span></span><a class="headerlink" href="#confval-post_auto_excerpt" title="永久链接至目标">¶</a></dt>
-<dd><p>Number of paragraphs (default is <code class="docutils literal notranslate"><span class="pre">1</span></code>) that will be displayed as an excerpt from the post.
-Setting this <code class="docutils literal notranslate"><span class="pre">0</span></code> will result in displaying no post excerpt in archive pages.
-This option can be set on a per post basis using <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> directive option <code class="docutils literal notranslate"><span class="pre">excerpt</span></code>.</p>
-<p>See <a class="reference internal" href="post-excerpts-and-images.html#post-excerpts-and-images"><span class="std std-ref">Post Excerpts and Images</span></a> for a more detailed discussion.</p>
+<dd><p>将作为文章摘要显示的段落数（默认为 <code class="docutils literal notranslate"><span class="pre">1</span></code>）。设置为 <code class="docutils literal notranslate"><span class="pre">0</span></code> 将导致在存档页中不显示文章摘录。这个选项可以在每个帖子的基础上使用 <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令选项 <code class="docutils literal notranslate"><span class="pre">excerpt</span></code> 来设置。</p>
+<p>更详细的讨论见 <a class="reference internal" href="post-excerpts-and-images.html#post-excerpts-and-images"><span class="std std-ref">帖子节选和图片</span></a>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-post_auto_image">
 <span class="sig-name descname"><span class="pre">post_auto_image</span></span><a class="headerlink" href="#confval-post_auto_image" title="永久链接至目标">¶</a></dt>
-<dd><p>Index of the image that will be displayed in the excerpt of the post.
-Default is <code class="docutils literal notranslate"><span class="pre">0</span></code>, meaning no image.
-Setting this to <code class="docutils literal notranslate"><span class="pre">1</span></code> will include the first image, when available, to the excerpt.
-This option can be set on a per post basis using <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> directive option <code class="docutils literal notranslate"><span class="pre">image</span></code>.</p>
+<dd><p>将显示在文章摘录中的图片的索引。默认是 <code class="docutils literal notranslate"><span class="pre">0</span></code>，意味着没有图片。设置为 <code class="docutils literal notranslate"><span class="pre">1</span></code> 将包括第一张图片（如果有的话）到摘录中。这个选项可以在每个帖子的基础上使用 <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令选项 <code class="docutils literal notranslate"><span class="pre">image</span></code> 来设置。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-post_redirect_refresh">
 <span class="sig-name descname"><span class="pre">post_redirect_refresh</span></span><a class="headerlink" href="#confval-post_redirect_refresh" title="永久链接至目标">¶</a></dt>
-<dd><p>Number of seconds (default is <code class="docutils literal notranslate"><span class="pre">5</span></code>) that a redirect page waits before refreshing the page to redirect to the post.</p>
+<dd><p>重定向页面在刷新页面之前等待的秒数（默认为 <code class="docutils literal notranslate"><span class="pre">5</span></code>），以重定向到帖子。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-post_always_section">
 <span class="sig-name descname"><span class="pre">post_always_section</span></span><a class="headerlink" href="#confval-post_always_section" title="永久链接至目标">¶</a></dt>
-<dd><p>When <code class="docutils literal notranslate"><span class="pre">True</span></code>, post title and excerpt is always taken from the section that contains the <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> directive, instead of the document.
-This is the behavior when <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> is used multiple times in a document.
-Default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>当 <code class="docutils literal notranslate"><span class="pre">True</span></code> 时，帖子的标题和摘要总是从包含 <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 指令的部分提取，而不是从文档中提取。这是当 <a class="reference internal" href="posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> 在一个文档中被多次使用时的行为。默认是 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 </section>
 <section id="blog-feeds">
-<h2>Blog feeds<a class="headerlink" href="#blog-feeds" title="永久链接至标题">¶</a></h2>
-<p>Turn feeds on by setting <a class="reference internal" href="#confval-blog_baseurl"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_baseurl</span></code></a> configuration variable.</p>
+<h2>博客反馈<a class="headerlink" href="#blog-feeds" title="永久链接至标题">¶</a></h2>
+<p>通过设置 <a class="reference internal" href="#confval-blog_baseurl"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_baseurl</span></code></a> 配置变量打开 feeds。</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_feed_archives">
 <span class="sig-name descname"><span class="pre">blog_feed_archives</span></span><a class="headerlink" href="#confval-blog_feed_archives" title="永久链接至目标">¶</a></dt>
-<dd><p>Choose to create feeds per author, location, tag, category, and year, default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>选择按作者、地点、标签、类别和年份创建 feeds，默认为 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_feed_fulltext">
 <span class="sig-name descname"><span class="pre">blog_feed_fulltext</span></span><a class="headerlink" href="#confval-blog_feed_fulltext" title="永久链接至目标">¶</a></dt>
-<dd><p>Choose to display full text in blog feeds, default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>选择在博客 feeds 中显示全文，默认为 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_feed_subtitle">
 <span class="sig-name descname"><span class="pre">blog_feed_subtitle</span></span><a class="headerlink" href="#confval-blog_feed_subtitle" title="永久链接至目标">¶</a></dt>
-<dd><p>Blog feed subtitle, default is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<dd><p>博客 feed 的副标题，默认为 <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_feed_titles">
 <span class="sig-name descname"><span class="pre">blog_feed_titles</span></span><a class="headerlink" href="#confval-blog_feed_titles" title="永久链接至目标">¶</a></dt>
-<dd><p>Choose to feed only post titles, default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>选择只提供文章标题，默认为 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_feed_templates">
 <span class="sig-name descname"><span class="pre">blog_feed_templates</span></span><a class="headerlink" href="#confval-blog_feed_templates" title="永久链接至目标">¶</a></dt>
-<dd><p>A dictionary of feed filename roots mapping to nested dictionaries of feed entry
-elements, <code class="docutils literal notranslate"><span class="pre">title</span></code>, <code class="docutils literal notranslate"><span class="pre">summary</span></code>, and/or <code class="docutils literal notranslate"><span class="pre">content</span></code>, and a <a class="reference external" href="https://jinja.palletsprojects.com/">Jinja2</a> template which will be
-used to render the value used for that element in that feed.  Templates are rendered
-with the the following context:
-- <code class="docutils literal notranslate"><span class="pre">feed_length</span></code>
-- <code class="docutils literal notranslate"><span class="pre">feed_fulltext</span></code>
-- <code class="docutils literal notranslate"><span class="pre">feed_posts</span></code>
-- <code class="docutils literal notranslate"><span class="pre">pagename</span></code>
-- <code class="docutils literal notranslate"><span class="pre">feed_title</span></code>
-- <code class="docutils literal notranslate"><span class="pre">feed_url</span></code>
-- <code class="docutils literal notranslate"><span class="pre">feed</span></code>
-- <code class="docutils literal notranslate"><span class="pre">post</span></code>
-- <code class="docutils literal notranslate"><span class="pre">post_url</span></code>
-- <code class="docutils literal notranslate"><span class="pre">content</span></code>
-- <code class="docutils literal notranslate"><span class="pre">feed_entry</span></code>
-- <code class="docutils literal notranslate"><span class="pre">title</span></code>
-- <code class="docutils literal notranslate"><span class="pre">summary</span></code>
-- <code class="docutils literal notranslate"><span class="pre">blog</span></code>
-- <code class="docutils literal notranslate"><span class="pre">url</span></code>
-- <code class="docutils literal notranslate"><span class="pre">app</span></code>
-Default is: <code class="docutils literal notranslate"><span class="pre">{&quot;atom&quot;:</span> <span class="pre">{}}</span></code>
-Example to add an additional feed for posting to social media:</p>
+<dd><p>一个 feed 文件名根的字典，映射到 feed 条目元素的嵌套字典，<code class="docutils literal notranslate"><span class="pre">title</span></code>, <code class="docutils literal notranslate"><span class="pre">summary</span></code> 和/或 <code class="docutils literal notranslate"><span class="pre">content</span></code>，以及一个 <a class="reference external" href="https://jinja.palletsprojects.com/">Jinja2</a> 模板，将用于渲染该 feed 中该元素的值。模板的渲染内容如下： <code class="docutils literal notranslate"><span class="pre">feed_length</span></code> - <code class="docutils literal notranslate"><span class="pre">feed_fulltext</span></code> - <code class="docutils literal notranslate"><span class="pre">feed_posts</span></code> - <code class="docutils literal notranslate"><span class="pre">pagename</span></code> - <code class="docutils literal notranslate"><span class="pre">feed_title</span></code> - <code class="docutils literal notranslate"><span class="pre">feed_url</span></code> - <code class="docutils literal notranslate"><span class="pre">feed</span></code> - <code class="docutils literal notranslate"><span class="pre">post</span></code> - <code class="docutils literal notranslate"><span class="pre">post_url</span></code> - <code class="docutils literal notranslate"><span class="pre">content</span></code> - <code class="docutils literal notranslate"><span class="pre">feed_entry</span></code> - <code class="docutils literal notranslate"><span class="pre">title</span></code> - <code class="docutils literal notranslate"><span class="pre">summary</span></code> - <code class="docutils literal notranslate"><span class="pre">blog</span></code> - <code class="docutils literal notranslate"><span class="pre">url</span></code> - <code class="docutils literal notranslate"><span class="pre">app</span></code> 默认是: <code class="docutils literal notranslate"><span class="pre">{&quot;atom&quot;:</span> <span class="pre">{}}</span></code> 例子是 添加一个额外的 feed，用于发布到社交媒体上</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">blog_feed_templates</span> <span class="o">=</span> <span class="p">{</span>
       <span class="c1"># Use defaults, no templates</span>
       <span class="s2">&quot;atom&quot;</span><span class="p">:</span> <span class="p">{},</span>
@@ -281,85 +242,78 @@ Example to add an additional feed for posting to social media:</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-blog_feed_length">
 <span class="sig-name descname"><span class="pre">blog_feed_length</span></span><a class="headerlink" href="#confval-blog_feed_length" title="永久链接至目标">¶</a></dt>
-<dd><p>Specify number of recent posts to include in feeds, default is <code class="docutils literal notranslate"><span class="pre">None</span></code> for all posts.</p>
+<dd><p>指定在 feeds 中包含的最近帖子的数量，默认为所有帖子的 <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
 </dd></dl>
 
 <div class="note update admonition">
 <p class="admonition-title">Updated on 24 August 2014</p>
-<p>Added <a class="reference internal" href="#confval-blog_feed_archives"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_archives</span></code></a>, <a class="reference internal" href="#confval-blog_feed_fulltext"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_fulltext</span></code></a>, <a class="reference internal" href="#confval-blog_feed_subtitle"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_subtitle</span></code></a>, and <a class="reference internal" href="#confval-post_always_section"><code class="xref std std-confval docutils literal notranslate"><span class="pre">post_always_section</span></code></a> options.</p>
+<p>增加了 <a class="reference internal" href="#confval-blog_feed_archives"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_archives</span></code></a>, <a class="reference internal" href="#confval-blog_feed_fulltext"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_fulltext</span></code></a>, <a class="reference internal" href="#confval-blog_feed_subtitle"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_subtitle</span></code></a> 和 <a class="reference internal" href="#confval-post_always_section"><code class="xref std std-confval docutils literal notranslate"><span class="pre">post_always_section</span></code></a> 选项。</p>
 </div>
 <div class="note update admonition">
 <p class="admonition-title">Updated on 27 November 2014</p>
-<p>Added <a class="reference internal" href="#confval-blog_feed_titles"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_titles</span></code></a>, <a class="reference internal" href="#confval-blog_feed_length"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_length</span></code></a>, and <a class="reference internal" href="#confval-blog_archive_titles"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_archive_titles</span></code></a> options.</p>
+<p>增加了 <a class="reference internal" href="#confval-blog_feed_titles"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_titles</span></code></a>, <a class="reference internal" href="#confval-blog_feed_length"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_length</span></code></a> 和:confval:<cite>blog_archive_titles</cite> 选项。</p>
 </div>
 <div class="note update admonition">
 <p class="admonition-title">Updated on 20 March 2021</p>
-<p>Added <a class="reference internal" href="#confval-blog_feed_templates"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_templates</span></code></a> option.</p>
+<p>增加 <a class="reference internal" href="#confval-blog_feed_templates"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_feed_templates</span></code></a> 选项。</p>
 </div>
 </section>
 <section id="font-awesome">
-<h2>Font awesome<a class="headerlink" href="#font-awesome" title="永久链接至标题">¶</a></h2>
-<p>ABlog templates will use of <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> icons if one of the following is set:</p>
+<h2>Font Awesome<a class="headerlink" href="#font-awesome" title="永久链接至标题">¶</a></h2>
+<p>ABlog模板将使用 <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> 图标，如果设置了以下一项：</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-fontawesome_link_cdn">
 <span class="sig-name descname"><span class="pre">fontawesome_link_cdn</span></span><a class="headerlink" href="#confval-fontawesome_link_cdn" title="永久链接至目标">¶</a></dt>
-<dd><p>URL to <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> <code class="file docutils literal notranslate"><span class="pre">.css</span></code> hosted at <a class="reference external" href="https://www.bootstrapcdn.com/fontawesome/">Bootstrap CDN</a> or anywhere else.
-Default: <code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+<dd><p>在 <a class="reference external" href="https://www.bootstrapcdn.com/fontawesome/">Bootstrap CDN</a> 或其他地方托管的 <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> <code class="file docutils literal notranslate"><span class="pre">.css</span></code> 的 URL。默认: <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
 </dd></dl>
 
 <div class="note update admonition">
 <p class="admonition-title">Updated on 29 July 2015</p>
-<p><a class="reference internal" href="#confval-fontawesome_link_cdn"><code class="xref std std-confval docutils literal notranslate"><span class="pre">fontawesome_link_cdn</span></code></a> was a <em>boolean</em> option, and now became a <em>string</em> to enable using desired version of <a class="reference external" href="https://fontawesome.io/">Font Awesome</a>.
-To get the old behavior, use <code class="docutils literal notranslate"><span class="pre">‘https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'</span></code>.</p>
+<p><a class="reference internal" href="#confval-fontawesome_link_cdn"><code class="xref std std-confval docutils literal notranslate"><span class="pre">fontawesome_link_cdn</span></code></a> 是一个 <em>boolean</em> 选项，现在变成了一个 <em>string</em> 来启用所需的 <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> 版本。要获得旧的行为，请使用 <code class="docutils literal notranslate"><span class="pre">'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'</span></code>。</p>
 </div>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-fontawesome_included">
 <span class="sig-name descname"><span class="pre">fontawesome_included</span></span><a class="headerlink" href="#confval-fontawesome_included" title="永久链接至目标">¶</a></dt>
-<dd><p><a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> theme already links to <a class="reference external" href="https://fontawesome.io/">Font Awesome</a>.
-Default: <code class="docutils literal notranslate"><span class="pre">False</span></code></p>
+<dd><p><a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> 主题已经链接到 <a class="reference external" href="https://fontawesome.io/">Font Awesome</a>。默认: <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
-<p>Alternatively, you can provide the path to <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> <code class="file docutils literal notranslate"><span class="pre">.css</span></code> with the following configuration option:</p>
+<p>另外，你可以用以下配置选项提供 <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> <code class="file docutils literal notranslate"><span class="pre">.css</span></code> 的路径：</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-fontawesome_css_file">
 <span class="sig-name descname"><span class="pre">fontawesome_css_file</span></span><a class="headerlink" href="#confval-fontawesome_css_file" title="永久链接至目标">¶</a></dt>
-<dd><p>Path to <a class="reference external" href="https://fontawesome.io/">Font Awesome</a> <code class="file docutils literal notranslate"><span class="pre">.css</span></code> (default is <code class="docutils literal notranslate"><span class="pre">None</span></code>) that will be linked to in HTML output by ABlog.</p>
+<dd><p><a class="reference external" href="https://fontawesome.io/">Font Awesome</a> <code class="file docutils literal notranslate"><span class="pre">.css</span></code> 的路径（默认为 <code class="docutils literal notranslate"><span class="pre">None</span></code>），将被 ABlog 在 HTML 输出中链接到。</p>
 </dd></dl>
 
 </section>
 <section id="disqus-integration">
-<span id="id2"></span><h2>Disqus integration<a class="headerlink" href="#disqus-integration" title="永久链接至标题">¶</a></h2>
-<p>Of course one cannot think of a blog that doesn’t allow for visitors to comment.
-You can enable <a class="reference external" href="https://disqus.com/">Disqus</a> by setting <a class="reference internal" href="#confval-disqus_shortname"><code class="xref std std-confval docutils literal notranslate"><span class="pre">disqus_shortname</span></code></a> and <a class="reference internal" href="#confval-blog_baseurl"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_baseurl</span></code></a> variables.
-The reason for requiring <a class="reference internal" href="#confval-blog_baseurl"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_baseurl</span></code></a> to be specified as of v0.7.2 is to ensure that Disqus associates correct URLs with threads when you serve new posts locally for the first time.</p>
+<span id="id2"></span><h2>Disqus 集成<a class="headerlink" href="#disqus-integration" title="永久链接至标题">¶</a></h2>
+<p>当然，人们无法想到一个博客不允许访问者发表评论。你可以通过设置 <a class="reference internal" href="#confval-disqus_shortname"><code class="xref std std-confval docutils literal notranslate"><span class="pre">disqus_shortname</span></code></a> 和 <a class="reference internal" href="#confval-blog_baseurl"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_baseurl</span></code></a> 变量来启用 <a class="reference external" href="https://disqus.com/">Disqus</a>。从 v0.7.2 开始，要求指定 <a class="reference internal" href="#confval-blog_baseurl"><code class="xref std std-confval docutils literal notranslate"><span class="pre">blog_baseurl</span></code></a> 的原因是为了确保当你第一次在本地提供新帖子时，Disqus 将正确的 URL 与线程联系起来。</p>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-disqus_shortname">
 <span class="sig-name descname"><span class="pre">disqus_shortname</span></span><a class="headerlink" href="#confval-disqus_shortname" title="永久链接至目标">¶</a></dt>
-<dd><p><a class="reference external" href="https://disqus.com/">Disqus</a> short name for the website.</p>
+<dd><p><a class="reference external" href="https://disqus.com/">Disqus</a> 网站的简称。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-disqus_pages">
 <span class="sig-name descname"><span class="pre">disqus_pages</span></span><a class="headerlink" href="#confval-disqus_pages" title="永久链接至目标">¶</a></dt>
-<dd><p>Choose to disqus pages that are not posts, default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>选择 disqus 是非帖子的页面，默认为 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-disqus_drafts">
 <span class="sig-name descname"><span class="pre">disqus_drafts</span></span><a class="headerlink" href="#confval-disqus_drafts" title="永久链接至目标">¶</a></dt>
-<dd><p>Choose to disqus posts that are drafts (without a published date), default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<dd><p>选择将 disqus 的帖子作为草稿（没有发布日期）。默认为 <code class="docutils literal notranslate"><span class="pre">False</span></code>。</p>
 </dd></dl>
 
 </section>
 <section id="isso-integration">
-<h2>Isso integration<a class="headerlink" href="#isso-integration" title="永久链接至标题">¶</a></h2>
-<p>An alternative to Disqus, is <a class="reference external" href="https://posativ.org/isso/">Isso</a>.
-Integration is provided by <a class="reference external" href="https://sphinx-notes.github.io/isso/">sphinxnotes-isso</a> and the instructions there.</p>
+<h2>Isso 集成<a class="headerlink" href="#isso-integration" title="永久链接至标题">¶</a></h2>
+<p>Disqus 的一个替代方案，是 <a class="reference external" href="https://posativ.org/isso/">Isso</a>。集成是由 <a class="reference external" href="https://sphinx-notes.github.io/isso/">sphinxnotes-isso</a> 和那里的说明提供的。</p>
 </section>
 <section id="blog-sidebars">
-<span id="sidebars"></span><h2>Blog sidebars<a class="headerlink" href="#blog-sidebars" title="永久链接至标题">¶</a></h2>
-<p>Finally, there are seven sidebars you can include in your HTML output using <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_sidebars" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">html_sidebars</span></code></a> configuration option.
-Sidebars that you see on the left are listed below in the same order:</p>
+<span id="sidebars"></span><h2>博客侧边栏<a class="headerlink" href="#blog-sidebars" title="永久链接至标题">¶</a></h2>
+<p>最后，你可以用 <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_sidebars" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">html_sidebars</span></code></a> 配置选项在你的 HTML 输出中包含七个侧边栏。你在左边看到的侧边栏按照同样的顺序列在下面：</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_sidebars</span> <span class="o">=</span> <span class="p">{</span>
    <span class="s1">&#39;**&#39;</span><span class="p">:</span> <span class="p">[</span><span class="o">...</span><span class="p">,</span>
           <span class="s1">&#39;postcard.html&#39;</span><span class="p">,</span> <span class="s1">&#39;recentposts.html&#39;</span><span class="p">,</span>
@@ -368,41 +322,36 @@ Sidebars that you see on the left are listed below in the same order:</p>
 <span class="p">}</span>
 </pre></div>
 </div>
-<p><code class="file docutils literal notranslate"><span class="pre">postcard.html</span></code> provides information regarding the current post.
-<code class="file docutils literal notranslate"><span class="pre">recentposts.html</span></code> lists most recent five posts.
-Others provide a link to a archive pages generated for each tag, category, and year.
-In addition, there are <code class="docutils literal notranslate"><span class="pre">authors.html</span></code>, <code class="docutils literal notranslate"><span class="pre">languages.html</span></code>, and <code class="docutils literal notranslate"><span class="pre">locations.html</span></code> sidebars that link to author and location archive pages.</p>
+<p><code class="file docutils literal notranslate"><span class="pre">postcard.html</span></code> 提供有关当前帖子的信息。<code class="file docutils literal notranslate"><span class="pre">recentposts.html</span></code> 列出最近的五个帖子。其他的则提供一个链接到为每个标签、类别和年份生成的档案页。此外，还有 <code class="docutils literal notranslate"><span class="pre">authors.html</span></code>、<code class="docutils literal notranslate"><span class="pre">languages.html</span></code> 和 <code class="docutils literal notranslate"><span class="pre">locations.html</span></code> 等侧边栏，链接到作者和位置的档案页。</p>
 </section>
 <section id="command-options">
-<h2>Command Options<a class="headerlink" href="#command-options" title="永久链接至标题">¶</a></h2>
+<h2>命令选项<a class="headerlink" href="#command-options" title="永久链接至标题">¶</a></h2>
 <div class="note update admonition">
 <p class="admonition-title">Updated on 07 April 2015</p>
-<p>Added <a class="reference internal" href="ablog-commands.html#commands"><span class="std std-ref">ABlog 命令</span></a> options.</p>
+<p>添加 <a class="reference internal" href="ablog-commands.html#commands"><span class="std std-ref">ABlog 命令</span></a> 选项。</p>
 </div>
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-ablog_website">
 <span class="sig-name descname"><span class="pre">ablog_website</span></span><a class="headerlink" href="#confval-ablog_website" title="永久链接至目标">¶</a></dt>
-<dd><p>Directory name for build output files. Default is <code class="docutils literal notranslate"><span class="pre">_website</span></code>.</p>
+<dd><p>构建输出文件的目录名称。默认为 <code class="docutils literal notranslate"><span class="pre">_website</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-ablog_doctrees">
 <span class="sig-name descname"><span class="pre">ablog_doctrees</span></span><a class="headerlink" href="#confval-ablog_doctrees" title="永久链接至目标">¶</a></dt>
-<dd><p>Directory name for build cache files. Default is <code class="docutils literal notranslate"><span class="pre">.doctrees</span></code>.</p>
+<dd><p>构建缓存文件的目录名称。默认为 <code class="docutils literal notranslate"><span class="pre">.doctrees</span></code>。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-ablog_builder">
 <span class="sig-name descname"><span class="pre">ablog_builder</span></span><a class="headerlink" href="#confval-ablog_builder" title="永久链接至目标">¶</a></dt>
-<dd><p>HTML builder, default is <code class="docutils literal notranslate"><span class="pre">dirhtml</span></code>. Build HTML pages, but with a single directory per document.
-Makes for prettier URLs (no .html) if served from a webserver. Alternative is <code class="docutils literal notranslate"><span class="pre">html</span></code> to build one HTML file per document.</p>
+<dd><p>HTML 生成器，默认为 <code class="docutils literal notranslate"><span class="pre">dirhtml</span></code>。建立 HTML 页面，但每个文件只有一个目录。如果从网络服务器提供服务，可以获得更漂亮的 URL（没有 .html）。替代方案是 <code class="docutils literal notranslate"><span class="pre">html</span></code>，每个文档建立一个 HTML 文件。</p>
 </dd></dl>
 
 <dl class="std confval">
 <dt class="sig sig-object std" id="confval-github_pages">
 <span class="sig-name descname"><span class="pre">github_pages</span></span><a class="headerlink" href="#confval-github_pages" title="永久链接至目标">¶</a></dt>
-<dd><p>GitHub user name used by <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">deploy</span></code> command.
-See <a class="reference internal" href="ablog-commands.html#deploy"><span class="std std-ref">部署到 GitHub Pages</span></a> and <a class="reference internal" href="deploy-to-github-pages.html#deploy-to-github-pages"><span class="std std-ref">部署到 GitHub Pages</span></a> for more information.</p>
+<dd><p>GitHub 用户名被 <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">deploy</span></code> 命令使用。参见 <a class="reference internal" href="ablog-commands.html#deploy"><span class="std std-ref">部署到 GitHub Pages</span></a> 和 <a class="reference internal" href="deploy-to-github-pages.html#deploy-to-github-pages"><span class="std std-ref">部署到 GitHub Pages</span></a> 获取更多信息。</p>
 </dd></dl>
 
 </section>

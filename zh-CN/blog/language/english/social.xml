@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
   <id>https://ablog.readthedocs.org/</id>
   <title>ABlog - Posts in English</title>
-  <updated>2021-10-31T13:33:24.942406+00:00</updated>
+  <updated>2021-11-02T17:02:44.315568+00:00</updated>
   <link href="https://ablog.readthedocs.org/"/>
   <link href="https://ablog.readthedocs.org/blog/language/english/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.20">ABlog</generator>
@@ -49,12 +49,12 @@ Posts can be cross-referenced using the name of the file, or when the file is na
   </entry>
   <entry>
     <id>https://ablog.readthedocs.org/manual/post-excerpts-and-images.html</id>
-    <title>Post Excerpts and Images</title>
+    <title>帖子节选和图片</title>
     <updated>2014-05-12T00:00:00+00:00</updated>
     <author>
       <name>Ahmet Bakan</name>
     </author>
-    <content type="html">Post Excerpts and Images #directive</content>
+    <content type="html">帖子节选和图片 #directive</content>
     <link href="https://ablog.readthedocs.org/manual/post-excerpts-and-images.html" rel="alternate"/>
     <summary>This post describes how to choose an excerpt and an image image for a post to be displayed in archive pages.</summary>
     <category term="directive" label="directive"/>
@@ -391,16 +391,14 @@ to be specified together for Disqus integration.</summary>
   </entry>
   <entry>
     <id>https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html</id>
-    <title>Automate GitHub Pages Deploys</title>
+    <title>自动化 GitHub Pages 的部署</title>
     <updated>2015-06-15T00:00:00+00:00</updated>
     <author>
       <name>Ahmet Bakan</name>
     </author>
-    <content type="html">Automate GitHub Pages Deploys #deploy #tips</content>
+    <content type="html">自动化 GitHub Pages 的部署 #deploy #tips</content>
     <link href="https://ablog.readthedocs.org/manual/auto-github-pages-deploys.html" rel="alternate"/>
-    <summary>If being away from your personal computer is holding you back from blogging, keep reading.
-This post will show you how to automate builds and deploys using Travis CI.
-Once you set this up, all you need to do post an article will be pushing to GitHub or creating a new file on GitHub.com from any computer!</summary>
+    <summary>如果远离你的个人电脑使你无法写博客，请继续阅读。这篇文章将告诉你如何使用 Travis CI 自动构建和部署。一旦你设置好了，你所需要做的发布文章将是推送到 GitHub 或在 GitHub.com 上创建一个新文件，在任何电脑上都可以！</summary>
     <category term="deploy" label="deploy"/>
     <category term="tips" label="tips"/>
     <published>2015-06-15T00:00:00+00:00</published>
