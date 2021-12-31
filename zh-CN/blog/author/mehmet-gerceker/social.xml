@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posts by Mehmet Gerçeker</title>
+  <updated>2021-12-31T14:18:10.584162+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/author/mehmet-gerceker/social.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.21">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-commands.html</id>
+    <title>ABlog 命令</title>
+    <updated>2015-04-07T00:00:00+00:00</updated>
+    <author>
+      <name>Mehmet Gerçeker</name>
+    </author>
+    <content type="html">ABlog 命令 #config #commands</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-commands.html" rel="alternate"/>
+    <summary>ablog 命令是为了简化博客操作，即建立、提供和查看博客页面，以及启动一个新的博客</summary>
+    <category term="config" label="config"/>
+    <category term="commands" label="commands"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/ablog-quick-start.html</id>
+    <title>ABlog 快速入门</title>
+    <updated>2015-03-01T00:00:00+00:00</updated>
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">ABlog 快速入门 #config #tips</content>
+    <link href="https://ablog.readthedocs.org/manual/ablog-quick-start.html" rel="alternate"/>
+    <summary>这个简短的博客工作流程假设你已经安装了 ABlog。如果没有，请看 installation 指南。</summary>
+    <category term="config" label="config"/>
+    <category term="tips" label="tips"/>
+    <published>2015-03-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.5-released.html</id>
+    <title>ABlog v0.5 released</title>
+    <updated>2015-03-25T00:00:00+00:00</updated>
+    <author>
+      <name>Mehmet Gerçeker</name>
+    </author>
+    <content type="html">ABlog v0.5 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.5-released.html" rel="alternate"/>
+    <summary>ABlog v0.5 is released. This version comes with ablog-commands and
+a quick-start guide.</summary>
+    <published>2015-03-25T00:00:00+00:00</published>
+  </entry>
+</feed>

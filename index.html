@@ -1,113 +1,43 @@
 
 <!DOCTYPE html>
 
-<html lang="zh_CN">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>上善若水 &#8212; blog-demo 0.1 文档</title>
-    
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
-
-    
-      
-
-    
+    <title>ABlog for Sphinx &#8212; ABlog</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
-    <link rel="stylesheet" type="text/css" href="_static/default.css" />
-    
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
-
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/tabs.js"></script>
-    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
-    <script kind="utterances">
-
-    var commentsRunWhenDOMLoaded = cb => {
-    if (document.readyState != 'loading') {
-        cb()
-    } else if (document.addEventListener) {
-        document.addEventListener('DOMContentLoaded', cb)
-    } else {
-        document.attachEvent('onreadystatechange', function() {
-        if (document.readyState == 'complete') cb()
-        })
-    }
-}
-
-var addUtterances = () => {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "https://utteranc.es/client.js";
-    script.async = "async";
-
-    script.setAttribute("repo", "xinetzone/blog-demo");
-    script.setAttribute("issue-term", "pathname");
-    script.setAttribute("theme", "github-light");
-    script.setAttribute("label", "💬 comment");
-    script.setAttribute("crossorigin", "anonymous");
-
-    sections = document.querySelectorAll("div.section");
-    if (sections !== null) {
-        section = sections[sections.length-1];
-        section.appendChild(script);
-    }
-}
-commentsRunWhenDOMLoaded(addUtterances);
-</script>
-    <script src="_static/translations.js"></script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".cell"
-        const thebe_selector_input = ".cell_input div.highlight"
-        const thebe_selector_output = ".cell_output"
-    </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
-    <link rel="shortcut icon" href="_static/page-logo.jfif"/>
-    <link rel="index" title="索引" href="genindex.html" />
-    <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="零代码写博客" href="README.html" /> 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="zh_CN">
-    
-
-    <!-- Google Analytics -->
-     
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="_static/ablog.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Blog" href="api/ablog.blog.Blog.html" /> 
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+ 
 <link
   rel="alternate"
   type="application/atom+xml"
-  href="posts/atom.xml"
-  title="Blog"
+  href="blog/atom.xml"
+  title="ABlog"
 />
  
+<link
+  rel="stylesheet"
+  href="_static/css/font-awesome.css"
+  type="text/css"
+/>
+
 <style type="text/css">
   ul.ablog-archive {
     list-style: none;
@@ -133,229 +63,363 @@ commentsRunWhenDOMLoaded(addUtterances);
   }
 </style>
 
-  </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-    
-    <div class="container-fluid" id="banner"></div>
+  </head><body>
+  
 
-    
-
-    <div class="container-xl">
-      <div class="row">
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="#">
-      
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="_static/logo.jpg" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">blog-demo 0.1 文档</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   零代码写博客
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="docs/index.html">
-   博客
-  </a>
- </li>
+
+          <div class="body" role="main">
+             <section id="ablog-for-sphinx">
+<h1>ABlog for Sphinx<a class="headerlink" href="#ablog-for-sphinx" title="Permalink to this headline">¶</a></h1>
+<p>ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog with:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/blog/atom.xml">Atom feeds</a></p></li>
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/blog/archive.html">Archive pages</a></p></li>
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/manual/ablog-configuration-options.html#blog-sidebars">Blog sidebars</a></p></li>
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/manual/ablog-configuration-options.html#disqus-integration">Disqus integration</a></p></li>
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/manual/ablog-configuration-options.html#fa">Font-Awesome integration</a></p></li>
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/manual/auto-github-pages-deploys.html">Easy GitHub Pages deploys</a></p></li>
+<li><p><a class="reference external" href="https://ablog.readthedocs.io/manual/markdown.html">Markdown support</a></p></li>
 </ul>
-
-    </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  <div>
-版权所有 © 2021 <a href="https://xinetzone.github.io/">xinetzone</a></div>
-<div>由 <a href="https://ebp.jupyterbook.org/">EBP</a> 提供技术支持</div>
-
+</div></blockquote>
+<section id="installation">
+<span id="id8"></span><h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>You can install ABlog using <a class="reference external" href="https://pip.pypa.io/en/stable/">pip</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">ablog</span>
+</pre></div>
 </div>
-
+<p>or <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="nb">set</span> <span class="n">channel_priority</span> <span class="n">strict</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="n">ablog</span>
+</pre></div>
 </div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/index.md.txt"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
+<p>This will also install <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a>, <a class="reference external" href="https://github.com/lkiesow/python-feedgen">feedgen</a>, and <a class="reference external" href="https://www.pyinvoke.org/">Invoke</a> respectively required for building your website, making it look good, generating feeds, and running deploy commands.</p>
+</section>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>If you are starting a new project, see the <a class="reference internal" href="manual/ablog-quick-start.html#quick-start"><span class="std std-ref">ABlog Quick Start</span></a> guide.
+If you already have a project, enable blogging by making following changes in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1. Add &#39;ablog&#39; and &#39;sphinx.ext.intersphinx&#39; to the list of extensions</span>
+<span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;...&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ablog&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;sphinx.ext.intersphinx&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+</pre></div>
 </div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/xinetzone/blog-demo"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/xinetzone/blog-demo/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/xinetzone/blog-demo/edit/main//index.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
+</section>
+<section id="how-it-works">
+<h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h2>
+<p>If you are new to <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> and reStructuredText markup language, you might find <a class="reference external" href="http://www.sphinx-doc.org/en/master/">reStructuredText Primer</a> useful.
+Once you have content (in <code class="docutils literal notranslate"><span class="pre">.rst</span></code> files), you can post <em>any page</em> using the <a class="reference internal" href="manual/posting-and-listing.html#directive-post" title="post directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">post</span></code></a> directive as follows:</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">post</span><span class="p">::</span> Apr 15, 2014
+   <span class="nc">:tags:</span> earth, love, peace
+   <span class="nc">:category:</span> python
+   <span class="nc">:author:</span> me
+   <span class="nc">:location:</span> SF
+   <span class="nc">:language:</span> en
+</pre></div>
 </div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> 导航
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   上善若水
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id2">
-   索引与表格
-  </a>
- </li>
+<p>An alterative method is:</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="nc">:blogpost:</span> true
+<span class="nc">:date:</span> Oct 10, 2020
+<span class="nc">:author:</span> Nabil Freij
+<span class="nc">:location:</span> World
+<span class="nc">:category:</span> Manual
+<span class="nc">:language:</span> English
+</pre></div>
+</div>
+<p>at the top of the file.</p>
+<p>ABlog will index all files posted as above and list them in archives and feeds specified in <code class="docutils literal notranslate"><span class="pre">:tag:</span></code>, <code class="docutils literal notranslate"><span class="pre">:category:</span></code>, etc. options.</p>
+<p>You can also include a list of posts using <a class="reference internal" href="manual/posting-and-listing.html#directive-postlist" title="postlist directive"><code class="xref rst rst-dir docutils literal notranslate"><span class="pre">postlist</span></code></a> directive:</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">postlist</span><span class="p">::</span>
+   <span class="nc">:list-style:</span> circle
+   <span class="nc">:category:</span> Manual
+   <span class="nc">:format:</span> {title}
+   <span class="nc">:sort:</span>
+</pre></div>
+</div>
+<p>For ABlog documentation, this converts to the following where you can find more about configuring and using ABlog:</p>
+<ul class="postlist-style-circle postlist simple">
+<li><p><a class="reference internal" href="manual/posting-and-listing.html">Posting and Listing</a></p></li>
+<li><p><a class="reference internal" href="manual/ablog-configuration-options.html">ABlog Configuration Options</a></p></li>
+<li><p><a class="reference internal" href="manual/cross-referencing-blog-pages.html">Cross-referencing Blog Pages</a></p></li>
+<li><p><a class="reference internal" href="manual/post-excerpts-and-images.html">Post Excerpts and Images</a></p></li>
+<li><p><a class="reference internal" href="manual/posting-and-listing.html">Posting Sections</a></p></li>
+<li><p><a class="reference internal" href="manual/ablog-i18n.html">ABlog Internationalization</a></p></li>
+<li><p><a class="reference internal" href="manual/ablog-commands.html">ABlog Commands</a></p></li>
+<li><p><a class="reference internal" href="manual/ablog-quick-start.html">ABlog Quick Start</a></p></li>
+<li><p><a class="reference internal" href="manual/deploy-to-github-pages.html">Deploy to GitHub Pages</a></p></li>
+<li><p><a class="reference internal" href="manual/watch-yourself-blogging.html">Watch Yourself Blogging</a></p></li>
+<li><p><a class="reference internal" href="manual/auto-github-pages-deploys.html">Automate GitHub Pages Deploys</a></p></li>
+<li><p><a class="reference internal" href="manual/api.html">ABlog API</a></p></li>
+<li><p><a class="reference internal" href="manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
+<li><p><a class="reference internal" href="_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html">Jupyter Notebook Posting</a></p></li>
+<li><p><a class="reference internal" href="manual/markdown.html">Markdown Support</a></p></li>
 </ul>
-
-            </nav>
-        </div>
-    </div>
-</div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
-              <div>
-                 <div class="tex2jax_ignore mathjax_ignore section" id="id1">
-<h1>上善若水<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<a class="reference external image-reference" href="https://ablog.readthedocs.org/"><img alt="https://readthedocs.org/projects/ablog/badge/?version=latest" src="https://readthedocs.org/projects/ablog/badge/?version=latest" /></a>
 <div class="toctree-wrapper compound">
 </div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="id2">
-<h1>索引与表格<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">模块索引</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">搜索页面</span></a></p></li>
-</ul>
-</div>
+</section>
+</section>
 
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "xinetzone/blog-demo",
-            ref: "main",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./."
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
 <div class="section">
    
-</div>
+  <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = "ablogforsphinx";
+      var disqus_identifier = "/";
+      var disqus_title = "ABlog for Sphinx";
+      var disqus_url = "https://ablog.readthedocs.org/";
 
-              </div>
-              
-        
-            <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="README.html" title="下一页 页">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">下一页</p>
-        <p class="prev-next-title">零代码写博客</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
-</div>
-        
-        </div>
-    </div>
-    <footer class="footer">
-    <div class="container">
-      <p>
-        
-          By xinetzone<br/>
-        
-            &copy; Copyright 2021, xinetzone.<br/>
-      </p>
-    </div>
-  </footer>
-</main>
-
-
-      </div>
-    </div>
+      (function () {
+        var dsq = document.createElement("script");
+        dsq.type = "text/javascript";
+        dsq.async = true;
+        dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+        (
+          document.getElementsByTagName("head")[0] ||
+          document.getElementsByTagName("body")[0]
+        ).appendChild(dsq);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+    <a href="https://disqus.com" class="dsq-brlink"
+      >comments powered by <span class="logo-disqus">Disqus</span></a
+    >
+  </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+</div>
 
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="#">
+    <img class="logo" src="_static/ablog.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">ABlog for blogging with Sphinx</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=sunpy&repo=ablog&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+
+<h3>
+  <a href="blog.html">Recent Posts</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="release/ablog-v0.10-released.html#ablog-v0-10-20-released"
+      >Oct 13, 2021 - ABlog v0.10.20 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="release/ablog-v0.10-released.html#ablog-v0-10-19-released"
+      >May 26, 2021 - ABlog v0.10.19 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="release/ablog-v0.10-released.html#ablog-v0-10-18-released"
+      >Apr 26, 2021 - ABlog v0.10.18 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="release/ablog-v0.10-released.html#ablog-v0-10-17-released"
+      >Mar 24, 2021 - ABlog v0.10.17 released</a
+    >
+  </li>
+  
+  <li>
+    <a href="release/ablog-v0.10-released.html#ablog-v0-10-16-released"
+      >Mar 23, 2021 - ABlog v0.10.16 released</a
+    >
+  </li>
+  
+</ul>
+
+<h3><a href="blog/tag.html">Tags</a></h3>
+<style type="text/css">
+  ul.ablog-cloud {
+    list-style: none;
+    overflow: auto;
+  }
+  ul.ablog-cloud li {
+    float: left;
+    height: 20pt;
+    line-height: 18pt;
+    margin-right: 5px;
+  }
+  ul.ablog-cloud a {
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  li.ablog-cloud-1 {
+    font-size: 80%;
+  }
+  li.ablog-cloud-2 {
+    font-size: 95%;
+  }
+  li.ablog-cloud-3 {
+    font-size: 110%;
+  }
+  li.ablog-cloud-4 {
+    font-size: 125%;
+  }
+  li.ablog-cloud-5 {
+    font-size: 140%;
+  }
+</style>
+<ul class="ablog-cloud">
+   
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="blog/tag/sphinx.html">Sphinx</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="blog/tag/api.html">api</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="blog/tag/commands.html">commands</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="blog/tag/config.html">config</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="blog/tag/deploy.html">deploy</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="blog/tag/directive.html">directive</a>
+  </li>
+      
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="blog/tag/i18n.html">i18n</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="blog/tag/posting.html">posting</a>
+  </li>
+    
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="blog/tag/tips.html">tips</a>
+  </li>
+   
+</ul>
+
+<h3>
+  <a href="blog/category.html">Categories</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="blog/category/manual.html">Manual (15)</a>
+  </li>
+    
+  <li>
+    <a href="blog/category/release.html">Release (58)</a>
+  </li>
+   
+</ul>
+
+<h3>
+  <a href="blog/archive.html">Archives</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="blog/2021.html">2021 (8)</a>
+  </li>
+    
+  <li>
+    <a href="blog/2020.html">2020 (12)</a>
+  </li>
+    
+  <li>
+    <a href="blog/2019.html">2019 (4)</a>
+  </li>
+    
+  <li>
+    <a href="blog/2018.html">2018 (7)</a>
+  </li>
+    
+  <li>
+    <a href="blog/2016.html">2016 (2)</a>
+  </li>
+    
+  <li>
+    <a href="blog/2015.html">2015 (26)</a>
+  </li>
+    
+  <li>
+    <a href="blog/2014.html">2014 (14)</a>
+  </li>
+   
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2014-2021, ABlog Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
   </body>
 </html>

@@ -1,8 +1,0 @@
-```{post} 2021/11/10 22:00
-:category: test
-:tags: basic
-```
-
-# 测试
-
-这是测试页面。

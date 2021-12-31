@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://ablog.readthedocs.org/</id>
+  <title>ABlog - Posted in 2018</title>
+  <updated>2021-12-31T14:18:01.154439+00:00</updated>
+  <link href="https://ablog.readthedocs.org/"/>
+  <link href="https://ablog.readthedocs.org/blog/2018/social.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.21">ABlog</generator>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/api.html</id>
+    <title>ABlog API</title>
+    <updated>2018-02-17T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog API #api</content>
+    <link href="https://ablog.readthedocs.org/manual/api.html" rel="alternate"/>
+    <summary>setup(app)</summary>
+    <category term="api" label="api"/>
+    <published>2018-02-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.9-released.html</id>
+    <title>ABlog v0.9 released</title>
+    <updated>2018-02-17T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.9 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.9-released.html" rel="alternate"/>
+    <summary>ABlog v0.9.0 is released with the main focus being to support the latest version of Sphinx.
+This also moves the main development from Abakan to SunPy.</summary>
+    <published>2018-02-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.9-released.html#ablog-v0-9-1-released</id>
+    <title>ABlog v0.9.1 released</title>
+    <updated>2018-03-02T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.9.1 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.9-released.html#ablog-v0-9-1-released" rel="alternate"/>
+    <summary>Minor update to remove Ablog{}.format(python_number) exes</summary>
+    <published>2018-03-02T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.9-released.html#ablog-v0-9-2-released</id>
+    <title>ABlog v0.9.2 released</title>
+    <updated>2018-03-04T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.9.2 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.9-released.html#ablog-v0-9-2-released" rel="alternate"/>
+    <summary>Fixed Windows String issue.</summary>
+    <published>2018-03-04T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/manual/notebook_support.html</id>
+    <title>Jupyter Notebook Posting</title>
+    <updated>2018-10-27T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">Jupyter Notebook Posting #posting</content>
+    <link href="https://ablog.readthedocs.org/manual/notebook_support.html" rel="alternate"/>
+    <summary>To add support for Notebooks to your Ablog instance, you need to configure your docs/conf.py (or whereever your conf.py is located.</summary>
+    <category term="posting" label="posting"/>
+    <published>2018-10-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html</id>
+    <title>Jupyter Notebook Posting</title>
+    <updated>2018-10-27T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">Jupyter Notebook Posting #posting</content>
+    <link href="https://ablog.readthedocs.org/_build/gettext/.doctrees/nbsphinx/manual/notebook_support.html" rel="alternate"/>
+    <summary>To add support for Notebooks to your Ablog instance, you need to configure your docs/conf.py (or whereever your conf.py is located.</summary>
+    <category term="posting" label="posting"/>
+    <published>2018-10-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ablog.readthedocs.org/release/ablog-v0.9-released.html#ablog-v0-9-3-released</id>
+    <title>ABlog v0.9.3 released</title>
+    <updated>2018-10-30T00:00:00+00:00</updated>
+    <author>
+      <name>Nabil</name>
+    </author>
+    <content type="html">ABlog v0.9.3 released</content>
+    <link href="https://ablog.readthedocs.org/release/ablog-v0.9-released.html#ablog-v0-9-3-released" rel="alternate"/>
+    <summary>Added example on how to use writing blog posts in Jupyter notebooks.</summary>
+    <published>2018-10-30T00:00:00+00:00</published>
+  </entry>
+</feed>
