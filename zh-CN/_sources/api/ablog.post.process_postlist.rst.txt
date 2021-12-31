@@ -1,6 +1,0 @@
-process_postlist
-================
-
-.. currentmodule:: ablog.post
-
-.. autofunction:: process_postlist

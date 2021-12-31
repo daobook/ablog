@@ -1,6 +1,0 @@
-generate_atom_feeds
-===================
-
-.. currentmodule:: ablog.post
-
-.. autofunction:: generate_atom_feeds

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <id>https://xinetzone.github.io/blog-demo</id>
+  <title>Blog</title>
+  <updated>2021-12-31T14:15:04.250362+00:00</updated>
+  <link href="https://xinetzone.github.io/blog-demo"/>
+  <link href="https://xinetzone.github.io/blog-demo/zh_CN/posts/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.21">ABlog</generator>
+  <entry>
+    <id>https://xinetzone.github.io/blog-demo/zh_CN/docs/test.html</id>
+    <title>测试</title>
+    <updated>2021-11-10T22:00:00+00:00</updated>
+    <author>
+      <name>刘新伟</name>
+    </author>
+    <content type="html">&lt;p&gt;这是测试页面。&lt;/p&gt;
+
+    &lt;script type="text/x-thebe-config"&gt;
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "xinetzone/blog-demo",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    &lt;/script&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</content>
+    <link href="https://xinetzone.github.io/blog-demo/zh_CN/docs/test.html" rel="alternate"/>
+    <summary>这是测试页面。</summary>
+    <category term="basic" label="basic"/>
+    <published>2021-11-10T22:00:00+00:00</published>
+  </entry>
+</feed>

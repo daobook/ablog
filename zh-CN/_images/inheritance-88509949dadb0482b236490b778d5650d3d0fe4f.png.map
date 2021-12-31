@@ -1,5 +1,0 @@
-<map id="inheritance3a56af9790" name="inheritance3a56af9790">
-<area shape="rect" id="node1" href="api/ablog.blog.Blog.html#ablog.blog.Blog" target="_top" title="Handle blog operations." alt="" coords="179,104,251,129"/>
-<area shape="rect" id="node4" href="api/ablog.blog.Collection.html#ablog.blog.Collection" target="_top" title="Posts sharing a label, i.e. tag, category, author, or location." alt="" coords="172,5,259,31"/>
-<area shape="rect" id="node5" href="api/ablog.blog.Post.html#ablog.blog.Post" target="_top" title="Handle post metadata." alt="" coords="179,55,251,80"/>
-</map>

@@ -1,6 +1,0 @@
-ablog_clean
-===========
-
-.. currentmodule:: ablog.commands
-
-.. autofunction:: ablog_clean

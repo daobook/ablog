@@ -1,6 +1,0 @@
-ablog_deploy
-============
-
-.. currentmodule:: ablog.commands
-
-.. autofunction:: ablog_deploy

@@ -1,6 +1,0 @@
-generate_archive_pages
-======================
-
-.. currentmodule:: ablog.post
-
-.. autofunction:: generate_archive_pages

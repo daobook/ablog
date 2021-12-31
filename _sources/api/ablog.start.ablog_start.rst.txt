@@ -1,6 +1,0 @@
-ablog_start
-===========
-
-.. currentmodule:: ablog.start
-
-.. autofunction:: ablog_start

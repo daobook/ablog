@@ -1,6 +1,0 @@
-ablog_serve
-===========
-
-.. currentmodule:: ablog.commands
-
-.. autofunction:: ablog_serve

@@ -1,7 +1,0 @@
-UpdateNode
-==========
-
-.. currentmodule:: ablog.post
-
-.. autoclass:: UpdateNode
-   :show-inheritance:

@@ -1,7 +1,0 @@
-PostList
-========
-
-.. currentmodule:: ablog.post
-
-.. autoclass:: PostList
-   :show-inheritance:
