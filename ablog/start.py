@@ -19,8 +19,9 @@ def w(t, ls=80):
 
 __all__ = ["generate", "ask_user", "ablog_start"]
 
-ABLOG_CONF = "#!/usr/bin/env python\n"
-ABLOG_CONF += """
+ABLOG_CONF = (
+    "#!/usr/bin/env python\n"
+    + """
 
 # {project} build configuration file, created by
 # `ablog start` on {now}.
@@ -380,6 +381,7 @@ htmlhelp_basename = "{project_fn}doc"
 
 
 """
+)
 
 ABLOG_INDEX = """
 .. {project} index file, created by `ablog start` on {now}.

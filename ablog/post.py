@@ -181,7 +181,10 @@ class CheckFrontMatter(SphinxTransform):
         if "blogpost" not in metadata and self.env.docname not in self.config.matched_blog_posts:
             return None
         if self.document.traverse(PostNode):
-            logging.warning(f"Found blog post front-matter as well as post directive, using post directive.")
+            logging.warning(
+                'Found blog post front-matter as well as post directive, using post directive.'
+            )
+
 
         # Iterate through metadata and create a PostNode with relevant fields
         option_spec = PostDirective.option_spec
@@ -202,8 +205,7 @@ class CheckFrontMatter(SphinxTransform):
             blog = Blog(self.app)
             node["excerpt"] = blog.post_auto_excerpt
 
-        sections = list(self.document.traverse(nodes.section))
-        if sections:
+        if sections := list(self.document.traverse(nodes.section)):
             sections[0].children.append(node)
             node.parent = sections[0]
 
@@ -264,17 +266,16 @@ def _get_update_dates(section, docname, post_date_format):
         try:
             update = datetime.strptime(update_node["date"], post_date_format)
         except ValueError:
-            if date_parser:
-                try:
-                    update = date_parser(update_node["date"])
-                except ValueError:
-                    raise ValueError("invalid post date in: " + docname)
-            else:
+            if not date_parser:
                 raise ValueError(
                     f"invalid post date ({update_node['date']}) in "
                     + docname
                     + f". Expected format: {post_date_format}"
                 )
+            try:
+                update = date_parser(update_node["date"])
+            except ValueError:
+                raise ValueError(f'invalid post date in: {docname}')
         # Insert a new title element which contains the `Updated on {date}` logic.
         substitute = nodes.title("", _("Updated on ") + update.strftime(post_date_format))
         update_node.insert(0, substitute)

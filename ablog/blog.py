@@ -42,7 +42,10 @@ def require_config_type(type_, is_optional=True):
         # so accept them both.
         if value is False and is_optional:
             return None
-        raise KeyError(key + " must be a " + type_.__name__ + (" or omitted" if is_optional else ""))
+        raise KeyError(
+            f'{key} must be a {type_.__name__}'
+            + (" or omitted" if is_optional else "")
+        )
 
     return verify_fn
 
@@ -60,12 +63,12 @@ def require_config_str_or_list_lookup(lookup_config_key, is_optional=True):
         if isinstance(value, str):
             value = [value]
         if not isinstance(value, list):
-            raise KeyError(key + " must be a str or list")
+            raise KeyError(f'{key} must be a str or list')
 
         allowed_values = config[lookup_config_key]
         for v in value:
             if v not in allowed_values:
-                raise KeyError(str(v) + "must be a key of " + lookup_config_key)
+                raise KeyError(f'{str(v)}must be a key of {lookup_config_key}')
         return value
 
     return verify_fn
@@ -83,7 +86,11 @@ def require_config_full_name_link_dict(is_link_optional=True):
                 raise KeyError(key + " must have full name entries that are strings")
             is_link_valid = isinstance(link, str) or (is_link_optional and link is None)
             if not is_link_valid:
-                raise KeyError(key + " links must be a string" + (" or omitted" if is_link_optional else ""))
+                raise KeyError(
+                    f'{key} links must be a string'
+                    + (" or omitted" if is_link_optional else "")
+                )
+
         return value
 
     return verify_fn
@@ -125,7 +132,7 @@ CONFIG = [
     ("blog_post_pattern", [], True, require_config_type((str, list))),
 ]
 
-TOMORROW = datetime.today() + dtmod.timedelta(1)
+TOMORROW = datetime.now() + dtmod.timedelta(1)
 TOMORROW = TOMORROW.replace(hour=0, minute=0, second=0, microsecond=0)
 FUTURE = datetime(9999, 12, 31)
 
@@ -216,7 +223,7 @@ class Blog(Container):
 
         for catname in ["author", "location", "language"]:
             catalog = self.catalogs[catname]
-            items = self.config["blog_" + catname + "s"].items()
+            items = self.config[f'blog_{catname}s'].items()
             for label, (name, link) in items:
                 catalog[label] = Collection(catalog, label, name, link)
 
@@ -309,7 +316,7 @@ class Blog(Container):
             if pagename.endswith("index"):
                 pagename = pagename[:-5]
             pagename = pagename.strip("/")
-            return "/" + pagename + ("/" if pagename else "")
+            return f'/{pagename}' + ("/" if pagename else "")
 
     def page_url(self, pagename):
         """
@@ -351,7 +358,7 @@ class BlogPageMixin:
 
     def __repr__(self):
 
-        return str(self) + " <" + str(self.docname) + ">"
+        return f'{str(self)} <{str(self.docname)}>'
 
     @property
     def blog(self):
@@ -574,7 +581,7 @@ class Collection(BlogPageMixin):
         self._posts = {}
         self._posts_iter = None
         self._path = path
-        self.xref = self.catalog.xref + "-" + slugify(label)
+        self.xref = f'{self.catalog.xref}-{slugify(label)}'
         self._slug = None
         self._html = None
 
@@ -628,7 +635,7 @@ class Collection(BlogPageMixin):
 
         post_name = post.docname
         if post.section:
-            post_name += "#" + post.section
+            post_name += f'#{post.section}'
         self._posts[post_name] = post
 
     def relsize(self, maxsize=5, minsize=1):
@@ -642,8 +649,7 @@ class Collection(BlogPageMixin):
         if len(self.catalog) == 1 or min_ == max_:
             return int(round(diff / 2.0 + minsize))
 
-        size = int(1.0 * (len(self) - min_) / (max_ - min_) * diff + minsize)
-        return size
+        return int(1.0 * (len(self) - min_) / (max_ - min_) * diff + minsize)
 
     @property
     def docname(self):

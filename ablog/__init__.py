@@ -29,10 +29,7 @@ def anchor(post):
     Return anchor string for posts that arepage sections.
     """
 
-    if post.section:
-        return "#" + post.section
-    else:
-        return ""
+    return f'#{post.section}' if post.section else ""
 
 
 def builder_support(builder):

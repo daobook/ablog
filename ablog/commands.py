@@ -292,13 +292,14 @@ def ablog_serve(website=None, port=8000, view=True, rebuild=False, patterns="*.r
         patterns = patterns.split(";")
         ignore_patterns = [os.path.join(website, "*")]
         handler = ShellCommandTrick(
-            shell_command="ablog build -s " + confdir,
+            shell_command=f'ablog build -s {confdir}',
             patterns=patterns,
             ignore_patterns=ignore_patterns,
             ignore_directories=False,
             wait_for_process=True,
             drop_during_process=False,
         )
+
 
         observer = Observer(timeout=1)
         observer.schedule(handler, confdir, recursive=True)
@@ -312,11 +313,10 @@ def ablog_serve(website=None, port=8000, view=True, rebuild=False, patterns="*.r
             observer.stop()
         observer.join()
 
+    elif view:
+        (webbrowser.open_new_tab(f"http://127.0.0.1:{port}") and httpd.serve_forever())
     else:
-        if view:
-            (webbrowser.open_new_tab(f"http://127.0.0.1:{port}") and httpd.serve_forever())
-        else:
-            httpd.serve_forever()
+        httpd.serve_forever()
 
 
 @arg("-t", dest="title", type=str, help="post title; default is formed from filename")
@@ -324,15 +324,6 @@ def ablog_serve(website=None, port=8000, view=True, rebuild=False, patterns="*.r
 @cmd(name="post", help="create a blank post")
 def ablog_post(filename, title=None, **kwargs):
 
-    POST_TEMPLATE = """
-{title}
-{equal}
-
-.. post:: {date}
-   :tags:
-   :category:
-
-"""
     from os import path
     from datetime import date
 
@@ -347,9 +338,16 @@ def ablog_post(filename, title=None, **kwargs):
 
     pars = {"date": today, "title": title, "equal": "=" * len(title)}
 
-    if path.isfile(filename):
-        pass
-    else:
+    if not path.isfile(filename):
+        POST_TEMPLATE = """
+{title}
+{equal}
+
+.. post:: {date}
+   :tags:
+   :category:
+
+"""
         # read the file, and add post directive
         # and save it
         with open(filename, "w", encoding="utf-8") as out:

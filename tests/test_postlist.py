@@ -5,9 +5,7 @@ def read_text(path):
     """
     Support function to give backward compatibility with older sphinx (v2).
     """
-    if hasattr(path, "read_text"):
-        return path.read_text()
-    return path.text()
+    return path.read_text() if hasattr(path, "read_text") else path.text()
 
 
 @pytest.mark.sphinx("html", testroot="postlist")  # using roots/test-postlist
