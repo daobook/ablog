@@ -22,22 +22,9 @@ extensions = [
     "myst_parser",
 ]
 
+locale_dirs = ['locales/']
+
 version = str(_parse(ablog.__version__))
-
-locale_dirs = ['locales/']   # path is example but recommended.
-
-# PROJECT
-versionmod = get_distribution("ablog")
-myst_update_mathjax = False
-# The version info for the project you're documenting, acts as replacement for
-# |version| and |release|, also used in various other places throughout the
-# built documents.
-# The short X.Y version.
-version = ".".join(versionmod.version.split(".")[:3])
-# The full version, including alpha/beta/rc tags.
-release = versionmod.version.split("+")[0]
-# Is this version a development release
-is_development = ".dev" in release
 project = "ABlog"
 copyright = "2014-2022, ABlog Team"
 master_doc = "index"
@@ -51,11 +38,6 @@ html_use_index = True
 html_domain_indices = False
 html_show_sourcelink = True
 html_favicon = "_static/ablog.ico"
-
-post_date_format = '%c'
-post_date_format_short = '%b %d, %Y'
-
-# ABLOG
 blog_title = "ABlog"
 blog_baseurl = "https://ablog.readthedocs.io/"
 blog_locations = {
@@ -69,7 +51,7 @@ blog_languages = {
     "zh_CN": ("Chinese", None),
 }
 blog_default_language = "en"
-language = "en"
+language = "zh_CN"
 blog_authors = {
     "Ahmet": ("Ahmet Bakan", "https://ahmetbakan.com"),
     "Luc": ("Luc Saffre", "https://saffre-rumma.net/luc/"),
