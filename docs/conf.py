@@ -19,7 +19,7 @@ extensions = [
     "ablog",
     "alabaster",
     "nbsphinx",
-    "myst_parser",
+    "mystx",
 ]
 
 locale_dirs = ['locales/']
