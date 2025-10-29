@@ -89,7 +89,7 @@ blog_feed_templates = {
 disqus_shortname = "https-ablog-readthedocs-io"
 disqus_pages = True
 fontawesome_link_cdn = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-html_theme = "alabaster"
+html_theme = "mystx"
 html_sidebars = {
     "**": [
         "about.html",  # Comes from alabaster

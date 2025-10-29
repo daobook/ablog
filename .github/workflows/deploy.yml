@@ -24,7 +24,7 @@ jobs:
           conda install -c conda-forge pandoc
           sudo apt update
           sudo apt install -y graphviz
-          pip install sphinxcontrib-websupport
+          pip install sphinxcontrib-websupport mystx
           
       - name: Build the book
         run: |
