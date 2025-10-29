@@ -12,9 +12,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@main
         with:
-          python-version: 3.9
+          python-version: 3.12
 
-      - uses: s-weigand/setup-conda@main
+      - uses: s-weigand/setup-conda@v1
       - run: conda --version
       - run: which python
 
