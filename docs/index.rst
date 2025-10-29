@@ -3,21 +3,14 @@ ABlog for Sphinx
 
 ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog with:
 
-  * `Atom feeds`__
-  * `Archive pages`__
-  * `Blog sidebars`__
-  * `Disqus integration`__
-  * `Font-Awesome integration`__
-  * `Easy GitHub Pages deploys`__
-  * `Markdown support`__
+  * :ref:`Atom feeds <blog-feed>`
+  * :ref:`Archive pages <blog-archives>`
+  * :ref:`sidebars`
+  * :ref:`disqus-integration`
+  * :ref:`Font-Awesome integration <font-awesome>`
+  * :doc:`manual/markdown`
 
-__ https://ablog.readthedocs.io/blog/atom.xml
-__ https://ablog.readthedocs.io/blog/archive.html
-__ https://ablog.readthedocs.io/manual/ablog-configuration-options.html#blog-sidebars
-__ https://ablog.readthedocs.io/manual/ablog-configuration-options.html#disqus-integration
-__ https://ablog.readthedocs.io/manual/ablog-configuration-options.html#fa
-__ https://ablog.readthedocs.io/manual/auto-github-pages-deploys.html
-__ https://ablog.readthedocs.io/manual/markdown.html
+Ablog is part of the `SunPy Project <https://www.sunpy.org>`__.
 
 .. _installation:
 
@@ -26,13 +19,11 @@ Installation
 
 You can install ABlog using `pip <https://pip.pypa.io/en/stable/>`__::
 
-    pip install -U ablog
+   pip install -U ablog
 
-or `miniconda <https://docs.conda.io/en/latest/miniconda.html>`__::
+or `miniforge <https://github.com/conda-forge/miniforge>`__::
 
-    conda config --add channels conda-forge
-    conda config --set channel_priority strict
-    conda install ablog
+   conda install ablog
 
 This will also install `Sphinx <http://sphinx-doc.org/>`__, `feedgen <https://github.com/lkiesow/python-feedgen>`__, and `Invoke <https://www.pyinvoke.org/>`__ respectively required for building your website, making it look good, generating feeds, and running deploy commands.
 
@@ -57,7 +48,7 @@ How it works
 If you are new to Sphinx_ and reStructuredText markup language, you might find `reStructuredText Primer`_ useful.
 Once you have content (in ``.rst`` files), you can post *any page* using the :rst:dir:`post` directive as follows:
 
-.. _reStructuredText Primer: http://www.sphinx-doc.org/en/master/
+.. _reStructuredText Primer: https://www.sphinx-doc.org/en/master/
 
 .. code-block:: rst
 
@@ -68,7 +59,7 @@ Once you have content (in ``.rst`` files), you can post *any page* using the :rs
      :location: SF
      :language: en
 
-An alterative method is:
+An alternative method is:
 
 .. code-block:: rst
 
@@ -104,7 +95,7 @@ For ABlog documentation, this converts to the following where you can find more 
 .. only:: html
 
    .. image:: https://readthedocs.org/projects/ablog/badge/?version=latest
-      :target: https://ablog.readthedocs.org/
+      :target: https://ablog.readthedocs.io
 
 .. toctree::
    :hidden:

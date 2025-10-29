@@ -20,18 +20,6 @@ General options
    A path relative to the configuration directory for blog archive pages.
    Default is ``'blog'``.
 
-.. confval:: blog_title
-
-   The “title” for the blog, used in acthive pages.  Default is ``'Blog'``.
-
-.. confval:: blog_baseurl
-
-   Base URL for the website, required for generating feeds.
-
-.. confval:: blog_archive_titles
-
-   Choose to archive only post titles in collection pages, default is ``False``.
-
 Authors, languages, & locations
 -------------------------------
 
@@ -48,6 +36,11 @@ Authors, languages, & locations
                     'https://en.wikipedia.org/wiki/Tyler_Durden'),
      }
 
+.. confval:: blog_default_author
+
+   Name of the default author defined in :confval:`blog_authors`.
+   Default is ``None``.
+
 .. confval:: blog_languages
 
    A dictionary of language code names mapping to full display names and links of these languages.
@@ -59,21 +52,16 @@ Authors, languages, & locations
          'en': ('English', None),
      }
 
+.. confval:: blog_default_language
+
+   Code name of the default language defined in :confval:`blog_languages`.
+   Default is ``None``.
+
 .. confval:: blog_locations
 
    A dictionary of location names mapping to full display names and links of these locations.
    Similar to :confval:`blog_authors`, dictionary keys should be used in ``post`` directive to refer to the locations.
    Default is ``{}``.
-
-.. confval:: blog_default_author
-
-   Name of the default author defined in :confval:`blog_authors`.
-   Default is ``None``.
-
-.. confval:: blog_default_language
-
-   Code name of the default language defined in :confval:`blog_languages`.
-   Default is ``None``.
 
 .. confval:: blog_default_location
 
@@ -89,7 +77,11 @@ Post related
 
 .. confval:: post_date_format
 
-   Date display format (default is ``'%b %d, %Y'``) for published posts that goes as input to :meth:`datetime.date.strftime`.
+   Date display format (default is ``'%b %d, %Y'``, e.g., ``12 August 2024``) for published posts that goes as input to :meth:`datetime.date.strftime`.
+
+.. confval:: post_date_format_short
+
+   Date display format in recent posts sidebar (default is ``'%d %B'``, e.g., ``12 October``) for published posts that goes as input to :meth:`datetime.date.strftime`.
 
 .. confval:: post_auto_excerpt
 
@@ -116,10 +108,29 @@ Post related
    This is the behavior when :rst:dir:`post` is used multiple times in a document.
    Default is ``False``.
 
+.. confval:: post_show_prev_next
+
+    When ``True``, links to the previous and next posts will be rendered at the bottom of the page.
+    Default is ``True``
+
 Blog feeds
 ----------
 
 Turn feeds on by setting :confval:`blog_baseurl` configuration variable.
+
+.. confval:: blog_baseurl
+
+   Base URL for the website, turns on generating feeds. E.g., ``https://ablog.readthedocs.io``.
+
+Then optionally set the following:
+
+.. confval:: blog_title
+
+   The “title” for the blog, used in feeds title (not archive web pages title).  Default is ``'Blog'``.
+
+.. confval:: blog_archive_titles
+
+   Choose to archive only post titles in collection pages, default is ``False``.
 
 .. confval:: blog_feed_archives
 
@@ -193,12 +204,14 @@ Turn feeds on by setting :confval:`blog_baseurl` configuration variable.
 .. _fa:
 .. _Jinja2: https://jinja.palletsprojects.com/
 
+.. _font-awesome:
+
 Font awesome
 ------------
 
 ABlog templates will use of `Font Awesome`_ icons if one of the following is set:
 
-.. _Font Awesome: https://fontawesome.io/
+.. _Font Awesome: https://fontawesome.com/
 
 .. confval:: fontawesome_link_cdn
 
@@ -247,33 +260,10 @@ The reason for requiring :confval:`blog_baseurl` to be specified as of v0.7.2 is
 Isso integration
 ----------------
 
-An alternative to Disqus, is `Isso <https://posativ.org/isso/>`__.
+An alternative to Disqus, is `Isso <https://isso-comments.de/>`__.
 Integration is provided by `sphinxnotes-isso`_ and the instructions there.
 
 .. _sphinxnotes-isso: https://sphinx-notes.github.io/isso/
-
-.. _sidebars:
-
-Blog sidebars
--------------
-
-Finally, there are seven sidebars you can include in your HTML output using Sphinx_ :confval:`html_sidebars` configuration option.
-Sidebars that you see on the left are listed below in the same order:
-
-.. code-block:: python
-
-   html_sidebars = {
-      '**': [...,
-             'postcard.html', 'recentposts.html',
-             'tagcloud.html', 'categories.html',
-             'archives.html', ]
-   }
-
-
-:file:`postcard.html` provides information regarding the current post.
-:file:`recentposts.html` lists most recent five posts.
-Others provide a link to a archive pages generated for each tag, category, and year.
-In addition, there are ``authors.html``, ``languages.html``, and ``locations.html`` sidebars that link to author and location archive pages.
 
 Command Options
 ---------------

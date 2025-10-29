@@ -1,8 +1,10 @@
 import re
+from pathlib import Path
 
-import alabaster
-from pkg_resources import get_distribution
+from packaging.version import parse as _parse
 from sphinx import addnodes
+
+import ablog
 
 ablog_builder = "dirhtml"
 ablog_website = "_website"
@@ -14,11 +16,13 @@ extensions = [
     "sphinx.ext.ifconfig",
     "sphinx.ext.extlinks",
     "sphinx_automodapi.automodapi",
+    "ablog",
     "alabaster",
     "nbsphinx",
     "myst_parser",
-    "ablog",
 ]
+
+version = str(_parse(ablog.__version__))
 
 locale_dirs = ['locales/']   # path is example but recommended.
 
@@ -35,17 +39,14 @@ release = versionmod.version.split("+")[0]
 # Is this version a development release
 is_development = ".dev" in release
 project = "ABlog"
-copyright = "2014-2021, ABlog Team"
+copyright = "2014-2022, ABlog Team"
 master_doc = "index"
 source_suffix = {
     ".rst": "restructuredtext",
     ".md": "markdown",
 }
-exclude_patterns = ["_build"]
-
-# HTML OUTPUT
+exclude_patterns = ["_build", "docs/manual/.ipynb_checkpoints"]
 html_title = "ABlog"
-html_static_path = ["_static"]
 html_use_index = True
 html_domain_indices = False
 html_show_sourcelink = True
@@ -56,58 +57,53 @@ post_date_format_short = '%b %d, %Y'
 
 # ABLOG
 blog_title = "ABlog"
-blog_baseurl = "https://ablog.readthedocs.org/"
+blog_baseurl = "https://ablog.readthedocs.io/"
 blog_locations = {
     "Pittsburgh": ("Pittsburgh, PA", "https://en.wikipedia.org/wiki/Pittsburgh"),
-    "SF": ("San Francisco, CA", "https://en.wikipedia.org/wiki/San_Francisco"),
+    "San Fran": ("San Francisco, CA", "https://en.wikipedia.org/wiki/San_Francisco"),
     "Denizli": ("Denizli, Turkey", "https://en.wikipedia.org/wiki/Denizli"),
 }
-blog_languages = {"en": ("English", None)}
+blog_languages = {
+    "en": ("English", None),
+    "nl": ("Nederlands", None),
+    "zh_CN": ("Chinese", None),
+}
 blog_default_language = "en"
 language = "en"
 blog_authors = {
     "Ahmet": ("Ahmet Bakan", "https://ahmetbakan.com"),
     "Luc": ("Luc Saffre", "https://saffre-rumma.net/luc/"),
     "Mehmet": ("Mehmet Gerçeker", "https://github.com/mehmetg"),
+    "Libor": ("Libor Jelínek", "https://liborjelinek.github.io/"),
 }
 blog_feed_archives = True
 blog_feed_fulltext = True
-blog_feed_length = None
 blog_feed_templates = {
-    # Use defaults, no templates
     "atom": {
-        # Format tags as hashtags and append to the content
-        "content": "{{ title }}{% for tag in post.tags %}"
-        " #{{ tag.name|trim()|replace(' ', '') }}"
-        "{% endfor %}",
+        "content": "{{ title }}{% for tag in post.tags %} #{{ tag.name|trim()|replace(' ', '') }}{% endfor %}",
     },
-    # Create content text suitable posting to micro-bogging
     "social": {
-        # Format tags as hashtags and append to the content
-        "content": "{{ title }}{% for tag in post.tags %}"
-        " #{{ tag.name|trim()|replace(' ', '') }}"
-        "{% endfor %}",
+        "content": "{{ title }}{% for tag in post.tags %} #{{ tag.name|trim()|replace(' ', '') }}{% endfor %}",
     },
 }
-disqus_shortname = "ablogforsphinx"
+disqus_shortname = "https-ablog-readthedocs-io"
 disqus_pages = True
-fontawesome_css_file = "css/font-awesome.css"
-
-# THEME
-html_style = "alabaster.css"
+fontawesome_link_cdn = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 html_theme = "alabaster"
 html_sidebars = {
     "**": [
-        "about.html",
-        "postcard.html",
-        "recentposts.html",
-        "tagcloud.html",
-        "categories.html",
-        "archives.html",
-        "searchbox.html",
+        "about.html",  # Comes from alabaster
+        "searchfield.html",  # Comes from alabaster
+        "ablog/postcard.html",
+        "ablog/recentposts.html",
+        "ablog/tagcloud.html",
+        "ablog/categories.html",
+        "ablog/archives.html",
+        "ablog/authors.html",
+        "ablog/languages.html",
+        "ablog/locations.html",
     ]
 }
-html_theme_path = [alabaster.get_path()]
 html_theme_options = {
     "travis_button": False,
     "github_user": "sunpy",
@@ -115,18 +111,15 @@ html_theme_options = {
     "description": "ABlog for blogging with Sphinx",
     "logo": "ablog.png",
 }
-
-# SPHINX
 intersphinx_mapping = {
     "python": ("https://docs.python.org/", None),
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
 extlinks = {
-    "wiki": ("https://en.wikipedia.org/wiki/%s", ""),
-    "issue": ("https://github.com/sunpy/ablog/issues/%s", "issue "),
-    "pull": ("https://github.com/sunpy/ablog/pull/%s", "pull request "),
+    "wiki": ("https://en.wikipedia.org/wiki/%s", "%s"),
+    "issue": ("https://github.com/sunpy/ablog/issues/%s", "issue %s"),
+    "pull": ("https://github.com/sunpy/ablog/pull/%s", "pull request %s"),
 }
-exclude_patterns = ["docs/manual/.ipynb_checkpoints/*"]
 rst_epilog = """
 .. _Sphinx: http://sphinx-doc.org/
 .. _Python: https://python.org
@@ -136,6 +129,15 @@ rst_epilog = """
 .. _Read The Docs: https://readthedocs.org/
 .. _Alabaster: https://github.com/bitprophet/alabaster
 """
+locale_dirs = [str(Path(ablog.__file__).parent / Path("locales"))]
+nitpicky = True
+nitpick_ignore = []
+for line in open("nitpick-exceptions"):
+    if line.strip() == "" or line.startswith("#"):
+        continue
+    dtype, target = line.split(None, 1)
+    target = target.strip()
+    nitpick_ignore.append((dtype, target))
 
 
 def parse_event(env, sig, signode):

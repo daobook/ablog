@@ -2,7 +2,7 @@ ABlog v0.9 released
 ===================
 
 .. post:: Feb 17, 2018
-   :author: Nabil
+   :author: Nabil Freij
    :category: Release
    :location: World
 
@@ -13,17 +13,17 @@ This has merged in all current (at time of writing, 6) open PRs to the original 
 
 These are:
 
-`fix(commands): Update command arguments so patterns works correctly <https://github.com/abakan/ablog/pull/96>`__ from `rayalan <https://github.com/rayalan>`__.
+`fix(commands): Update command arguments so patterns works correctly <https://github.com/abakan-zz/ablog/pull/96>`__ from `rayalan <https://github.com/rayalan>`__.
 
-`Fix couple of bugs with latest stable Sphinx <https://github.com/abakan/ablog/pull/93>`__ from `tadeboro <https://github.com/tadeboro>`__.
+`Fix couple of bugs with latest stable Sphinx <https://github.com/abakan-zz/ablog/pull/93>`__ from `tadeboro <https://github.com/tadeboro>`__.
 
-`don't use fancy quotes in the conf.py template <https://github.com/abakan/ablog/pull/87>`__ from `tiwo <https://github.com/tiwo>`__.
+`don't use fancy quotes in the conf.py template <https://github.com/abakan-zz/ablog/pull/87>`__ from `tiwo <https://github.com/tiwo>`__.
 
-`Pass through additional Sphinx options and fix a typo <https://github.com/abakan/ablog/pull/84>`__ from `ahrbel <https://github.com/ahrbe1>`__.
+`Pass through additional Sphinx options and fix a typo <https://github.com/abakan-zz/ablog/pull/84>`__ from `ahrbel <https://github.com/ahrbe1>`__.
 
-`fix #78 (ImportError: cannot import name make_admonition in Sphinx 1.6) <https://github.com/abakan/ablog/pull/79>`_ from `lsaffre <https://github.com/lsaffre>`__.
+`fix #78 (ImportError: cannot import name make_admonition in Sphinx 1.6) <https://github.com/abakan-zz/ablog/pull/79>`_ from `lsaffre <https://github.com/lsaffre>`__.
 
-`Raise exception when title is missing <https://github.com/abakan/ablog/pull/76>`__ from `rgrinberg <https://github.com/rgrinberg>`__.
+`Raise exception when title is missing <https://github.com/abakan-zz/ablog/pull/76>`__ from `rgrinberg <https://github.com/rgrinberg>`__.
 
 .. _Abakan: https://github.com/abakan/ablog
 .. _SunPy: https://github.com/sunpy/ablog
@@ -31,30 +31,15 @@ These are:
 ABlog v0.9.1 released
 ---------------------
 
-.. post:: March 2, 2018
-   :author: Nabil
-   :category: Release
-   :location: World
-
 Minor update to remove Ablog{}.format(python_number) exes
 
 ABlog v0.9.2 released
 ---------------------
 
-.. post:: March 4, 2018
-   :author: Nabil
-   :category: Release
-   :location: World
-
 Fixed Windows String issue.
 
 ABlog v0.9.3 released
 ---------------------
-
-.. post:: October 30, 2018
-   :author: Nabil
-   :category: Release
-   :location: World
 
 Added example on how to use writing blog posts in Jupyter notebooks.
 
@@ -65,20 +50,10 @@ Sorry I was late to release these!
 ABlog v0.9.4 released
 ---------------------
 
-.. post:: Feb 10, 2019
-   :author: Nabil
-   :category: Release
-   :location: World
-
 Fixes for gettext break and some pathing issues.
 
 ABlog v0.9.5 released
 ---------------------
-
-.. post:: Aug 19, 2019
-   :author: Nabil
-   :category: Release
-   :location: World
 
 v0.9.5 is the that supports Python 2 and Sphinx <2.
 v0.10.0 on main now, will not.
